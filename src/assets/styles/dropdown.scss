@@ -1,0 +1,90 @@
+.dropdown-container {
+  @apply absolute right-0 top-full z-10 mt-2 grid w-32 grid-cols-1 gap-1 rounded-lg p-2 shadow-lg;
+  @apply bg-black-200 dark:bg-black-500;
+}
+
+/* ===============================
+   🔹 Dropdown Button (custom in component)
+   =============================== */
+.dropdown-container-button {
+  @apply flex w-full items-center gap-2 rounded-xl p-2 transition-colors duration-200;
+  @apply hover:bg-black-200 dark:hover:bg-black-500;
+
+  &.active {
+    @apply bg-black-100 dark:bg-black-400;
+  }
+}
+
+/* ===============================
+   🔹 Element Plus Dropdown (global popper container)
+   =============================== */
+.el-dropdown__popper.el-popper {
+  @apply text-primary-text dark:text-primaryDark-text;
+  @apply bg-primary-panel dark:bg-primaryDark-panel;
+  @apply overflow-hidden rounded-lg shadow-lg;
+
+  border: 1px solid transparent !important;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 10%) !important;
+}
+
+/* ===============================
+   🔹 Dropdown Menu List
+   =============================== */
+.el-dropdown-menu {
+  @apply panel-color-difference text-color-difference p-1;
+
+  border: none !important;
+}
+
+/* ===============================
+   🔹 Dropdown Menu Items
+   =============================== */
+.el-dropdown-menu__item {
+  @apply text-color-difference rounded-md px-2 py-1 transition-colors duration-200;
+  color: inherit !important;
+
+  &:hover,
+  &:focus,
+  &.is-active,
+  &.is-hover,
+  &.selected {
+    color: var(--color-black-900) !important;
+    @apply bg-brand-primary;
+    background-color: var(--color-brand-primary) !important;
+  }
+
+  .dark &:hover,
+  .dark &.selected {
+    background-color: var(--color-brand-primary) !important;
+  }
+
+  &.selected {
+    font-weight: 600;
+  }
+
+  &.is-disabled {
+    @apply cursor-not-allowed opacity-60;
+  }
+}
+
+/* ===============================
+   🔹 Element Plus Select Dropdown
+   =============================== */
+.el-select-dropdown__item {
+  @apply rounded-md px-3 py-2 transition-colors duration-200;
+
+  &:hover {
+    color: var(--color-brand-secondary) !important;
+    background-color: rgba(255, 140, 0, 0.1) !important;
+  }
+
+  &.is-selected {
+    color: var(--color-brand-primary) !important;
+    font-weight: 600 !important;
+    background-color: rgba(255, 140, 0, 0.1) !important;
+  }
+
+  &.is-selected::after {
+    color: var(--color-brand-primary) !important;
+  }
+}

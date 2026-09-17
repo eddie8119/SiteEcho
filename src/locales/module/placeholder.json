@@ -1,0 +1,100 @@
+{
+  "en": {
+    "placeholder": {
+      "auth": {
+        "name": "Name",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirm Password",
+        "old_password": "Old Password",
+        "new_password": "New Password",
+        "new_confirm_password": "Confirm New Password",
+        "username": "Username"
+      },
+      "email": "Email",
+      "name": "Name",
+      "phone": "Phone",
+      "company": "Company",
+      "search": "Search",
+      "select": "Select",
+      "select_received_date": "Received date",
+      "select_date_and_time": "Select date and time",
+      "project": {
+        "please_select_project": "Please select project",
+        "please_select_language": "Please select language",
+        "project": "Please select project",
+        "project_name": "Project name",
+        "project_type": "Project type",
+        "construction": "Select construction",
+        "addContainer": "Add container",
+        "task": "Enter task",
+        "taskDescription": "Enter task description",
+        "add_construction": "Add a trade",
+        "add_unit": "Add a unit",
+        "add_project_type": "Add a project type",
+        "add_new": "Add a new"
+      },
+      "material": {
+        "name": "Material Name",
+        "select_planning_name": "Select a planned material",
+        "quantity": "Quantity",
+        "unit_price": "Unit Price",
+        "unit": "Select Unit",
+        "note": "Note",
+        "planning_total_quantity": "Planned Total Quantity"
+      },
+      "draft": {
+        "todo": "Enter todo"
+      }
+    }
+  },
+  "zh-TW": {
+    "placeholder": {
+      "auth": {
+        "name": "姓名",
+        "email": "電子郵件",
+        "password": "密碼",
+        "confirm_password": "確認密碼",
+        "old_password": "舊密碼",
+        "new_password": "新密碼",
+        "new_confirm_password": "確認新密碼",
+        "username": "使用者名稱"
+      },
+      "email": "電子郵件",
+      "name": "姓名",
+      "phone": "電話",
+      "company": "公司",
+      "search": "搜尋",
+      "select": "選擇",
+      "select_received_date": "收貨日期",
+      "select_date_and_time": "選擇日期和時間",
+      "project": {
+        "please_select_project": "請選擇專案",
+        "please_select_language": "請選擇語言",
+        "project": "請選擇專案",
+        "project_name": "輸入專案名稱",
+        "project_type": "選擇專案類型",
+        "construction": "選擇工程案類型",
+        "addContainer": "請輸入容器",
+        "task": "請輸入任務",
+        "taskDescription": "請輸入任務描述",
+        "add_construction": "新增工程類型",
+        "add_unit": "新增單位",
+        "add_project_type": "新增專案類型",
+        "add_new": "新增"
+      },
+      "material": {
+        "name": "材料名稱",
+        "select_planning_name": "選擇預算材料名",
+        "quantity": "數量",
+        "unit_price": "單價",
+        "unit": "選擇單位",
+        "note": "備註",
+        "planning_total_quantity": "預算總數量"
+      },
+      "draft": {
+        "todo": "輸入待辦事項"
+      }
+    }
+  }
+}

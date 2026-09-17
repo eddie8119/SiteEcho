@@ -1,0 +1,60 @@
+{
+  "en": {
+    "tab": {
+      "projects": "Projects List",
+      "project": "Project",
+      "projects-download": "Projects Download",
+      "floor-plan": "Floor Plan",
+      "profile": "Profile",
+      "pricing-menu": "Plans",
+      "subscription": "Subscription",
+      "change-password": "Change Password",
+      "all": "All",
+      "schedule": {
+        "reminderDateTime": "Reminder Schedule",
+        "endDateTime": "End Schedule",
+        "all": "All"
+      },
+      "tasks": {
+        "with_pin": "With Pin",
+        "without_pin": "Without Pin",
+        "all": "All"
+      },
+      "pendingPhotos": {
+        "uncategorized": "Uncategorized",
+        "issue": "Issue",
+        "fix": "To Fix",
+        "check": "To Check"
+      }
+    }
+  },
+  "zh-TW": {
+    "tab": {
+      "projects": "專案群",
+      "project": "專案",
+      "projects-download": "專案下載",
+      "floor-plan": "平面圖",
+      "profile": "個人資料",
+      "pricing-menu": "方案",
+      "subscription": "方案訂閱",
+      "change-password": "修改密碼",
+      "all": "全部",
+      "schedule": {
+        "reminderDateTime": "提醒排程",
+        "endDateTime": "截止排程",
+        "all": "全部"
+      },
+      "tasks": {
+        "with_pin": "有標記",
+        "without_pin": "無標記",
+        "all": "全部"
+      },
+      "pendingPhotos": {
+        "uncategorized": "未分類",
+        "issue": "有問題",
+        "fix": "待修改",
+        "check": "待確認"
+      }
+    }
+  }
+}

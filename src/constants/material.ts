@@ -1,0 +1,40 @@
+import type { ConstructionOption, SpaceOption } from '@/types/photo';
+
+export const DEFAULT_SPACE_OPTIONS: SpaceOption[] = [
+  { id: 's1', name: '客廳', type: 'space' },
+  { id: 's2', name: '廚房', type: 'space' },
+  { id: 's3', name: '浴室', type: 'space' },
+  { id: 's4', name: '主臥室', type: 'space' },
+  { id: 's5', name: '次臥室', type: 'space' },
+  { id: 's6', name: '小孩房', type: 'space' },
+  { id: 's7', name: '書房', type: 'space' },
+  { id: 's8', name: '餐廳', type: 'space' },
+  { id: 's9', name: '玄關', type: 'space' },
+  { id: 's10', name: '陽台', type: 'space' },
+  { id: 's11', name: '走廊', type: 'space' },
+  { id: 's12', name: '儲藏室', type: 'space' },
+  { id: 's13', name: '更衣室', type: 'space' },
+  { id: 's14', name: '洗衣間', type: 'space' },
+  { id: 's15', name: '視聽室', type: 'space' },
+  { id: 's16', name: '客房', type: 'space' },
+];
+
+export const DEFAULT_CONSTRUCTION_OPTIONS: ConstructionOption[] = [
+  { id: 'c1', name: '保護/拆除', type: 'construction' },
+  { id: 'c2', name: '機電', type: 'construction' },
+  { id: 'c3', name: '水電', type: 'construction' },
+  { id: 'c4', name: '地坪', type: 'construction' },
+  { id: 'c5', name: '泥作', type: 'construction' },
+  { id: 'c6', name: '門窗', type: 'construction' },
+  { id: 'c7', name: '輕隔間', type: 'construction' },
+  { id: 'c8', name: '木作', type: 'construction' },
+  { id: 'c9', name: '金屬', type: 'construction' },
+  { id: 'c10', name: '玻璃', type: 'construction' },
+  { id: 'c11', name: '油漆', type: 'construction' },
+  { id: 'c12', name: '地板', type: 'construction' },
+  { id: 'c13', name: '防水', type: 'construction' },
+  { id: 'c14', name: '衛浴設備', type: 'construction' },
+  { id: 'c15', name: '廚具', type: 'construction' },
+  { id: 'c16', name: '空調', type: 'construction' },
+  { id: 'c17', name: '結構補強', type: 'construction' },
+];

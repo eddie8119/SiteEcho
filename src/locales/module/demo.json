@@ -1,0 +1,74 @@
+{
+  "en": {
+    "demo": {
+      "welcome_projects": {
+        "title": "Experience floor plan task pinning with an example",
+        "button": "30-second experience of floor plan features",
+        "dialog_title": "Task Marking",
+        "dialog_message": "You are currently viewing a demo floor plan",
+        "dialog_hint": "Try it out👇：",
+        "dialog_cta": "Start Experience",
+        "dialog_items": {
+          "view_task_cards": "View detailed task information in the sidebar",
+          "pin_tasks": "Click the 'Mark' button on task cards to place pins on the floor plan",
+          "drag_pins": "Drag pins to desired positions, and readjust as needed",
+          "manage_markers": "Press '+' to create multiple pins for the same task; press 'broom' to delete all pins for that task at once"
+        }
+      },
+      "project_demo": {
+        "demo": "This is a floor plan demo 👇 You can interact with it to experience SiteNear",
+        "start_view_projects": "View your projects below",
+        "tasks": {
+          "hydropower": {
+            "title": "Electrical and Plumbing Configuration",
+            "description": "Planning electrical and plumbing lines for living room and kitchen, including outlet and switch locations"
+          },
+          "masonry": {
+            "title": "Wall Plastering Works",
+            "description": "Wall leveling and plastering for living room and bedroom, ensuring smooth and flawless surfaces"
+          },
+          "painting": {
+            "title": "Interior Painting",
+            "description": "Complete interior painting project, including primer treatment and finish coating"
+          }
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "demo": {
+      "welcome_projects": {
+        "title": "先用一個範例快速體驗",
+        "button": "30 秒體驗 - 待辦任務標記在平面圖",
+        "dialog_title": "待辦任務標記",
+        "dialog_message": "你現在正在操作一個示範平面圖",
+        "dialog_hint": "試試看👇：",
+        "dialog_cta": "開始體驗",
+        "dialog_items": {
+          "view_task_cards": "在側邊欄查看任務詳細資訊",
+          "pin_tasks": "點擊任務卡片的「標記」按鈕，即可在平面圖上放置圖釘",
+          "drag_pins": "拖動圖釘到想要標記的位置，也可以重新調整位置",
+          "manage_markers": "按「+」可為同一任務建立多個圖釘；按「掃把」可一次刪除該任務的所有圖釘"
+        }
+      },
+      "project_demo": {
+        "demo": "這是一個平面圖示範 👇 你可以直接操作體驗 SiteNear",
+        "start_view_projects": "開始查看你的專案",
+        "tasks": {
+          "hydropower": {
+            "title": "水電管線配置",
+            "description": "客廳與廚房的水電管線規劃，包含插座與開關位置"
+          },
+          "masonry": {
+            "title": "牆面泥作工程",
+            "description": "客廳與臥室的牆面整平與粉刷，確保表面平整無瑕疵"
+          },
+          "painting": {
+            "title": "室內油漆塗裝",
+            "description": "全室油漆工程，包含底漆處理與面漆塗裝"
+          }
+        }
+      }
+    }
+  }
+}

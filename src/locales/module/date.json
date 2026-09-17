@@ -1,0 +1,52 @@
+{
+  "zh-TW": {
+    "date": {
+      "january": "一月",
+      "february": "二月",
+      "march": "三月",
+      "april": "四月",
+      "may": "五月",
+      "june": "六月",
+      "july": "七月",
+      "august": "八月",
+      "september": "九月",
+      "october": "十月",
+      "november": "十一月",
+      "december": "十二月",
+      "sunday_short": "日",
+      "monday_short": "一",
+      "tuesday_short": "二",
+      "wednesday_short": "三",
+      "thursday_short": "四",
+      "friday_short": "五",
+      "saturday_short": "六",
+      "today": "今日",
+      "yesterday": "昨日"
+    }
+  },
+  "en": {
+    "date": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December",
+      "sunday_short": "Su",
+      "monday_short": "Mo",
+      "tuesday_short": "Tu",
+      "wednesday_short": "We",
+      "thursday_short": "Th",
+      "friday_short": "Fr",
+      "saturday_short": "Sa",
+      "today": "Today",
+      "yesterday": "Yesterday"
+    }
+  }
+}

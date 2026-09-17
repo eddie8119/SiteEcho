@@ -1,0 +1,56 @@
+{
+  "en": {
+    "sheet": {
+      "batchAttributePicker": {
+        "titleSpace": "Select Space",
+        "titleConstruction": "Select Trade",
+        "addButton": "+ Add",
+        "addSpacePlaceholder": "Add space name",
+        "addConstructionPlaceholder": "Add trade name",
+        "confirm": "Confirm",
+        "applyToPhotos": "Apply to {count} photos"
+      },
+      "backupConfirm": {
+        "title": "You are about to backup {count} photos",
+        "estimatedSize": "Estimated to occupy about",
+        "cloudSpace": "cloud space.",
+        "continue": "Continue?",
+        "confirmBackup": "Confirm Backup",
+        "cancel": "Cancel"
+      },
+      "batchActionBar": {
+        "selected": "{count} selected"
+      },
+      "reportGeneration": {
+        "projectFallback": "Project"
+      }
+    }
+  },
+  "zh-TW": {
+    "sheet": {
+      "batchAttributePicker": {
+        "titleSpace": "選擇空間",
+        "titleConstruction": "選擇工項",
+        "addButton": "+ 新增",
+        "addSpacePlaceholder": "新增空間名稱",
+        "addConstructionPlaceholder": "新增工項名稱",
+        "confirm": "確認",
+        "applyToPhotos": "套用到 {count} 張照片"
+      },
+      "backupConfirm": {
+        "title": "你即將備份 {count} 張照片",
+        "estimatedSize": "預計佔用約",
+        "cloudSpace": "雲端空間。",
+        "continue": "是否繼續？",
+        "confirmBackup": "確認備份",
+        "cancel": "取消"
+      },
+      "batchActionBar": {
+        "selected": "已選擇 {count} 張照片"
+      },
+      "reportGeneration": {
+        "projectFallback": "專案"
+      }
+    }
+  }
+}

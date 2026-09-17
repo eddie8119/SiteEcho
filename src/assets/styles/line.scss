@@ -1,0 +1,19 @@
+.divider-line {
+  @apply block h-px;
+  position: relative;
+}
+
+.divider-line::after {
+  @apply absolute bottom-0 left-0 right-0 h-px bg-gray-200 content-[""] dark:bg-gray-600;
+}
+
+/* Break Line Styles - Vertical */
+.break-line-vertical {
+  @apply my-4;
+
+  width: 10px;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #d1d5db, transparent);
+  margin-left: 30px;
+  margin-right: auto;
+}

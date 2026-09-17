@@ -1,0 +1,110 @@
+{
+  "en": {
+    "camera": {
+      "errors": {
+        "cannot_access_camera": "Cannot access camera",
+        "permission_denied": "Permission denied",
+        "camera_permission_denied": "Camera permission denied. Please allow camera access in browser settings",
+        "no_camera_found": "Cannot find available camera device",
+        "camera_in_use": "The camera is being used by another application. Please close it and try again.",
+        "security_error": "Security error: camera access requires a secure connection (HTTPS).",
+        "camera_start_failed": "Unable to start the camera",
+        "unknown_error": "Unknown error",
+        "browser_not_supported": "Your browser does not support camera functionality",
+        "requires_https": "Camera functionality requires secure connection (HTTPS)"
+      },
+      "buttons": {
+        "start_camera": "Open Camera",
+        "capture_photo": "Take Photo",
+        "close_camera": "❌ Close",
+        "retake": "🔄 Retake",
+        "save": " Save",
+        "retry": "Retry",
+        "close": "Close",
+        "switch_to_system_camera": "System Camera",
+        "open_camera": "Open Camera"
+      },
+      "status": {
+        "pending": "Pending",
+        "high_quality_mode_on": "High Quality Mode ON",
+        "starting_camera": "Starting camera..."
+      },
+      "ui": {
+        "capture_result": "Capture Result",
+        "captured_photo_alt": "Captured photo"
+      },
+      "take_photo": {
+        "recorded": "Recorded",
+        "dark_warning": "Low light detected. High-quality capture will be used (up to 5 minutes).",
+        "retake": "Retake",
+        "select_project_first": "Please select a project first",
+        "imported_count": "Imported {count} photos",
+        "imported_with_suggestion": "Imported {count} photos. Set a space to make them easier to find later",
+        "focus_not_supported": "Tap-to-focus not supported on this device",
+        "switch_to_system_camera": "Use High Quality Mode",
+        "follow_up_mode": "Add after-photos",
+        "follow_up_subtitle": "You can add multiple after-photos",
+        "done": "Done",
+        "done_hint": "Tap Done to finish",
+        "cancel": "Cancel",
+        "upgrade_prompt_title": "Upgrade to track issue closeouts",
+        "upgrade_prompt_description": "You have used your free issue closeout quota ({count} times)\nUpgrade subscription to use unlimited before-and-after issue closeouts",
+        "camera_opening_in": "Camera opening in {seconds}..."
+      }
+    }
+  },
+  "zh-TW": {
+    "camera": {
+      "errors": {
+        "cannot_access_camera": "無法訪問相機",
+        "permission_denied": "權限被拒絕",
+        "camera_permission_denied": "相機權限被拒絕。請在瀏覽器設定中允許相機存取",
+        "no_camera_found": "找不到可用的相機設備",
+        "camera_in_use": "相機被其他應用程式佔用，請關閉其他使用相機的應用",
+        "security_error": "安全性錯誤：相機功能需要安全連線 (HTTPS)",
+        "camera_start_failed": "相機啟動失敗",
+        "unknown_error": "未知錯誤",
+        "browser_not_supported": "您的瀏覽器不支援相機功能",
+        "requires_https": "相機功能需要安全連線 (HTTPS)"
+      },
+      "buttons": {
+        "start_camera": "開啟相機",
+        "capture_photo": "拍照",
+        "close_camera": "❌ 關閉",
+        "retake": "🔄 重拍",
+        "save": " 儲存",
+        "retry": "重新嘗試",
+        "close": "關閉",
+        "switch_to_system_camera": "切換成系統相機",
+        "open_camera": "開啟相機"
+      },
+      "status": {
+        "pending": "待處理",
+        "high_quality_mode_on": "高畫質模式 ON",
+        "starting_camera": "啟動相機中..."
+      },
+      "ui": {
+        "capture_result": "拍攝結果",
+        "captured_photo_alt": "拍攝的照片"
+      },
+      "take_photo": {
+        "recorded": "已記錄",
+        "dark_warning": "畫面偏暗，將使用高畫質相機 (5分鐘)",
+        "retake": "重新拍攝",
+        "select_project_first": "請先選擇專案",
+        "imported_count": "已匯入 {count} 張照片",
+        "imported_with_suggestion": "已匯入 {count} 張照片。建議設定空間，之後會更好找",
+        "focus_not_supported": "此設備不支援點擊對焦",
+        "switch_to_system_camera": "切換至高畫質模式",
+        "follow_up_mode": "添加處理後照片",
+        "follow_up_subtitle": "可添加多張照片",
+        "done": "完成",
+        "done_hint": "點擊完成以結束",
+        "cancel": "取消",
+        "upgrade_prompt_title": "升級後可使用解決問題跟蹤功能",
+        "upgrade_prompt_description": "您已使用免費解決問題跟蹤額度（{count} 次）\n升級訂閱即可無限使用問題解決前後對比功能",
+        "camera_opening_in": "相機將在 {seconds} 秒後開啟..."
+      }
+    }
+  }
+}

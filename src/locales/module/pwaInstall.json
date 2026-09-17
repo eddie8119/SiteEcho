@@ -1,0 +1,42 @@
+{
+  "en": {
+    "pwaInstall": {
+      "title": "Add to Home Screen",
+      "description": "Use it like a native app with a desktop icon. No need to search for the URL!",
+      "ios": {
+        "step1": "Tap",
+        "step2": "the Share button",
+        "step3": "Then tap",
+        "step4": "Add to Home Screen"
+      },
+      "android": {
+        "installButton": "Install to Home Screen"
+      },
+      "buttons": {
+        "install": "Install",
+        "remindLater": "Later"
+      },
+      "installGuide": "View Installation Guide"
+    }
+  },
+  "zh-TW": {
+    "pwaInstall": {
+      "title": "加入主畫面",
+      "description": "像 App 一樣使用，桌面有圖示超方便，不用再找網址！",
+      "ios": {
+        "step1": "點擊",
+        "step2": "分享按鈕",
+        "step3": "然後點擊",
+        "step4": "加入主畫面"
+      },
+      "android": {
+        "installButton": "加入主畫面"
+      },
+      "buttons": {
+        "install": "安裝",
+        "remindLater": "稍後"
+      },
+      "installGuide": "查看安裝說明書"
+    }
+  }
+}

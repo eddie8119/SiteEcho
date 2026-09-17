@@ -1,0 +1,92 @@
+{
+  "en": {
+    "excel": {
+      "section": {
+        "project_info": "Project Info",
+        "construction": "Work Areas"
+      },
+      "label": {
+        "project_name": "Project Name",
+        "project_type": "Project Type",
+        "created_at": "Created At",
+        "updated_at": "Updated At",
+        "property": "Property",
+        "value": "Value"
+      },
+      "columns": {
+        "index": "Index",
+        "task_title": "Task Title",
+        "status": "Status",
+        "description": "Description",
+        "material_name": "Material Name",
+        "unit_price": "Unit Price",
+        "quantity": "Quantity",
+        "construction_type": "Trade",
+        "created_at": "Created At",
+        "due_date": "Due Date",
+        "reminder_date": "Reminder Date"
+      },
+      "progress_template": {
+        "sheet_name": "Work Schedule Template",
+        "month": "Month",
+        "special_holiday": "Special Holidays",
+        "date": "Date",
+        "construction_payment_remittance": "Payment Schedule",
+        "pre_construction_preparation": "Preparation & Others",
+        "protection_protection_demolition": "Protection / Demolition",
+        "weekday": "Weekday",
+        "sample_placeholder": "Sample: enter schedule items here"
+      },
+      "download": {
+        "gantt_image_suffix": "gantt",
+        "gantt_excel_suffix": "schedule",
+        "progress_template": "Schedule Template"
+      }
+    }
+  },
+  "zh-TW": {
+    "excel": {
+      "section": {
+        "project_info": "專案資訊",
+        "construction": "施工區域"
+      },
+      "label": {
+        "project_name": "專案名稱",
+        "project_type": "專案類型",
+        "created_at": "建立日期",
+        "updated_at": "更新日期",
+        "property": "屬性",
+        "value": "值"
+      },
+      "columns": {
+        "index": "序號",
+        "task_title": "任務標題",
+        "status": "狀態",
+        "description": "描述",
+        "material_name": "材料名稱",
+        "unit_price": "單價",
+        "quantity": "數量",
+        "construction_type": "施工類型",
+        "created_at": "建立日期",
+        "due_date": "截止日期",
+        "reminder_date": "提醒日期"
+      },
+      "progress_template": {
+        "sheet_name": "工程進度模板",
+        "month": "月份",
+        "special_holiday": "特殊節慶",
+        "date": "日期",
+        "construction_payment_remittance": "工程款匯款",
+        "pre_construction_preparation": "前置準備/其它",
+        "protection_protection_demolition": "保護拆除",
+        "weekday": "星期",
+        "sample_placeholder": "格式範例：在這裡開始寫"
+      },
+      "download": {
+        "gantt_image_suffix": "工進圖",
+        "gantt_excel_suffix": "工進",
+        "progress_template": "工進模板"
+      }
+    }
+  }
+}

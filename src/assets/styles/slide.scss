@@ -1,0 +1,24 @@
+.slider-bar {
+  .el-slider__bar,
+  .el-slider__runway {
+    background-color: var(--color-brand-tertiary);
+  }
+
+  .el-slider__runway {
+    opacity: 0.8;
+  }
+
+  .el-slider__button,
+  .el-slider__stop {
+    border: 2px solid var(--color-brand-tertiary);
+    background-color: #fff;
+  }
+
+  .el-slider__stop {
+    width: 6px;
+    height: 6px;
+    border-radius: 9999px;
+    opacity: 1;
+    z-index: 1;
+  }
+}

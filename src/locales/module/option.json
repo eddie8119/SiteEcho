@@ -1,0 +1,86 @@
+{
+  "en": {
+    "option": {
+      "alarm": {
+        "notice": "Notice",
+        "caution": "Caution",
+        "warning": "Warning"
+      },
+      "projectType": {
+        "residential": "Residential",
+        "luxury": "Luxury",
+        "commercial": "Commercial",
+        "office": "Office",
+        "retail": "Retail / Shop",
+        "restaurant": "Restaurant",
+        "hospitality": "Hospitality",
+        "education": "Education",
+        "medical": "Medical",
+        "public": "Public Facility",
+        "exhibition": "Exhibition",
+        "industrial": "Industrial",
+        "renovation": "Renovation",
+        "showroom": "Showroom",
+        "undefined": "Unknown"
+      },
+      "status": {
+        "all": "All",
+        "todo": "To Do",
+        "inProgress": "In Progress",
+        "done": "Done"
+      },
+      "role": {
+        "viewer": "Viewer",
+        "editor": "Editor",
+        "manager": "Manager"
+      },
+      "display": {
+        "all": "Show All",
+        "content": "Content Only",
+        "materials": "Materials Only"
+      }
+    }
+  },
+  "zh-TW": {
+    "option": {
+      "alarm": {
+        "notice": "通知",
+        "caution": "注意",
+        "warning": "警告"
+      },
+      "projectType": {
+        "residential": "住宅",
+        "luxury": "豪宅",
+        "commercial": "商業",
+        "office": "事務所",
+        "retail": "零售/店鋪",
+        "restaurant": "餐飲",
+        "hospitality": "旅宿",
+        "education": "教育",
+        "medical": "醫療",
+        "public": "公共",
+        "exhibition": "展覽/展演",
+        "industrial": "產業空間",
+        "renovation": "舊屋改造",
+        "showroom": "樣品屋",
+        "undefined": "未定義"
+      },
+      "status": {
+        "all": "全部",
+        "todo": "待辦",
+        "inProgress": "進行",
+        "done": "完成"
+      },
+      "role": {
+        "viewer": "瀏覽者",
+        "editor": "編輯者",
+        "manager": "管理員"
+      },
+      "display": {
+        "all": "都要顯示",
+        "content": "只顯示內容",
+        "materials": "只顯示材料"
+      }
+    }
+  }
+}

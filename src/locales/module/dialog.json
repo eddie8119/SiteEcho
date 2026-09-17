@@ -1,0 +1,130 @@
+{
+  "en": {
+    "dialog": {
+      "delete_confirm": "Are you sure you want to delete this?",
+      "share_project_link": "Share Project Link",
+      "move_note_to_project": "Select a Project to Move the Note",
+      "enable_project_sharing": "Enable Project Sharing",
+      "share_description": "Share this project with others.",
+      "collaborators_description": "Collaborators are users who can access your projects.",
+      "global_collaborators_description": "Global collaborators are collaborators who can access all projects.",
+      "create_project": {
+        "title": "Create Project",
+        "project_name": "Project Name",
+        "placeholder": "e.g., Taipei Xinyi Residence",
+        "create_failed": "Project creation failed, please try again later",
+        "no_project_warning": "No projects available. Please create a project first."
+      },
+      "edit_project": {
+        "title": "Edit Project Name",
+        "project_name": "Project Name",
+        "placeholder": "e.g., Taipei Xinyi Residence",
+        "update_failed": "Project name update failed, please try again later"
+      },
+      "batch_delete_confirm": {
+        "title": "Confirm Delete Photos",
+        "select_delete": "Select to delete",
+        "photos": "photos",
+        "including": "Including",
+        "regular_photo": "Regular photo",
+        "evidence_photo": "⚠ Evidence photo",
+        "direct_delete": "Directly delete",
+        "evidence_handling": "⚠ Evidence photo handling:",
+        "default": "Default",
+        "move_to_trash": "Move to trash (recoverable within 30 days)",
+        "permanent_delete": "Permanently delete",
+        "all_photos_deleted": "All photos will be directly deleted. This operation cannot be undone."
+      },
+      "delete_dialog": {
+        "delete_failed": "Delete failed, please try again"
+      },
+      "constructions_dialog": {
+        "title": "All Work Items"
+      },
+      "option_dialog": {
+        "construction": "Trade",
+        "space": "Space",
+        "add_title": "Add {type}",
+        "edit_title": "Edit {type}",
+        "manage_title": "Manage {type}",
+        "name_placeholder": "Enter {type} name"
+      },
+      "delete_option_dialog": {
+        "title": "Confirm Delete",
+        "message": "Delete \"{name}\"? This will clear the {type} from related photos.",
+        "cancel": "Cancel",
+        "confirm": "Confirm Delete"
+      },
+      "photo_preview_modal": {
+        "evidence_badge": "Record Photo",
+        "thumbnail_badge": "Cloud Thumbnail",
+        "saving": "Saving...",
+        "save_changes": "Save Changes"
+      }
+    }
+  },
+  "zh-TW": {
+    "dialog": {
+      "delete_confirm": "確定要刪除",
+      "share_project_link": "分享專案連結",
+      "move_note_to_project": "選取專案，移動速記",
+      "enable_project_sharing": "啟用專案分享",
+      "share_description": "分享此專案給其他人。",
+      "collaborators_description": "協作者是能夠存取專案的使用者。",
+      "global_collaborators_description": "全域協作者是能夠存取所有專案的協作者。",
+      "create_project": {
+        "title": "新增專案",
+        "project_name": "專案名稱",
+        "placeholder": "例如：台北信義住宅案",
+        "create_failed": "專案建立失敗，請稍後再試",
+        "no_project_warning": "目前沒有專案，請先建立專案"
+      },
+      "edit_project": {
+        "title": "編輯專案名稱",
+        "project_name": "專案名稱",
+        "placeholder": "例如：台北信義住宅案",
+        "update_failed": "專案名稱更新失敗，請稍後再試"
+      },
+      "batch_delete_confirm": {
+        "title": "確認刪除照片",
+        "select_delete": "選擇刪除",
+        "photos": "張照片",
+        "including": "其中包含",
+        "regular_photo": "一般照片",
+        "evidence_photo": "⚠ 證據照片",
+        "direct_delete": "直接刪除",
+        "evidence_handling": "⚠ 證據照片處理方式：",
+        "default": "預設",
+        "move_to_trash": "移到垃圾桶（可 30 天復原）",
+        "permanent_delete": "永久刪除",
+        "all_photos_deleted": "所有照片將被直接刪除，此操作無法還原。"
+      },
+      "delete_dialog": {
+        "delete_failed": "刪除失敗，請重試"
+      },
+      "constructions_dialog": {
+        "title": "所有詳細工種"
+      },
+      "option_dialog": {
+        "construction": "工種",
+        "space": "空間",
+        "add_title": "新增{type}",
+        "edit_title": "編輯{type}",
+        "manage_title": "管理{type}",
+        "name_placeholder": "輸入{type}名稱"
+      },
+      "delete_option_dialog": {
+        "title": "確認刪除",
+        "message": "刪除「{name}」？這會將相關照片的{type}清除。",
+        "cancel": "取消",
+        "confirm": "確認刪除"
+      },
+      "photo_preview_modal": {
+        "evidence_badge": "保留照片",
+        "thumbnail_badge": "雲端縮圖",
+        "saving": "儲存中...",
+        "save_changes": "儲存變更"
+      }
+    }
+  }
+}

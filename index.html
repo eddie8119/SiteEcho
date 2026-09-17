@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+
+    <link rel="icon" href="/favicon.png" sizes="any" />
+    <link
+      rel="apple-touch-icon"
+      href="/apple-touch-icon-180x180.png"
+    />
+
+    <title>
+      SiteNear｜工地現場管理與履歷相簿工具
+    </title>
+
+    <meta
+      name="description"
+      content="SiteNear 是專為工地現場管理打造的室內裝修履歷相簿，拍照、標記、追蹤問題、記錄修復並快速產出施工報告，讓設計師、監工與工班協作更順暢。"
+    />
+
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="工地現場管理, 施工紀錄, 工地相簿, 裝修履歷, 工程報告, 問題追蹤"
+    />
+    <meta name="application-name" content="SiteNear" />
+    <meta name="author" content="SiteNear by Funsugar" />
+    <meta name="theme-color" content="#ff7a00" />
+
+    <link
+      rel="canonical"
+      href="https://site-shot-app.vercel.app/"
+    />
+
+    <link
+      rel="alternate"
+      hreflang="zh-TW"
+      href="https://site-shot-app.vercel.app/"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://site-shot-app.vercel.app/en"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://site-shot-app.vercel.app/"
+    />
+
+    <meta property="og:site_name" content="SiteNear" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:title"
+      content="SiteNear｜工地現場管理與履歷相簿工具"
+    />
+    <meta
+      property="og:description"
+      content="SiteNear 幫你做好工地現場管理：依空間與工項整理施工照片、追蹤問題與修復，快速產出施工報告。"
+    />
+    <meta
+      property="og:url"
+      content="https://site-shot-app.vercel.app/"
+    />
+    <meta
+      property="og:image"
+      content="https://site-shot-app.vercel.app/images/og-cover.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="SiteNear 工地現場管理相簿介面，展示施工照片、問題追蹤與修復紀錄"
+    />
+
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      name="twitter:title"
+      content="SiteNear｜工地現場管理與履歷相簿工具"
+    />
+    <meta
+      name="twitter:description"
+      content="SiteNear 幫你做好工地現場管理：整理施工照片、追蹤問題與修復，快速產出施工報告。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://site-shot-app.vercel.app/images/og-cover.png"
+    />
+    <meta name="twitter:site" content="@SiteNear_app" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SiteNear",
+      "alternateName": "SiteNear 工地相簿",
+      "url": "https://site-shot-app.vercel.app/",
+      "image": "https://site-shot-app.vercel.app/images/og-cover.png",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Construction Photo Documentation",
+      "operatingSystem": "Web, Android, iOS",
+      "description": "SiteNear 是給室內設計師、統包與監工使用的工地現場管理與工地相簿，可依空間與工項整理施工照片、追蹤待處理問題、關聯修復前後紀錄，並快速產出施工報告。",
+      "brand": {
+        "@type": "Brand",
+        "name": "SiteNear"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Funsugar"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script type="module">
+      import { deleteOrphanPhotosFromIndexedDB } from '/src/utils/indexedDB.js';
+
+      // Initialize vconsole for mobile debugging (only in development)
+      // Set to true to enable vConsole button
+      const ENABLE_VCONSOLE = false;
+      if (window.VConsole && import.meta.env.DEV && ENABLE_VCONSOLE) {
+        new window.VConsole();
+      }
+
+      // Expose cleanup function to window for easy access in console
+      window.cleanupOrphanPhotos = async () => {
+        try {
+          const count = await deleteOrphanPhotosFromIndexedDB();
+          alert(`已清理 ${count} 張孤兒照片`);
+          location.reload();
+        } catch (error) {
+          alert('清理失敗: ' + error);
+        }
+      };
+    </script>
+  </body>
+</html>
+

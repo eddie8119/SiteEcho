@@ -1,0 +1,82 @@
+{
+  "en": {
+    "deleteAccount": {
+      "description": "This page explains how to delete your SiteNear account and how your data will be handled after deletion.",
+      "steps": {
+        "title": "Account Deletion Steps",
+        "intro": "To delete your SiteNear account, please follow these steps:",
+        "step1": "Log in to your SiteNear account",
+        "step2": "Go to the settings page",
+        "step3": "Select the \"Delete Account\" option",
+        "step4": "Confirm your intention to delete the account",
+        "step5": "Complete the deletion process",
+        "cannotLogin": "If you cannot log in to your account, please contact us via email:",
+        "contactSupport": "If you have any questions about deleting your account, please contact:"
+      },
+      "dataHandling": {
+        "title": "Data Handling After Deletion",
+        "intro": "After deleting your account, the following data will be deleted:",
+        "accountInfo": "Account information (email address, Google login information)",
+        "projectData": "All project data (project names, space markers, task markers)",
+        "photosRecords": "All photos and construction records",
+        "issueTracking": "Issue tracking records and repair records",
+        "photoNotes": "Photo notes",
+        "shareRecords": "Share records"
+      },
+      "retention": {
+        "title": "Data Retention Period",
+        "description": "After deleting your account, no data will be retained. Your account and all related data will be permanently deleted."
+      },
+      "notes": {
+        "title": "Important Notes",
+        "note1": "After deleting your account, you will not be able to recover the account or related data",
+        "note2": "After deleting your account, all data associated with the account will be permanently deleted",
+        "note3": "If you have an active subscription, please cancel your subscription before deleting your account"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "emailLabel": "Email"
+      }
+    }
+  },
+  "zh-TW": {
+    "deleteAccount": {
+      "description": "本頁面說明如何刪除您的 SiteNear 帳戶，以及刪除後的資料處理方式。",
+      "steps": {
+        "title": "刪除帳戶步驟",
+        "intro": "若您要刪除 SiteNear 帳戶，請依照以下步驟操作：",
+        "step1": "登入您的 SiteNear 帳戶",
+        "step2": "前往設定頁面",
+        "step3": "選擇「刪除帳戶」選項",
+        "step4": "確認刪除帳戶的意圖",
+        "step5": "完成刪除程序",
+        "cannotLogin": "若您無法登入帳戶，請透過電子郵件聯絡我們：",
+        "contactSupport": "若有任何關於刪除帳戶的問題，請聯絡："
+      },
+      "dataHandling": {
+        "title": "刪除後的資料處理",
+        "intro": "刪除帳戶後，以下資料將被刪除：",
+        "accountInfo": "帳號資訊（電子郵件地址、Google 登入資訊）",
+        "projectData": "所有專案資料（專案名稱、空間標記、工項標記）",
+        "photosRecords": "所有照片與工程紀錄",
+        "issueTracking": "問題追蹤紀錄與修復紀錄",
+        "photoNotes": "照片備註",
+        "shareRecords": "分享紀錄"
+      },
+      "retention": {
+        "title": "資料保留期間",
+        "description": "刪除帳戶後，不保留任何資料。您的帳戶及所有相關資料將被永久刪除。"
+      },
+      "notes": {
+        "title": "注意事項",
+        "note1": "刪除帳戶後，您將無法恢復帳戶或相關資料",
+        "note2": "刪除帳戶後，所有與該帳戶關聯的資料將被永久刪除",
+        "note3": "若您有進行中的訂閱，請先取消訂閱再刪除帳戶"
+      },
+      "contact": {
+        "title": "聯絡我們",
+        "emailLabel": "Email"
+      }
+    }
+  }
+}

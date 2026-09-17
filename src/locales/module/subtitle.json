@@ -1,0 +1,22 @@
+{
+  "en": {
+    "subtitle": {
+      "todo": "Jobsite conditions change constantly. Use note cards to capture details and keep your schedule organized.",
+      "planning_implementation": "Import your construction schedule from Excel and automatically create a project Gantt chart.",
+      "setting_common": "Manage your general preferences in one place.",
+      "auth": {
+        "login": "Take photos in the mobile app, then sync and organize them on your computer"
+      }
+    }
+  },
+  "zh-TW": {
+    "subtitle": {
+      "todo": "面對工地現場的滾動變化，筆記卡片幫你穩穩記住，讓繁雜進度也能井然有序",
+      "planning_implementation": "匯入你的工進表 Excel 檔案，自動在系統建立專案甘特圖",
+      "setting_common": "通用的習慣，都可以在這裡統一管理設定",
+      "auth": {
+        "login": "先用手機 App 拍照，並提供在電腦同步整理"
+      }
+    }
+  }
+}

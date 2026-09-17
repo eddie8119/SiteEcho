@@ -1,0 +1,226 @@
+{
+  "en": {
+    "report": {
+      "generationSheet": {
+        "title": "Generate Report",
+        "preview": "Report Preview",
+        "uncategorized": "Uncategorized",
+        "clickPhotoToAddNote": "Click photo to add notes",
+        "purpose": "Report purpose:",
+        "format": "Export format:",
+        "formatPdf": "PDF",
+        "formatWord": "Word",
+        "downloadPdf": "Download PDF",
+        "downloadWord": "Download Word",
+        "copySuccess": "✓ Copied!",
+        "copyBilling": "Copy payment claim details",
+        "totalAmount": "Total Amount",
+        "grandTotal": "Grand Total:"
+      },
+      "purposeSelector": {
+        "internal": "General Site Report",
+        "billing": "Payment Claim Report",
+        "followUp": "Issue Closeout Report"
+      },
+      "groupNoteEditor": {
+        "title": "Overall Description",
+        "edit": "Edit",
+        "addNote": "+ Add Note",
+        "placeholder": "What is this section about...",
+        "done": "Done"
+      },
+      "pdfTemplate": {
+        "billingReport": "Billing Report",
+        "engineeringReport": "Site Report",
+        "uncategorized": "Uncategorized",
+        "project": "Project:",
+        "date": "Date:",
+        "updateSummary": "Update Summary",
+        "photoCount": "Photo count:",
+        "spaceCount": "Space count:",
+        "spaces": "Spaces:",
+        "completedItems": "Completed Items:",
+        "representativePhoto": "(Representative Photo)",
+        "page": "Page {current} of {total}",
+        "constructionItems": "Work items:",
+        "photoCountShort": "Photo count:",
+        "overallDescription": "Overall Description:",
+        "pendingItems": "⚠ Open items:",
+        "billingDetails": "Billing Details",
+        "total": "Total",
+        "signatureArea": "Signature Area",
+        "notes": "Notes",
+        "unit": {
+          "photo": "photos",
+          "space": "spaces",
+          "problem": "problems"
+        }
+      },
+      "followUp": {
+        "title": "Issue Closeout Report",
+        "summary": "Summary",
+        "totalProblems": "Total issues:",
+        "totalResolved": "Issues closed:",
+        "locations": "Locations",
+        "noDescription": "No description",
+        "representativeProblem": "(Representative problem)",
+        "before": "Before",
+        "after": "After",
+        "resolvedAt": "Resolved at:",
+        "notePlaceholder": "Notes about this problem...",
+        "noFollowUpRecords": "No issue closeout records found",
+        "generateReport": "Report"
+      },
+      "photoGridItem": {
+        "editNote": "Edit note",
+        "addDescription": "Add Description",
+        "customized": "Customized",
+        "fromNote": "From note",
+        "noNote": "(No note)"
+      },
+      "photoNoteEditor": {
+        "title": "Photo Note",
+        "placeholder": "Details about this photo...",
+        "useNote": "Use note",
+        "clear": "Clear",
+        "done": "Done"
+      },
+      "billingSection": {
+        "uncategorized": "Uncategorized",
+        "amountPlaceholder": "Amount",
+        "fromMemory": "(Based on the previous price)",
+        "subtotal": "Subtotal:"
+      },
+      "wordExport": {
+        "date": "Date",
+        "reportType": "Report Type",
+        "billingReport": "Billing Report",
+        "engineeringReport": "Site Report",
+        "uncategorized": "Uncategorized",
+        "overallDescription": "Overall Description",
+        "completionTime": "Completion Time",
+        "constructionItems": "Work Items",
+        "photoTime": "Photo Time",
+        "description": "Description",
+        "note": "Note",
+        "billingDetails": "Billing Details",
+        "item": "Item",
+        "amount": "Amount",
+        "total": "Total",
+        "totalAmount": "Total Amount"
+      }
+    }
+  },
+  "zh-TW": {
+    "report": {
+      "generationSheet": {
+        "title": "產生報告",
+        "preview": "報告預覽",
+        "uncategorized": "未分類",
+        "clickPhotoToAddNote": "點擊照片可補充說明",
+        "purpose": "這份報告用途：",
+        "format": "匯出格式：",
+        "formatPdf": "PDF",
+        "formatWord": "Word",
+        "downloadPdf": "下載 PDF",
+        "downloadWord": "下載 Word",
+        "copySuccess": "✓ 已複製！",
+        "copyBilling": "複製請款內容",
+        "totalAmount": "總金額",
+        "grandTotal": "總計："
+      },
+      "purposeSelector": {
+        "internal": "一般報告",
+        "billing": "請款報告",
+        "followUp": "問題處理紀錄"
+      },
+      "groupNoteEditor": {
+        "title": "整體說明",
+        "edit": "修改",
+        "addNote": "+ 新增說明",
+        "placeholder": "這整塊在幹嘛...",
+        "done": "完成"
+      },
+      "pdfTemplate": {
+        "billingReport": "請款報告",
+        "engineeringReport": "工程報告",
+        "uncategorized": "未分類",
+        "project": "專案：",
+        "date": "日期：",
+        "updateSummary": "本次更新摘要",
+        "photoCount": "照片數：",
+        "spaceCount": "空間數：",
+        "spaces": "空間：",
+        "completedItems": "本次完成項目：",
+        "representativePhoto": "（代表照片）",
+        "page": "第 {current} 頁 / 共 {total} 頁",
+        "constructionItems": "施工項目：",
+        "photoCountShort": "照片數：",
+        "overallDescription": "整體說明：",
+        "pendingItems": "⚠ 待處理：",
+        "unit": {
+          "photo": "張",
+          "space": "區",
+          "problem": "個問題"
+        },
+        "billingDetails": "請款明細",
+        "total": "總計",
+        "signatureArea": "簽名區",
+        "notes": "備註"
+      },
+      "followUp": {
+        "title": "問題處理紀錄",
+        "summary": "摘要",
+        "totalProblems": "總問題數：",
+        "totalResolved": "總解決數：",
+        "locations": "位置",
+        "noDescription": "無描述",
+        "representativeProblem": "（代表問題）",
+        "before": "問題發現",
+        "after": "問題解決",
+        "resolvedAt": "解決時間：",
+        "notePlaceholder": "關於這個問題的備註...",
+        "noFollowUpRecords": "沒有找到 follow-up 紀錄",
+        "generateReport": "生成報告"
+      },
+      "photoGridItem": {
+        "editNote": "編輯說明",
+        "addDescription": "補充說明",
+        "customized": "已自訂",
+        "fromNote": "來自說明",
+        "noNote": "（無備註）"
+      },
+      "photoNoteEditor": {
+        "title": "單張補充",
+        "placeholder": "這張圖的細節...",
+        "useNote": "使用說明",
+        "clear": "清空",
+        "done": "完成"
+      },
+      "billingSection": {
+        "uncategorized": "未分類",
+        "amountPlaceholder": "金額",
+        "fromMemory": "（依上次價格）",
+        "subtotal": "小計："
+      },
+      "wordExport": {
+        "date": "日期",
+        "reportType": "報告類型",
+        "billingReport": "請款報告",
+        "engineeringReport": "工程報告",
+        "uncategorized": "未分類",
+        "overallDescription": "整體說明",
+        "completionTime": "完成時間",
+        "constructionItems": "施工項目",
+        "photoTime": "拍照時間",
+        "description": "說明",
+        "note": "備註",
+        "billingDetails": "請款明細",
+        "item": "項目",
+        "amount": "金額",
+        "total": "總計",
+        "totalAmount": "總金額"
+      }
+    }
+  }
+}

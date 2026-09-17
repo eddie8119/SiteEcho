@@ -1,0 +1,62 @@
+{
+  "en": {
+    "share": {
+      "shared_status": "✅ Shared",
+      "ask_stage": {
+        "question": "Do you want to record this share?"
+      },
+      "select_stage": {
+        "title": "Who are you sharing with?",
+        "back": "Back",
+        "recent": "Recent",
+        "quick_select": "Quick Select"
+      },
+      "add_stage": {
+        "add_worker_target": "Add worker contact",
+        "add_owner_target": "Add owner contact",
+        "back": "Back",
+        "trade_label": "Trade (Optional)",
+        "trade_placeholder": "Please select trade",
+        "name_label": "Name",
+        "name_placeholder_worker": "e.g., Wang",
+        "name_placeholder_owner": "e.g., Zhang",
+        "confirm_record": "Confirm Record"
+      },
+      "role_buttons": {
+        "worker": "Worker",
+        "owner": "Owner",
+        "no_record": "Don't Record"
+      }
+    }
+  },
+  "zh-TW": {
+    "share": {
+      "shared_status": "✅已分享",
+      "ask_stage": {
+        "question": "這次分享要記錄嗎？"
+      },
+      "select_stage": {
+        "title": "選擇分享對象",
+        "back": "返回",
+        "recent": "最近",
+        "quick_select": "快速選擇"
+      },
+      "add_stage": {
+        "add_worker_target": "新增工班分享對象",
+        "add_owner_target": "新增業主分享對象",
+        "back": "返回",
+        "trade_label": "工種（可選）",
+        "trade_placeholder": "請選擇工種",
+        "name_label": "稱呼",
+        "name_placeholder_worker": "例如：王師傅",
+        "name_placeholder_owner": "例如：張先生",
+        "confirm_record": "確認記錄"
+      },
+      "role_buttons": {
+        "worker": "工班",
+        "owner": "業主",
+        "no_record": "不記錄"
+      }
+    }
+  }
+}

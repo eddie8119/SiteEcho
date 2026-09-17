@@ -1,0 +1,178 @@
+{
+  "en": {
+    "photo": {
+      "taken_at": "Photo taken at",
+      "dialog": {
+        "this_photo": "This photo",
+        "photo": "Photo",
+        "cannot_undo": "Confirm deletion, this operation cannot be undone"
+      },
+      "status": {
+        "mark_pending": "Mark as Pending",
+        "marked_pending": "⚠ Marked as Pending"
+      },
+      "label": {
+        "pending_type": "Pending Type",
+        "construction_classification": "Trade (Optional)",
+        "space_location": "Space Location (Optional)",
+        "note_content": "Note Content"
+      },
+      "placeholder": {
+        "construction": "Select trade(s)",
+        "space": "Select space",
+        "note": "Enter note content..."
+      },
+      "import_photo": "Import {count} photos",
+      "card": {
+        "alt_photo": "Photo",
+        "upgrade_to_evidence_thumbnail": "Thumbnail backed up. Tap to keep full-res photo",
+        "upgrade_to_evidence": "Tap to keep full-resolution record",
+        "remaining_days": "{days} days"
+      },
+      "timeline": {
+        "photos": "Photos",
+        "today": "Today",
+        "yesterday": "Yesterday"
+      },
+      "desktop": {
+        "page": {
+          "photo_count": "Total {count} photos · Cloud backup mode",
+          "select_all": "Select All",
+          "batch_edit": "Batch Edit Photos",
+          "exit_batch": "Exit Batch",
+          "empty_pending": "No pending photos",
+          "empty": "No photos yet",
+          "all_projects": "All Projects",
+          "unknown_project": "Unknown Project",
+          "no_space": "No space set",
+          "space": "Space: {space}",
+          "multiple_spaces": "Space: {count} different spaces",
+          "filter_pending_uncategorized": "Pending - Uncategorized",
+          "filter_pending_issue": "Pending - Issue",
+          "filter_pending_fix": "Pending - To Fix",
+          "filter_pending_check": "Pending - To Check",
+          "filter_pending": "Open Items",
+          "filter_all": "All Photos"
+        }
+      },
+      "sidebar": {
+        "filter": "Filter",
+        "statusFilter": "Status Filter",
+        "pending": "Pending",
+        "allPhotos": "All Photos"
+      },
+      "shareRecords": {
+        "shareRecords": "Share Records",
+        "shared": "Shared"
+      },
+      "problem_discovered": "Problem discovered",
+      "problem_resolved": "Problem resolved",
+      "evidence_chain": {
+        "after_photos": "After photos: {count}",
+        "follow_up_photo": "This is an after photo"
+      },
+      "comparison": {
+        "title": "Photo comparison",
+        "description": "Compare the original and after photos",
+        "original": "Original",
+        "follow_up": "After"
+      },
+      "relation": {
+        "source_photo": "Source photo",
+        "follow_up_photos": "After photos"
+      },
+      "upgrade_prompt": {
+        "title": "Upgrade to track issue closeouts",
+        "description": "You have used your free quota ({count} times)\nUpgrade subscription to use unlimited before-and-after issue closeouts"
+      }
+    }
+  },
+  "zh-TW": {
+    "photo": {
+      "taken_at": "拍攝時間：",
+      "dialog": {
+        "this_photo": "這張照片",
+        "photo": "照片",
+        "cannot_undo": "是否確認刪除，此操作無法還原"
+      },
+      "status": {
+        "mark_pending": "標記為待處理",
+        "marked_pending": "⚠ 已標記為待處理"
+      },
+      "label": {
+        "pending_type": "待處理類型",
+        "construction_classification": "工種分類（可選）",
+        "space_location": "空間位置（可選）",
+        "note_content": "備註內容"
+      },
+      "placeholder": {
+        "construction": "可複選工種",
+        "space": "請選擇空間",
+        "note": "輸入備註內容..."
+      },
+      "import_photo": "匯入 {count} 張照片",
+      "card": {
+        "alt_photo": "照片",
+        "upgrade_to_evidence_thumbnail": "照片縮圖已上雲，點擊升級為保留照片",
+        "upgrade_to_evidence": "點擊升級為保留照片",
+        "remaining_days": "{days} 天"
+      },
+      "timeline": {
+        "photos": "張照片",
+        "today": "今天",
+        "yesterday": "昨天"
+      },
+      "desktop": {
+        "page": {
+          "photo_count": "共 {count} 張照片 · 雲端備份模式",
+          "select_all": "全選",
+          "batch_edit": "批次編輯圖片",
+          "exit_batch": "退出批次",
+          "empty_pending": "目前沒有待處理的照片",
+          "empty": "目前尚無照片",
+          "all_projects": "所有專案",
+          "unknown_project": "未知專案",
+          "no_space": "未設定空間",
+          "space": "空間: {space}",
+          "multiple_spaces": "空間: {count} 個不同空間",
+          "filter_pending_uncategorized": "待處理 - 未分類",
+          "filter_pending_issue": "待處理 - 有問題",
+          "filter_pending_fix": "待處理 - 待修改",
+          "filter_pending_check": "待處理 - 待確認",
+          "filter_pending": "待處理項目",
+          "filter_all": "全部照片"
+        }
+      },
+      "sidebar": {
+        "filter": "篩選",
+        "statusFilter": "狀態篩選",
+        "pending": "待處理",
+        "allPhotos": "全部照片"
+      },
+      "shareRecords": {
+        "shareRecords": "分享紀錄",
+        "shared": "已分享"
+      },
+      "problem_discovered": "問題發現",
+      "problem_resolved": "問題解決",
+      "evidence_chain": {
+        "after_photos": "處理後照片：{count} 張",
+        "follow_up_photo": "此照片為處理後照片"
+      },
+      "comparison": {
+        "title": "照片對照",
+        "description": "比較原始照片與處理後照片",
+        "original": "原圖",
+        "follow_up": "處理後"
+      },
+      "relation": {
+        "source_photo": "來源照片",
+        "follow_up_photos": "處理後照片"
+      },
+      "upgrade_prompt": {
+        "title": "升級後可使用解決問題跟蹤功能",
+        "description": "您已使用免費額度（{count} 次）\n升級訂閱即可無限使用問題解決前後對比功能"
+      }
+    }
+  }
+}

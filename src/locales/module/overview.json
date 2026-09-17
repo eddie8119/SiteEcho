@@ -1,0 +1,42 @@
+{
+  "en": {
+    "overview": {
+      "title": "Your Recent Construction Records",
+      "recentProjects": "Recent Projects",
+      "noProjectRecords": "No project records",
+      "stats": {
+        "pending_photos": "Pending",
+        "pending_footer": "⚠ {count} marked as pending",
+        "total_photos": "Total Cloud Photos",
+        "total_footer": "📸 {count} photos backed up",
+        "cloud_usage": "Cloud Usage"
+      },
+      "projectCard": {
+        "updatedAt": "Updated at {date}",
+        "totalPhotos": "Total Photos",
+        "pending": "Pending",
+        "enterProject": "Enter Project"
+      }
+    }
+  },
+  "zh-TW": {
+    "overview": {
+      "title": "你最近的施工紀錄",
+      "recentProjects": "最近專案",
+      "noProjectRecords": "尚無專案紀錄",
+      "stats": {
+        "pending_photos": "待處理照片",
+        "pending_footer": "⚠ {count} 個標記待處理",
+        "total_photos": "雲端照片總數",
+        "total_footer": "📸 {photoCount} 張照片已備份",
+        "cloud_usage": "雲端使用量"
+      },
+      "projectCard": {
+        "updatedAt": "更新於 {date}",
+        "totalPhotos": "照片總數",
+        "pending": "待處理",
+        "enterProject": "進入專案"
+      }
+    }
+  }
+}

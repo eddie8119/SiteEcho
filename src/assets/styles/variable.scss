@@ -1,0 +1,115 @@
+:root {
+  /* Brand Colors - Dynamically set from tenants.ts */
+  --color-brand-primary: #ff8c00;
+  --color-brand-secondary: #ffb800;
+  --color-brand-tertiary: #bee63c;
+
+  /* Black Colors - Dynamically set from tenants.ts */
+  --color-black-100: #ebedef; /* 5% */
+  --color-black-200: #e2e4e5; /* 10% */
+  --color-black-300: #cccdec; /* 20% */
+  --color-black-400: #9fa0a2; /* 40% */
+  --color-black-500: #474848; /* 80% */
+  --color-black-900: #1c1c1c; /* 100% */
+
+  /* White Colors - Dynamically set from tenants.ts */
+  --color-white-100: #fff; /* 100% */
+  --color-white-200: #f2f2f2; /* 80% */
+  --color-white-300: #e6e6e6; /* 40% */
+  --color-white-400: #d9d9d9; /* 20% */
+  --color-white-500: #ccc; /* 10% */
+  --color-white-900: #f9f9f9; /* 5% */
+
+  // blue
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+
+  /* Primary Colors - Dynamically set from tenants.ts */
+  --color-primary-background: #fff;
+  --color-primary-panel: #ebedef;
+  --color-primary-text: #000;
+  --color-primary-text-200: #9fa0a2;
+  --color-primary-diagram: #95a4fc;
+  --color-primary-chart: #0050be;
+  --color-primary-axisLabel: #9fa0a2;
+  --color-primary-card: #e6e6e6;
+  --color-primary-card-200: #e3f5ff;
+  --color-primary-card-300: #e5ecf6;
+  --color-primary-border: #606266;
+  --color-primary-light: #f7f9fb;
+  --color-primary-blue: #e3f5ff;
+  --color-primary-purple: #e5ecf6;
+  --color-primary-purple-50: #edf2f8;
+
+  /* dark Primary Colors */
+  --color-dark-primary-background: #1c1c1c;
+  --color-dark-primary-panel: #474848;
+  --color-dark-primary-text: #fff;
+  --color-dark-primary-text-200: #9fa0a2;
+  --color-dark-primary-diagram: #95a4fc;
+  --color-dark-primary-chart: #0050be;
+  --color-dark-primary-axisLabel: #9fa0a2;
+  --color-dark-primary-card: #e6e6e6;
+  --color-dark-primary-card-200: #e3f5ff;
+  --color-dark-primary-card-300: #e5ecf6;
+  --color-dark-primary-border: #606266;
+  --color-dark-primary-light: #f7f9fb;
+
+  /* Secondary Colors - Dynamically set from tenants.ts */
+  --color-secondary-purple-a: #95a4fc;
+  --color-secondary-purple-b: #c6c7f8;
+  --color-secondary-blue-a: #a8c5da;
+  --color-secondary-blue-b: #b1e3ff;
+  --color-secondary-green-a: #a1e3cb;
+  --color-secondary-green-b: #22c55e;
+  --color-secondary-yellow: #f59e0b;
+  --color-secondary-red: #f44336;
+
+  /* System Colors (保留原有的系統顏色) */
+  --va-secondary: #64748b;
+  --va-success: #10b981;
+  --va-info: #0ea5e9;
+  --va-danger: var(--color-secondary-red);
+  --va-warning: #f59e0b;
+  --va-background-primary: var(--color-white-900);
+  --va-background-secondary: var(--color-white-200);
+  --va-background-element: var(--color-white-300);
+  --va-background-card-primary: var(--color-white-100);
+  --va-background-card-secondary: var(--color-white-900);
+  --va-background-border: var(--color-white-300);
+  --va-text-primary: var(--color-black-900);
+  --va-text-inverted: var(--color-white-100);
+  --va-shadow: rgb(0 0 0 / 10%);
+  --va-focus: var(--color-secondary-blue-a);
+
+  // landing page
+  --white: #ffffff;
+  --bg-hero: linear-gradient(180deg, #ebedef 0%, #eef1f5 45%, #fff7d6 100%);
+  --bg2: #f7f7f7;
+  --bg3: #efefef;
+  --ink: #111111;
+  --ink2: #333333;
+  --ink3: #555555;
+  --muted: #999999;
+  --border: #e4e4e0;
+  --border2: #d0d0cc;
+  /* Brand orange — used for identity, CTA, highlights */
+  --brand: #ff8c00;
+  --brand-dark: #e67e00;
+  --brand-bg: #fff7ed;
+  --brand-border: #fed7aa;
+  --brand-text: #78350f; /* dark amber — readable on orange bg */
+  /* Danger red — used ONLY for errors / delays / loss */
+  --red: #e53935;
+  --red-bg: #fef2f2;
+  --red-border: #fecaca;
+  /* Supporting */
+  --yellow: #ff8c00;
+  --yellow-bg: #fff7ed;
+  --yellow-border: #fed7aa;
+  --green: #2e7d32;
+  --green-bg: #f0fdf4;
+  --cta-bg: #1c2b3a;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'Noto Sans TC', sans-serif;
+}

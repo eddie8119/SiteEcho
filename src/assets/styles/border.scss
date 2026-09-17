@@ -1,0 +1,22 @@
+.border-basic {
+  @apply border-black-200 border-opacity-20 dark:border-white;
+}
+
+.border-right {
+  @apply border-basic border-r;
+}
+
+.border-bottom {
+  @apply border-basic border-b;
+}
+
+// 分隔線
+.divider {
+  @apply my-4;
+
+  &::after {
+    content: '';
+
+    @apply block h-[1px] w-full bg-black-100;
+  }
+}

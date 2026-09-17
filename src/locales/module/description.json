@@ -1,0 +1,22 @@
+{
+  "en": {
+    "description": {
+      "project_collaborator_management": "Manage collaborators for your projects. Add, remove, or change roles for different projects.",
+      "manage_project_collaborators_owner": "As the project owner, you can manage collaborators, set their roles, and control access.",
+      "manage_project_collaborators_member": "You are a collaborator on this project. View the project's collaborator list.",
+      "auth": {
+        "demo_hint": "Preview the core features with the demo first."
+      }
+    }
+  },
+  "zh-TW": {
+    "description": {
+      "project_collaborator_management": "管理專案的協作者權限。您可以為不同專案添加、移除協作者或變更其角色。",
+      "manage_project_collaborators_owner": "作為專案擁有者，您可以管理協作者、設定其角色並控制存取權限。",
+      "manage_project_collaborators_member": "您是此專案的協作者。查看專案的協作者列表。",
+      "auth": {
+        "demo_hint": "先用體驗版快速看看主要功能。"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/* ===== 基礎樣式 ===== */
+.table-divide {
+  @apply divide-y divide-black-200;
+}
+
+th {
+  @apply px-6 py-3 text-left text-xs font-medium tracking-wider text-primary-text-200 dark:text-white;
+}
+
+td {
+  @apply h-[40px] whitespace-nowrap px-6 py-4;
+}
+
+/* ===== Custom Table Global Styles ===== */
+.custom-table {
+  @apply background-color-difference text-color-difference;
+
+  /* 所有內層元素繼承主要背景與文字顏色 */
+  .el-table__cell,
+  .el-table__inner-wrapper,
+  .el-table__header-wrapper th,
+  .el-table__header-wrapper .el-table__cell,
+  thead th,
+  thead .el-table__cell {
+    @apply background-color-difference text-color-difference;
+  }
+
+  /* Hover 狀態與選中狀態 */
+  .el-table__body tr:hover > td,
+  .el-table__body tr.current-row > td,
+  .el-table__body tr:has(.el-checkbox__input.is-checked) > td,
+  .el-table__body tr:has(.el-checkbox.is-checked) > td,
+  .el-table__body tr.is-selected > td {
+    @apply panel-color-difference;
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+certs/*.cer
+certs/*.pem
+certs/*.der
+certs/*.crt

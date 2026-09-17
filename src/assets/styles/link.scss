@@ -1,0 +1,7 @@
+// .router-link-active {
+//   @apply bg-primary-panel dark:bg-black-500;
+// }
+
+.logo-link.router-link-active {
+  @apply bg-transparent;
+}

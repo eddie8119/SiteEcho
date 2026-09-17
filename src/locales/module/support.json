@@ -1,0 +1,22 @@
+{
+  "en": {
+    "support": {
+      "need_help": "Need help?",
+      "faq_title": "FAQ",
+      "faq_description": "Find answers to common questions in our user manual.",
+      "contact_title": "Contact",
+      "email_label": "Email",
+      "privacy_title": "Privacy Policy"
+    }
+  },
+  "zh-TW": {
+    "support": {
+      "need_help": "需要協助嗎？",
+      "faq_title": "常見問題",
+      "faq_description": "在我們的使用手冊中找到常見問題的解答。",
+      "contact_title": "聯絡我們",
+      "email_label": "電子郵件",
+      "privacy_title": "隱私權政策"
+    }
+  }
+}

@@ -1,0 +1,1984 @@
+{
+  "auth": {
+    "register_prompt": {
+      "photo_count_title": "Recorded {count} photos",
+      "export_report_title": "Please login to generate construction report",
+      "export_report_description": "Login to export professional PDF reports,\nUpgrade to sync to cloud.",
+      "follow_up_photo_title": "Please login to track issue closeouts",
+      "follow_up_photo_description": "Login to track before-and-after issue closeouts,\nUpgrade for unlimited usage.",
+      "login_button": "Login / Register",
+      "cancel_button": "Later"
+    }
+  },
+  "billing": {
+    "general": {
+      "pricing": "Pricing",
+      "pricingDescription": "Choose the perfect plan for your needs. All plans include access to our core features.",
+      "featured": "Most Popular",
+      "noPlans": "No pricing plans available at this time.",
+      "disabled": "Billing is currently disabled. Please contact support."
+    },
+    "subscription": {
+      "mySubscription": "My Subscription",
+      "subscriptionDescription": "Manage your subscription and billing information.",
+      "subscriptionEndingSoon": "Your subscription will end soon",
+      "currentPlan": "Current Plan",
+      "currentPlanLabel": "Current plan: {plan}",
+      "currentPlanNote": "Changing your plan takes effect at the next billing cycle unless noted otherwise.",
+      "selectPlan": "Select Plan",
+      "contactSales": "Contact Us",
+      "processing": "Processing...",
+      "autoCheckoutGuidance": "Preparing checkout for your selected plan...",
+      "alreadySubscribedSamePlan": "You already have an active subscription for this plan.",
+      "productsNotLoaded": "StoreKit products are not loaded. Please wait a moment and try again.",
+      "purchaseInitiated": "Purchase initiated. Verifying...",
+      "purchasePending": "Purchase is pending approval.",
+      "purchased": "Subscription successful!",
+      "restored": "Purchases restored successfully!",
+      "restorePurchases": "Restore Purchases",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "autoRenewalNotice": "Subscription auto-renews unless cancelled at least 24 hours before the end of the current period.",
+      "noActiveSubscription": "No Active Subscription",
+      "noActiveSubscriptionDesc": "You don't have an active subscription yet. Browse our plans to get started.",
+      "browsePlans": "Browse Plans",
+      "viewAllPlans": "View All Plans",
+      "confirmCancel": "Are you sure you want to cancel your subscription? You will lose access to premium features at the end of your billing period.",
+      "priceUnavailable": "Price not available"
+    },
+    "googlePlay": {
+      "notYetAvailable": "Google Play Billing is not yet available",
+      "comingSoon": "Coming soon for Android devices"
+    },
+    "billing": {
+      "currency": {
+        "usd": "USD"
+      },
+      "interval": {
+        "month": "month",
+        "year": "year"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "cancelled": "Cancelled",
+        "pastDue": "Past Due"
+      },
+      "currentPeriodStart": "Current Period Start",
+      "currentPeriodEnd": "Current Period End",
+      "cancelledAtPeriodEnd": "Your subscription will be cancelled on {date}",
+      "managePayment": "Manage Payment Method",
+      "cancelSubscription": "Cancel Subscription",
+      "resumeSubscription": "Resume Subscription",
+      "billingHistory": "Billing History",
+      "billingHistoryDesc": "View and download your invoices.",
+      "viewInvoices": "View Invoices"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "faq1Question": "Can I change my plan anytime?",
+      "faq1Answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will take effect at the next billing cycle.",
+      "faq2Question": "What payment methods do you accept?",
+      "faq2Answer": "We accept all major credit cards and debit cards through Paddle.",
+      "faq3Question": "Is there a free trial?",
+      "faq3Answer": "Contact our sales team to discuss trial options for your organization."
+    },
+    "beta": {},
+    "featureComparison": {
+      "title": "Feature Comparison",
+      "feature": "Feature",
+      "photo": "Unlimited local photos",
+      "fastCapture": "Fast capture (no confirmation step)",
+      "basicOrganize": "Organize by room, trade, and task",
+      "timeSpace": "Browse by time and room",
+      "share": "Share with other apps",
+      "teamMembers": "Team collaboration",
+      "teamMembersProValue": "Add up to {count} members per project",
+      "cloudBackup": "Cloud backup",
+      "webView": "Web access and editing",
+      "evidenceChain": "Issue tracking with before-and-after photos",
+      "reportExport": "Export site reports (PDF/Word)",
+      "projects": "Projects",
+      "collaborators": "Collaborators added (count)",
+      "gantt": "Gantt Charts",
+      "todoTask": "To-do tasks",
+      "uploadPlan": "Annotated plan uploads per project (count)",
+      "excelExport": "Excel Export",
+      "permissionControl": "Permission Control",
+      "unlimited": "Unlimited",
+      "webViewProValue": "Full editing with two-way sync",
+      "evidenceChainFreeValue": "{count} times/month",
+      "reportExportFreeValue": "{count} times/month"
+    },
+    "upgrade": {
+      "title": "Upgrade Your Plan",
+      "description": "Upgrade from {fromPlan} to {toPlan}",
+      "renewalDateInfo": "Your current billing period ends on {date}",
+      "immediate": "Upgrade Immediately",
+      "immediateDesc": "Upgrade now and pay the difference today. Your renewal date stays the same.",
+      "nextRenewal": "Upgrade at Next Renewal",
+      "nextRenewalDesc": "Wait until {date} to upgrade. No additional charge today.",
+      "failed": "Upgrade failed. Please try again.",
+      "modeLabelImmediate": "Immediate upgrade",
+      "modeLabelNextRenewal": "Next renewal upgrade",
+      "success": "Plan upgraded successfully! {modeLabel} applied.",
+      "error": "Upgrade failed. Please try again later."
+    },
+    "storageUsage": {
+      "cloudUsage": "Cloud Usage",
+      "photoCount": "About {count} photos",
+      "notLoggedIn": " (Not logged in)"
+    },
+    "valueProposition": {
+      "title": "Every construction photo keeps its story.",
+      "subtitle": "Turn construction photos into work records."
+    },
+    "pricingCard": {
+      "averageMonthly": "Average {currency} {price} / month",
+      "trialPeriod": "First 14 days free, then {currency} {price} / {interval}"
+    },
+    "plans": {
+      "free": {
+        "buttonText": "Start Free",
+        "features": {
+          "unlimitedPhotos": "Unlimited local photos",
+          "organization": "Organize rooms, tasks, and issues",
+          "cloudBackup": "500 MB cloud backup (about 50–100 photos)"
+        }
+      },
+      "pro": {
+        "buttonText": "Upgrade to Pro",
+        "features": {
+          "reports": "PDF / Word site reports",
+          "webEdit": "Full web editing with two-way sync",
+          "cloudBackup": "20 GB cloud backup (about 2,000–4,000 photos)"
+        },
+        "badgeText": {
+          "appIap": "Apple IAP Exclusive",
+          "web": "8% Web Discount"
+        }
+      }
+    }
+  },
+  "button": {
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "edit": "Edit",
+    "remove": "Remove",
+    "save": "Save",
+    "add": "Add",
+    "add_task": "Add Task",
+    "add_material": "Add Material",
+    "submit": "Submit",
+    "register": "Register",
+    "login": "Login",
+    "back_to_login": "Back to Login",
+    "change_password": "Change Password",
+    "forgot_password": "Forgot Password",
+    "reset_password": "Reset Password",
+    "send_reset_email": "Send Reset Email",
+    "resend_activation_email": "Resend Activation Email",
+    "edit_profile": "Edit Profile",
+    "create_project": "Create Your Project Site",
+    "create_project_simple": "Create Project",
+    "go_to_create_task": "Create a Task",
+    "upload_gantt_chart": "Upload Project Gantt Chart",
+    "move_to_project": "Move to project",
+    "moved_to_project": "Moved to project",
+    "delete_completed": "Clear Completed",
+    "add_construction_type": "Add Trade",
+    "resend": "Resend",
+    "activate": "Activate",
+    "accept": "Accept",
+    "reject": "Reject",
+    "accept_invitation": "Accept Invitation",
+    "join_project": "Join Project",
+    "back_to_home": "Back to Home",
+    "try_again": "Try Again",
+    "upload_retry": "Upload Retry",
+    "hide": "Hide",
+    "discard": "Discard",
+    "delete": "Delete",
+    "show_more": "Show More",
+    "open_new_tab": "Open in New Tab",
+    "copy_email": "Copy Email",
+    "download": "Download",
+    "download_image": "Download Image",
+    "download_excel": "Download Excel",
+    "download_demo": "Load sample data",
+    "go_to_demo": "Start the demo experience",
+    "progress_template_download": "Schedule Template Download",
+    "batch_download": "Batch Download",
+    "batch_update": "Batch Update",
+    "clear_all": "Clear All",
+    "clear_filters": "Clear Filters",
+    "select_all": "Select All",
+    "view_full_day": "View Full Day Schedule",
+    "select_clear": "Clear Selection",
+    "select_restore": "Restore Selection",
+    "fold": {
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "expand_all": "Expand All",
+      "collapse_all": "Collapse All"
+    },
+    "advanced_filter": {
+      "hide": "Hide Advanced Filter",
+      "show": "Show Advanced Filter"
+    },
+    "upload_result": {
+      "hide": "Hide Upload Result",
+      "show": "Show Upload Result"
+    },
+    "sso": {
+      "google": "Sign in with Google",
+      "facebook": "Sign in with Facebook",
+      "apple": "Sign in with Apple"
+    },
+    "login_register": "Login / Register",
+    "logout": "Logout",
+    "deleteMyAccount": "Delete My Account",
+    "goToLogin": "Go to Login",
+    "export_backup": "Export Backup",
+    "import_backup": "Import Backup",
+    "exporting": "Exporting...",
+    "importing": "Importing...",
+    "import": "Import"
+  },
+  "camera": {
+    "errors": {
+      "cannot_access_camera": "Cannot access camera",
+      "permission_denied": "Permission denied",
+      "camera_permission_denied": "Camera permission denied. Please allow camera access in browser settings",
+      "no_camera_found": "Cannot find available camera device",
+      "camera_in_use": "The camera is being used by another application. Please close it and try again.",
+      "security_error": "Security error: camera access requires a secure connection (HTTPS).",
+      "camera_start_failed": "Unable to start the camera",
+      "unknown_error": "Unknown error",
+      "browser_not_supported": "Your browser does not support camera functionality",
+      "requires_https": "Camera functionality requires secure connection (HTTPS)"
+    },
+    "buttons": {
+      "start_camera": "Open Camera",
+      "capture_photo": "Take Photo",
+      "close_camera": "❌ Close",
+      "retake": "🔄 Retake",
+      "save": " Save",
+      "retry": "Retry",
+      "close": "Close",
+      "switch_to_system_camera": "System Camera",
+      "open_camera": "Open Camera"
+    },
+    "status": {
+      "pending": "Pending",
+      "high_quality_mode_on": "High Quality Mode ON",
+      "starting_camera": "Starting camera..."
+    },
+    "ui": {
+      "capture_result": "Capture Result",
+      "captured_photo_alt": "Captured photo"
+    },
+    "take_photo": {
+      "recorded": "Recorded",
+      "dark_warning": "Low light detected. High-quality capture will be used (up to 5 minutes).",
+      "retake": "Retake",
+      "select_project_first": "Please select a project first",
+      "imported_count": "Imported {count} photos",
+      "imported_with_suggestion": "Imported {count} photos. Set a space to make them easier to find later",
+      "focus_not_supported": "Tap-to-focus not supported on this device",
+      "switch_to_system_camera": "Use High Quality Mode",
+      "follow_up_mode": "Add after-photos",
+      "follow_up_subtitle": "You can add multiple after-photos",
+      "done": "Done",
+      "done_hint": "Tap Done to finish",
+      "cancel": "Cancel",
+      "upgrade_prompt_title": "Upgrade to track issue closeouts",
+      "upgrade_prompt_description": "You have used your free issue closeout quota ({count} times)\nUpgrade subscription to use unlimited before-and-after issue closeouts",
+      "camera_opening_in": "Camera opening in {seconds}..."
+    }
+  },
+  "column": {
+    "edit": "Edit",
+    "title": "Name",
+    "type": "Type",
+    "task_done_progress": "Task Completion Progress",
+    "task_todo_left": "Remaining Tasks",
+    "task_in_progress": "Tasks In Progress",
+    "created_at": "Created At",
+    "floor_plan_urls": "Floor Plan",
+    "owner": "Creator",
+    "collaborators": "Collaborators",
+    "construction_planning_period": "Construction Planning Period",
+    "total_planning_amount": "Total Material Budget",
+    "total_usage_amount": "Material Usage Amount",
+    "email": "Email",
+    "role": "Role",
+    "action": "Action",
+    "download_excel": "Report"
+  },
+  "common": {
+    "no": "No",
+    "keyword": "Keyword",
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "theme": "Theme",
+    "language": "Language",
+    "light_set": "Brightness Theme",
+    "notification": "Notification",
+    "authentication": "Authentication",
+    "logout": "Logout",
+    "success": "Success",
+    "last_update_time": "Last Update",
+    "loading": "Loading",
+    "retry": "Retry",
+    "download": "Download",
+    "unclassified": "Unclassified",
+    "optional": "Optional",
+    "dismiss": "Got it",
+    "role": {
+      "admin": "Admin",
+      "user": "User"
+    },
+    "completionStatus": {
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "relative": {
+      "second": "{count}s ago",
+      "minute": "{count}m ago",
+      "hour": "{count}h ago",
+      "day": "{count}d ago"
+    },
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+  },
+  "date": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December",
+    "sunday_short": "Su",
+    "monday_short": "Mo",
+    "tuesday_short": "Tu",
+    "wednesday_short": "We",
+    "thursday_short": "Th",
+    "friday_short": "Fr",
+    "saturday_short": "Sa",
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "deleteAccount": {
+    "description": "This page explains how to delete your SiteNear account and how your data will be handled after deletion.",
+    "steps": {
+      "title": "Account Deletion Steps",
+      "intro": "To delete your SiteNear account, please follow these steps:",
+      "step1": "Log in to your SiteNear account",
+      "step2": "Go to the settings page",
+      "step3": "Select the \"Delete Account\" option",
+      "step4": "Confirm your intention to delete the account",
+      "step5": "Complete the deletion process",
+      "cannotLogin": "If you cannot log in to your account, please contact us via email:",
+      "contactSupport": "If you have any questions about deleting your account, please contact:"
+    },
+    "dataHandling": {
+      "title": "Data Handling After Deletion",
+      "intro": "After deleting your account, the following data will be deleted:",
+      "accountInfo": "Account information (email address, Google login information)",
+      "projectData": "All project data (project names, space markers, task markers)",
+      "photosRecords": "All photos and construction records",
+      "issueTracking": "Issue tracking records and repair records",
+      "photoNotes": "Photo notes",
+      "shareRecords": "Share records"
+    },
+    "retention": {
+      "title": "Data Retention Period",
+      "description": "After deleting your account, no data will be retained. Your account and all related data will be permanently deleted."
+    },
+    "notes": {
+      "title": "Important Notes",
+      "note1": "After deleting your account, you will not be able to recover the account or related data",
+      "note2": "After deleting your account, all data associated with the account will be permanently deleted",
+      "note3": "If you have an active subscription, please cancel your subscription before deleting your account"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "emailLabel": "Email"
+    }
+  },
+  "demo": {
+    "welcome_projects": {
+      "title": "Experience floor plan task pinning with an example",
+      "button": "30-second experience of floor plan features",
+      "dialog_title": "Task Marking",
+      "dialog_message": "You are currently viewing a demo floor plan",
+      "dialog_hint": "Try it out👇：",
+      "dialog_cta": "Start Experience",
+      "dialog_items": {
+        "view_task_cards": "View detailed task information in the sidebar",
+        "pin_tasks": "Click the 'Mark' button on task cards to place pins on the floor plan",
+        "drag_pins": "Drag pins to desired positions, and readjust as needed",
+        "manage_markers": "Press '+' to create multiple pins for the same task; press 'broom' to delete all pins for that task at once"
+      }
+    },
+    "project_demo": {
+      "demo": "This is a floor plan demo 👇 You can interact with it to experience SiteNear",
+      "start_view_projects": "View your projects below",
+      "tasks": {
+        "hydropower": {
+          "title": "Electrical and Plumbing Configuration",
+          "description": "Planning electrical and plumbing lines for living room and kitchen, including outlet and switch locations"
+        },
+        "masonry": {
+          "title": "Wall Plastering Works",
+          "description": "Wall leveling and plastering for living room and bedroom, ensuring smooth and flawless surfaces"
+        },
+        "painting": {
+          "title": "Interior Painting",
+          "description": "Complete interior painting project, including primer treatment and finish coating"
+        }
+      }
+    }
+  },
+  "description": {
+    "project_collaborator_management": "Manage collaborators for your projects. Add, remove, or change roles for different projects.",
+    "manage_project_collaborators_owner": "As the project owner, you can manage collaborators, set their roles, and control access.",
+    "manage_project_collaborators_member": "You are a collaborator on this project. View the project's collaborator list.",
+    "auth": {
+      "demo_hint": "Preview the core features with the demo first."
+    }
+  },
+  "dialog": {
+    "delete_confirm": "Are you sure you want to delete this?",
+    "share_project_link": "Share Project Link",
+    "move_note_to_project": "Select a Project to Move the Note",
+    "enable_project_sharing": "Enable Project Sharing",
+    "share_description": "Share this project with others.",
+    "collaborators_description": "Collaborators are users who can access your projects.",
+    "global_collaborators_description": "Global collaborators are collaborators who can access all projects.",
+    "create_project": {
+      "title": "Create Project",
+      "project_name": "Project Name",
+      "placeholder": "e.g., Taipei Xinyi Residence",
+      "create_failed": "Project creation failed, please try again later",
+      "no_project_warning": "No projects available. Please create a project first."
+    },
+    "edit_project": {
+      "title": "Edit Project Name",
+      "project_name": "Project Name",
+      "placeholder": "e.g., Taipei Xinyi Residence",
+      "update_failed": "Project name update failed, please try again later"
+    },
+    "batch_delete_confirm": {
+      "title": "Confirm Delete Photos",
+      "select_delete": "Select to delete",
+      "photos": "photos",
+      "including": "Including",
+      "regular_photo": "Regular photo",
+      "evidence_photo": "⚠ Evidence photo",
+      "direct_delete": "Directly delete",
+      "evidence_handling": "⚠ Evidence photo handling:",
+      "default": "Default",
+      "move_to_trash": "Move to trash (recoverable within 30 days)",
+      "permanent_delete": "Permanently delete",
+      "all_photos_deleted": "All photos will be directly deleted. This operation cannot be undone."
+    },
+    "delete_dialog": {
+      "delete_failed": "Delete failed, please try again"
+    },
+    "constructions_dialog": {
+      "title": "All Work Items"
+    },
+    "option_dialog": {
+      "construction": "Trade",
+      "space": "Space",
+      "add_title": "Add {type}",
+      "edit_title": "Edit {type}",
+      "manage_title": "Manage {type}",
+      "name_placeholder": "Enter {type} name"
+    },
+    "delete_option_dialog": {
+      "title": "Confirm Delete",
+      "message": "Delete \"{name}\"? This will clear the {type} from related photos.",
+      "cancel": "Cancel",
+      "confirm": "Confirm Delete"
+    },
+    "photo_preview_modal": {
+      "evidence_badge": "Record Photo",
+      "thumbnail_badge": "Cloud Thumbnail",
+      "saving": "Saving...",
+      "save_changes": "Save Changes"
+    }
+  },
+  "dropdown": {
+    "zh-TW": "繁體中文",
+    "en": "English",
+    "user": "User",
+    "logout": "Logout",
+    "edit": "Edit",
+    "detail": "Detail",
+    "self_growing_multi_select": {
+      "add_placeholder": "+ Add...",
+      "manage_option": "Manage →"
+    }
+  },
+  "error": {
+    "register_failed": "Register failed",
+    "resend_activation_failed": "Resend activation failed",
+    "activation_failed": "Activation failed",
+    "change_password_failed": "Failed to change password",
+    "reset_password_failed": "Reset password failed",
+    "update_failed": "Update failed"
+  },
+  "excel": {
+    "section": {
+      "project_info": "Project Info",
+      "construction": "Work Areas"
+    },
+    "label": {
+      "project_name": "Project Name",
+      "project_type": "Project Type",
+      "created_at": "Created At",
+      "updated_at": "Updated At",
+      "property": "Property",
+      "value": "Value"
+    },
+    "columns": {
+      "index": "Index",
+      "task_title": "Task Title",
+      "status": "Status",
+      "description": "Description",
+      "material_name": "Material Name",
+      "unit_price": "Unit Price",
+      "quantity": "Quantity",
+      "construction_type": "Trade",
+      "created_at": "Created At",
+      "due_date": "Due Date",
+      "reminder_date": "Reminder Date"
+    },
+    "progress_template": {
+      "sheet_name": "Work Schedule Template",
+      "month": "Month",
+      "special_holiday": "Special Holidays",
+      "date": "Date",
+      "construction_payment_remittance": "Payment Schedule",
+      "pre_construction_preparation": "Preparation & Others",
+      "protection_protection_demolition": "Protection / Demolition",
+      "weekday": "Weekday",
+      "sample_placeholder": "Sample: enter schedule items here"
+    },
+    "download": {
+      "gantt_image_suffix": "gantt",
+      "gantt_excel_suffix": "schedule",
+      "progress_template": "Schedule Template"
+    }
+  },
+  "funsugar": {
+    "more_apps": {
+      "description": "Explore our other productivity tools.",
+      "coming_soon": "More apps coming soon...",
+      "site_shot": {
+        "name": "SiteNear",
+        "description": "Interior construction site photo management tool | Construction records and issue tracking"
+      },
+      "site_near": {
+        "name": "SiteNear",
+        "description": "Nearby material sharing for interior renovation professionals"
+      },
+      "kaiji": {
+        "name": "Kaiji",
+        "description": "Interior project task tracking and scheduling"
+      }
+    },
+    "tab": {
+      "support": "Support",
+      "more_apps": "Our Apps"
+    }
+  },
+  "initialize": {
+    "login_button": "Already have an account? Login",
+    "initializing": "Initializing...",
+    "redirecting": "Redirecting..."
+  },
+  "label": {
+    "search": "Search",
+    "time": "Time",
+    "construction": "Trade",
+    "name": "Name",
+    "type": "Type",
+    "end": "End",
+    "reminder": "Reminder",
+    "end_date_time": "End Date",
+    "reminder_date_time": "Reminder Date and Time",
+    "role": "Role",
+    "detail": "Detail",
+    "total": "Total",
+    "action": "Action",
+    "note": "Note",
+    "content": "Content",
+    "average": "Average",
+    "day": "Day",
+    "unit": "Unit",
+    "start_time": "Start Time",
+    "end_time": "End Time",
+    "reminder_time": "Reminder Time",
+    "date_range": "Date Range",
+    "filter": "Filter",
+    "quick_select": "Type or click to select",
+    "or": "Or",
+    "timeline_view": "Timeline View",
+    "switch_view": "Switch Schedule View",
+    "title": "Title",
+    "description": "Description",
+    "status": {
+      "status": "Status",
+      "overdue": "Overdue",
+      "reminding": "Reminder"
+    },
+    "legend": {
+      "design_phase": "Design planning phase",
+      "onsite_phase": "On-site construction phase"
+    },
+    "time_status": {
+      "all": "All",
+      "unscheduled": "Unscheduled",
+      "overdue": "Overdue",
+      "today": "Due Today",
+      "this_week": "Due This Week",
+      "this_month": "Due This Month"
+    },
+    "owner": "Owner",
+    "collaborator_role": "Collaborator",
+    "collaborator_count": "{count} collaborators",
+    "projects": "projects",
+    "collaborator": {
+      "global": "Global",
+      "global_default": "Global Default",
+      "global_managed": "Managed globally"
+    },
+    "invitation": {
+      "project": "Project",
+      "global": "Global",
+      "expires_at": "Expires at",
+      "project_invitation": "Project Invitation",
+      "global_invitation": "Global Collaboration Invitation"
+    },
+    "user": {
+      "name": "Username",
+      "email": "Email",
+      "member_since": "Member Since",
+      "phone": "Phone",
+      "company": "Company"
+    },
+    "project": {
+      "project": "Project",
+      "project_name": "Project Name",
+      "project_type": "Project Type",
+      "construction": "Trade",
+      "floor_plan": "Floor Plan",
+      "uploaded_images_count": "{count} photos uploaded"
+    },
+    "task": {
+      "task": "Task",
+      "task_display": "Task View",
+      "due_date_range": "Filter by days until due",
+      "status": "Task Status"
+    },
+    "material": {
+      "name": "Material Name",
+      "quantity": "Quantity",
+      "unit_price": "Unit Price",
+      "default_unit_price": "Default Unit Price",
+      "price_amount": "Total Amount",
+      "price": "Amount",
+      "unit": "Unit",
+      "note": "Note",
+      "received_date": "Received Date",
+      "cumulative_completion_rate": "Cumulative Completion %",
+      "total_quantity": "Total Quantity",
+      "total_usage_price": "Material Cost to Date",
+      "total_planning_amount": "Total Planned Cost",
+      "total_price": "Total Material Cost",
+      "planning_total_quantity": "Total Planned Quantity",
+      "planning_total_price": "Total Planned Cost",
+      "total_cost": "Total Cost",
+      "usage": "Material Usage",
+      "usage_accumulation": "Cumulative Usage",
+      "add_usage": "Record Usage",
+      "add_new_library": "Create Material Library",
+      "add_new_planning_library": "Add to Material Budget",
+      "add_new": "Add Material"
+    },
+    "welcome_planning": {
+      "title": "Try SiteNear with a sample project",
+      "button": "Try the 30-second progress demo",
+      "dialog_title": "Sample Project",
+      "dialog_message": "You are viewing a sample construction schedule",
+      "dialog_hint": "Try it out👇：",
+      "dialog_cta": "Start Experience",
+      "dialog_items": {
+        "adjust_timeline": "Drag either end of the timeline bar",
+        "double_click_holiday": "Double-click a holiday cell",
+        "open_task_card": "Click a yellow task bar to view its schedule",
+        "edit_info": "After uploading project data, use the Gantt chart to add, delete, and edit schedule items"
+      }
+    },
+    "planning": {
+      "item": "Schedule Item",
+      "upload_preview": "Upload Preview",
+      "projects_display": "Project Schedule Overview",
+      "demo": "No file uploaded yet. You can preview the sample Gantt chart first.",
+      "demo_project_name": "Sample Construction Schedule",
+      "demo_planning_note": "Schedule Note",
+      "demo_task_note": "Task Note",
+      "planning_material": "Material Budget"
+    },
+    "pin": {
+      "pinning": "Pinning",
+      "pinned": "Pinned",
+      "not_pinned": "Not pinned",
+      "pin_task": "Pin Task",
+      "remove_all": "Clear all pins",
+      "cancel_pinning": "Cancel Pinning"
+    },
+    "setting": {
+      "existing_list": "Existing List"
+    },
+    "actions": {
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "upload_area": {
+      "hint": "Click or drag to upload a floor plan",
+      "supported_formats": "Supports JPG, PNG, PDF (first page only)"
+    },
+    "upload": {
+      "start_create_project": "If it were your own project site, you'd feel more engaged 👉 Start creating a project that's truly yours"
+    },
+    "construction_type": {
+      "3D_Drawing": "3D/Drawing",
+      "protection_demolition": "Protection/Demolition",
+      "electromechanical": "Electrical & Mechanical",
+      "hydropower": "Electrical & Plumbing",
+      "flooring": "Flooring",
+      "masonry": "Masonry",
+      "door_frame": "Doors & Frames",
+      "light_partition": "Lightweight Partitions",
+      "woodwork": "Woodwork",
+      "metal": "Metal",
+      "glass": "Glass",
+      "painting": "Painting",
+      "flooring_material": "Floor Finishes",
+      "waterproofing": "Waterproofing",
+      "bathroom_fixtures": "Bathroom Fixtures",
+      "kitchen_cabinet": "Kitchen Cabinets",
+      "air_conditioning": "Air Conditioning",
+      "structural_reinforcement": "Structural Reinforcement"
+    }
+  },
+  "landingPage": {
+    "header": {
+      "tutorial_link": "Tutorial",
+      "pricing_link": "Pricing",
+      "more_apps_link": "More Interior Apps",
+      "cta_button": "Get Started",
+      "login_button": "Login"
+    },
+    "hero": {
+      "welcome_back": "Welcome back 👋",
+      "title_line1": "Jobsite photos",
+      "title_line2": "without the search",
+      "title_line3": "Remember what happened",
+      "subtitle_line1": "Stop scrolling through camera-roll albums",
+      "subtitle_line2": "Every jobsite photo, with its context",
+      "cta_button": "Explore your jobsite photo log →",
+      "manual_link": "User Guide",
+      "lang_support": "繁體中文 / English supported",
+      "comparison_before": "Before",
+      "comparison_after": "After"
+    },
+    "features": {
+      "section_title": "What SiteNear does for you",
+      "manual_link": "User Guide",
+      "photo": {
+        "title": "Capture",
+        "description": "Document work on site"
+      },
+      "tag": {
+        "title": "Tag",
+        "description": "Jobsite, room, trade"
+      },
+      "track": {
+        "title": "Track",
+        "description": "See what's still outstanding"
+      },
+      "report": {
+        "title": "Report",
+        "description": "Organize photos in one click"
+      }
+    },
+    "pain": {
+      "section_title": "Is this you right now",
+      "cards": [
+        {
+          "left": "Thousands of photos in your camera roll",
+          "right": "Finding the right photo takes forever"
+        },
+        {
+          "left": "Photos of the same room spread across different days",
+          "right": "You can't see the full progress"
+        },
+        {
+          "left": "The client asks: \"Is this complete?\"",
+          "right": "You can't find the proof when you need it"
+        },
+        {
+          "left": "The trade contractor says: \"We fixed it last week\"",
+          "right": "You have no record to verify it"
+        }
+      ],
+      "verdict_line1": "Want a place",
+      "verdict_line2": "know what's behind the photos"
+    },
+    "demo": {
+      "section_title": "What SiteNear does for you",
+      "features": [
+        "Photos organized by jobsite, room, and trade",
+        "Issues documented from discovery through closeout",
+        "Before-and-after corrective work documented",
+        "Export a report in one click"
+      ],
+      "screenshot_alt": "SiteNear screen",
+      "pain": {
+        "title": "Photos remain, but context disappears",
+        "subtitle_line1": "Looking back six months later",
+        "subtitle_line2": "You might remember you took photos",
+        "subtitle_line3": "But you won't remember:",
+        "question_1": "Why did you take them?",
+        "question_2": "Was the issue resolved?",
+        "question_3": "When was it closed out?",
+        "cta_prefix": "SiteNear helps you preserve:",
+        "cta_content": "Issue discovery → Issue resolution → Closeout record"
+      }
+    },
+    "vs": {
+      "section_eyebrow": "Comparison",
+      "section_title": "Before vs After",
+      "section_subtitle": "Jobsite photo documentation, before and after",
+      "before": {
+        "title": "Before",
+        "subtitle": "Camera Roll",
+        "question": "Client: Is the living room millwork complete?",
+        "album_title": "Camera Roll",
+        "problems": [
+          "Too many photos to identify the millwork",
+          "No clear way to find the living room",
+          "No way to tell which photos show the completed work"
+        ],
+        "issues": [
+          "Living room photos scattered across different dates",
+          "Scrolling through the camera roll and messaging apps",
+          "The client waits while you search"
+        ]
+      },
+      "after": {
+        "title": "After",
+        "subtitle": "SiteNear",
+        "space": "Living Room",
+        "task": "Woodwork",
+        "result": "Find it instantly",
+        "benefits": [
+          "Photos organized by jobsite, room, and trade",
+          "Issues documented through resolution",
+          "Answer client questions with the record in hand"
+        ]
+      },
+      "philosophy": {
+        "title": "SiteNear is not a construction management platform",
+        "description": "It turns jobsite photos into organized, context-rich work records"
+      }
+    },
+    "cta": {
+      "section_subtitle": "Your next step",
+      "title": "Open the app. Capture the work. Find it later.",
+      "description": "Photos are automatically organized by jobsite and trade, so you can find the record when clients ask",
+      "button": "Find your photos without endless scrolling",
+      "perks": [
+        "Try it without registering",
+        "Open the app and start capturing",
+        "繁體中文 / English interface support"
+      ]
+    },
+    "moreApps": {
+      "hero": {
+        "title": "Explore Our Interior Productivity Tools",
+        "subtitle": "Discover our suite of apps designed to streamline your interior renovation workflow and boost productivity."
+      },
+      "explore": "Explore App",
+      "back_to_home": "Back to Home"
+    }
+  },
+  "link": {
+    "back_to_home": "Back to Home",
+    "back_to_forgot_password": "Back to Forgot Password",
+    "forgot_password": "Forgot Password",
+    "back_to_login": "Back to Login",
+    "register": "Register",
+    "website": "Website",
+    "download_app": "Download App"
+  },
+  "message": {
+    "no_owned_projects": "You haven't created any projects yet",
+    "no_collaborating_projects": "You are not a collaborator on any projects yet",
+    "collaborator_updated": "Collaborator role updated successfully",
+    "collaborator_removed": "Collaborator removed successfully",
+    "collaborator_cannot_delete_photos": "You can only delete photos you uploaded ({count})",
+    "update_collaborator_failed": "Failed to update collaborator role",
+    "remove_collaborator_failed": "Failed to remove collaborator",
+    "invalid_email": "Please enter a valid email address",
+    "no_done": "No completed items",
+    "no_undone": "No outstanding items",
+    "no_tasks": "No tasks yet",
+    "no_plan": "No floor plans yet",
+    "no_tasks_for_day": "No tasks scheduled for this day",
+    "no_unscheduled_task": "No unscheduled tasks",
+    "no_pending_photos": "No pending",
+    "projectManagement": {
+      "noProjects": "No projects",
+      "startFirstProject": "Start creating your first project",
+      "photos": "photos",
+      "created": "Created:",
+      "lastUsed": "Last used:",
+      "deleteProjectTitle": "Delete Project",
+      "confirmDeleteProject": "Are you sure you want to delete project \"{name}\"?",
+      "deleteProjectWarning": "Deleting the project will also delete all related photos. This action cannot be undone.",
+      "willDeletePhotos": "Will delete {count} photos",
+      "deleting": "Deleting...",
+      "confirmDelete": "Confirm Delete",
+      "clearPhotosWarning": "You must clear all photo data in this project before you can delete the project",
+      "projectHasPhotos": "Project \"{name}\" currently has {count} photos",
+      "projectHasTrashPhotos": "Project \"{name}\" currently has {count} photos in trash"
+    },
+    "sso_processing": "Processing your SSO login, please wait...",
+    "sso_success": "SSO login successful! Redirecting...",
+    "login_failed": "Login failed",
+    "dialog": {
+      "activation_success": "Activation successful!",
+      "activation_error": "Activation failed",
+      "activating": "Activating...",
+      "check_email_for_activation": "Check your email for activation",
+      "no_email_received": "No email received",
+      "check_the_email": "Check the email",
+      "change_password_success": "Password changed successfully!",
+      "change_password_failed": "Failed to change password, please try again later",
+      "restore_input_query": "Clear the search to show all tasks again."
+    },
+    "auth": {
+      "invalid_credentials": "Incorrect email or password",
+      "too_many_attempts": "Too many attempts, please try again later",
+      "email_unverified": "Email address not verified",
+      "account_locked": "Account has been locked"
+    },
+    "subscription": {
+      "earlybirdToTrialNotice": "You are one of the first 45 VIP experience users. The product is expected to officially launch on {date}. Before that, we will make final calibrations based on user needs.",
+      "trialExpiryNotice": "You are now on the Trial plan. Your trial will end on {date}."
+    },
+    "sign": {
+      "no_todo": "No to-do items",
+      "no_done": "No completed items",
+      "no_undone": "No outstanding items",
+      "no_change": "No changes",
+      "no_alarm": "No alerts",
+      "no_collaborators": "No project collaborators yet",
+      "no_global_collaborators": "No company-wide collaborators yet",
+      "no_invitations": "No pending invitations",
+      "link_copied": "Link copied",
+      "copy_failed": "Copy failed, please copy manually",
+      "share_disabled_hint": "Share disabled",
+      "delete_construction_content": "This will also delete all its related tasks.",
+      "confirm_delete_input": "To confirm deletion, please type:"
+    },
+    "invitation": {
+      "sent": "Invitation sent successfully",
+      "accepted": "Invitation accepted",
+      "rejected": "Invitation rejected",
+      "cancelled": "Invitation cancelled",
+      "send_failed": "Failed to send invitation",
+      "accept_failed": "Failed to accept invitation",
+      "reject_failed": "Failed to reject invitation",
+      "cancel_failed": "Failed to cancel invitation",
+      "already_exists": "An invitation already exists for this user",
+      "invited_by": "Invited by {name}",
+      "invited_you": "invited you to collaborate",
+      "login_required": "Please login or register to accept this invitation",
+      "ready_to_accept": "You are about to accept this collaboration invitation",
+      "invalid_token": "Invalid invitation link",
+      "not_found": "Invitation not found or already processed",
+      "expired": "This invitation has expired",
+      "load_failed": "Failed to load invitation details",
+      "created": "Invitation link created successfully",
+      "pro_required": "Upgrade to Pro to invite collaborators",
+      "max_collaborators": "Project has reached the maximum of 5 members",
+      "create_failed": "Failed to create invitation link",
+      "already_member": "You are already a member of this project",
+      "already_used": "This invitation link has already been used",
+      "fetch_failed": "Failed to fetch invitation details"
+    },
+    "upload": {
+      "unsupported_format": "File {fileName} is not a supported format",
+      "process_failed": "Failed to process file {fileName}",
+      "success": "Successfully uploaded {count} floor plans",
+      "failed": "Failed to upload floor plans"
+    },
+    "material": {
+      "group": {
+        "unclassified": "Uncategorized"
+      },
+      "empty": "No materials added yet",
+      "batch_update": {
+        "success": "Batch update successful",
+        "failed": "Batch update failed"
+      },
+      "add": {
+        "missing_task": "Cannot find a related task to add the material",
+        "missing_name": "Please enter a material name",
+        "success": "Material added successfully",
+        "failed": "Failed to add material"
+      },
+      "update": {
+        "success": "Material updated successfully",
+        "failed": "Failed to update material"
+      },
+      "delete": {
+        "success": "Material deleted successfully",
+        "failed": "Failed to delete material"
+      }
+    },
+    "success": {
+      "create": "Created successfully",
+      "update": "Updated successfully",
+      "deleted": "Deleted successfully",
+      "change": "Changed successfully"
+    },
+    "error": {
+      "failed_to_fetch_weather_data": "Failed to fetch weather data",
+      "page_not_found_description": "Sorry, the page you are looking for does not exist.",
+      "created": "Failed to create",
+      "update": "Failed to update",
+      "deleted": "Failed to delete",
+      "change": "Failed to change",
+      "login": "Login failed",
+      "register": "Register failed",
+      "activate_account": "Activate account failed",
+      "resend_activation": "Resend activation failed",
+      "change_password": "Change password failed",
+      "reset_password": "Reset password failed"
+    },
+    "sso": {
+      "missing_params": "Missing required authorization parameters",
+      "invalid_format": "Invalid authorization parameter format",
+      "unsupported_provider": "Unsupported SSO provider",
+      "login_failed": "SSO login failed",
+      "generic_error": "An error occurred during the SSO login process",
+      "oauth_error": "Google returned an error: {error}"
+    },
+    "syncing": "Syncing...",
+    "syncing_cloud_data": "Syncing your cloud data, please wait...",
+    "sync_progress": "Synced {synced} of {total} items",
+    "login_required": "Please log in first",
+    "deleteAccount": {
+      "loginRequired": "Please log in to delete your account",
+      "confirmBody": "This action cannot be undone and will permanently delete your account and all related data.",
+      "deleteFailed": "Failed to delete account. Please try again later or contact support.",
+      "deleteSuccess": "Account deleted successfully"
+    }
+  },
+  "meta": {
+    "defaults": {
+      "title": "SiteNear | Interior Construction Site Photo Log",
+      "description": "SiteNear combines jobsite photo documentation, task tracking, and schedule planning so interior construction teams can coordinate smoothly and reduce rework.",
+      "ogTitle": "SiteNear | Keep Every Jobsite Photo in Context",
+      "ogDescription": "Stop hunting for interior construction photos. Organize them by room and trade, track issues through closeout, and generate site reports in minutes.",
+      "ogImageAlt": "SiteNear interior construction photo log showing jobsite photos, issue tracking, and closeout records",
+      "twitterTitle": "SiteNear | Keep Every Jobsite Photo in Context",
+      "twitterDescription": "Interior construction photos you can actually find. Organize jobsite documentation, track issues, document closeout, and generate reports in one click."
+    },
+    "routes": {
+      "landing": {
+        "title": "SiteNear | Interior Construction Photo Log",
+        "description": "Turn scattered interior construction photos into traceable project documentation. Capture, annotate, track, and report so every jobsite photo tells the full story."
+      },
+      "overview": {
+        "title": "SiteNear | Jobsite Overview | Interior Construction",
+        "description": "Track outstanding work on every jobsite and coordinate trade contractors with confidence."
+      },
+      "schedule": {
+        "title": "SiteNear | Construction Schedule View",
+        "description": "Place work items on a timeline so everyone knows what is scheduled and when."
+      },
+      "englishLanding": {
+        "title": "SiteNear | Interior Construction Photo Log",
+        "description": "SiteNear helps interior construction teams capture jobsite updates, plan schedules, and keep every renovation on track in one collaborative workspace."
+      },
+      "moreApps": {
+        "title": "SiteNear | More Interior Apps",
+        "description": "Explore our other productivity tools for interior construction and renovation projects."
+      },
+      "pricingMenu": {
+        "title": "SiteNear | Pricing Plans",
+        "description": "Choose the perfect pricing plan for your interior construction needs. Flexible options for individuals and teams."
+      }
+    }
+  },
+  "nav": {
+    "group": {},
+    "menu": {
+      "timeline": "Photos",
+      "camera": "Camera",
+      "pending": "Pending",
+      "overview": "Overview",
+      "reports": "Generate Report",
+      "photos": "Photos",
+      "trash": "Trash"
+    },
+    "batchActionBar": {
+      "selected": "{count} selected",
+      "more": "More",
+      "setSpace": "Space",
+      "setConstruction": "Trade",
+      "shareCrew": "Share",
+      "saveToAlbum": "Save",
+      "exportReport": "Export",
+      "trash": "Trash"
+    }
+  },
+  "notification": {
+    "email": "Email",
+    "phone": "Phone",
+    "name": "Name",
+    "section_title": {
+      "subscriber_info": "Subscriber Info",
+      "device_selection": "Device Selection",
+      "time_range_settings": "Time Range Settings"
+    }
+  },
+  "option": {
+    "alarm": {
+      "notice": "Notice",
+      "caution": "Caution",
+      "warning": "Warning"
+    },
+    "projectType": {
+      "residential": "Residential",
+      "luxury": "Luxury",
+      "commercial": "Commercial",
+      "office": "Office",
+      "retail": "Retail / Shop",
+      "restaurant": "Restaurant",
+      "hospitality": "Hospitality",
+      "education": "Education",
+      "medical": "Medical",
+      "public": "Public Facility",
+      "exhibition": "Exhibition",
+      "industrial": "Industrial",
+      "renovation": "Renovation",
+      "showroom": "Showroom",
+      "undefined": "Unknown"
+    },
+    "status": {
+      "all": "All",
+      "todo": "To Do",
+      "inProgress": "In Progress",
+      "done": "Done"
+    },
+    "role": {
+      "viewer": "Viewer",
+      "editor": "Editor",
+      "manager": "Manager"
+    },
+    "display": {
+      "all": "Show All",
+      "content": "Content Only",
+      "materials": "Materials Only"
+    }
+  },
+  "overview": {
+    "title": "Your Recent Construction Records",
+    "recentProjects": "Recent Projects",
+    "noProjectRecords": "No project records",
+    "stats": {
+      "pending_photos": "Pending",
+      "pending_footer": "⚠ {count} marked as pending",
+      "total_photos": "Total Cloud Photos",
+      "total_footer": "📸 {count} photos backed up",
+      "cloud_usage": "Cloud Usage"
+    },
+    "projectCard": {
+      "updatedAt": "Updated at {date}",
+      "totalPhotos": "Total Photos",
+      "pending": "Pending",
+      "enterProject": "Enter Project"
+    }
+  },
+  "pagination": {
+    "total": "Total {total}",
+    "pageSize": "items/page"
+  },
+  "pending": {
+    "item": {
+      "altPhoto": "Photo",
+      "editPhoto": "Edit photo",
+      "selectStatus": "Select status",
+      "resolve": "Resolve",
+      "resolve_and_add_after_photo": "Resolve + photo"
+    },
+    "tab": {
+      "pendingPhotos": {
+        "issue": "Issue",
+        "fix": "Fix",
+        "check": "Check"
+      }
+    }
+  },
+  "photo": {
+    "taken_at": "Photo taken at",
+    "dialog": {
+      "this_photo": "This photo",
+      "photo": "Photo",
+      "cannot_undo": "Confirm deletion, this operation cannot be undone"
+    },
+    "status": {
+      "mark_pending": "Mark as Pending",
+      "marked_pending": "⚠ Marked as Pending"
+    },
+    "label": {
+      "pending_type": "Pending Type",
+      "construction_classification": "Trade (Optional)",
+      "space_location": "Space Location (Optional)",
+      "note_content": "Note Content"
+    },
+    "placeholder": {
+      "construction": "Select trade(s)",
+      "space": "Select space",
+      "note": "Enter note content..."
+    },
+    "import_photo": "Import {count} photos",
+    "card": {
+      "alt_photo": "Photo",
+      "upgrade_to_evidence_thumbnail": "Thumbnail backed up. Tap to keep full-res photo",
+      "upgrade_to_evidence": "Tap to keep full-resolution record",
+      "remaining_days": "{days} days"
+    },
+    "timeline": {
+      "photos": "Photos",
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "desktop": {
+      "page": {
+        "photo_count": "Total {count} photos · Cloud backup mode",
+        "select_all": "Select All",
+        "batch_edit": "Batch Edit Photos",
+        "exit_batch": "Exit Batch",
+        "empty_pending": "No pending photos",
+        "empty": "No photos yet",
+        "all_projects": "All Projects",
+        "unknown_project": "Unknown Project",
+        "no_space": "No space set",
+        "space": "Space: {space}",
+        "multiple_spaces": "Space: {count} different spaces",
+        "filter_pending_uncategorized": "Pending - Uncategorized",
+        "filter_pending_issue": "Pending - Issue",
+        "filter_pending_fix": "Pending - To Fix",
+        "filter_pending_check": "Pending - To Check",
+        "filter_pending": "Open Items",
+        "filter_all": "All Photos"
+      }
+    },
+    "sidebar": {
+      "filter": "Filter",
+      "statusFilter": "Status Filter",
+      "pending": "Pending",
+      "allPhotos": "All Photos"
+    },
+    "shareRecords": {
+      "shareRecords": "Share Records",
+      "shared": "Shared"
+    },
+    "problem_discovered": "Problem discovered",
+    "problem_resolved": "Problem resolved",
+    "evidence_chain": {
+      "after_photos": "After photos: {count}",
+      "follow_up_photo": "This is an after photo"
+    },
+    "comparison": {
+      "title": "Photo comparison",
+      "description": "Compare the original and after photos",
+      "original": "Original",
+      "follow_up": "After"
+    },
+    "relation": {
+      "source_photo": "Source photo",
+      "follow_up_photos": "After photos"
+    },
+    "upgrade_prompt": {
+      "title": "Upgrade to track issue closeouts",
+      "description": "You have used your free quota ({count} times)\nUpgrade subscription to use unlimited before-and-after issue closeouts"
+    }
+  },
+  "placeholder": {
+    "auth": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "old_password": "Old Password",
+      "new_password": "New Password",
+      "new_confirm_password": "Confirm New Password",
+      "username": "Username"
+    },
+    "email": "Email",
+    "name": "Name",
+    "phone": "Phone",
+    "company": "Company",
+    "search": "Search",
+    "select": "Select",
+    "select_received_date": "Received date",
+    "select_date_and_time": "Select date and time",
+    "project": {
+      "please_select_project": "Please select project",
+      "please_select_language": "Please select language",
+      "project": "Please select project",
+      "project_name": "Project name",
+      "project_type": "Project type",
+      "construction": "Select construction",
+      "addContainer": "Add container",
+      "task": "Enter task",
+      "taskDescription": "Enter task description",
+      "add_construction": "Add a trade",
+      "add_unit": "Add a unit",
+      "add_project_type": "Add a project type",
+      "add_new": "Add a new"
+    },
+    "material": {
+      "name": "Material Name",
+      "select_planning_name": "Select a planned material",
+      "quantity": "Quantity",
+      "unit_price": "Unit Price",
+      "unit": "Select Unit",
+      "note": "Note",
+      "planning_total_quantity": "Planned Total Quantity"
+    },
+    "draft": {
+      "todo": "Enter todo"
+    }
+  },
+  "privacy": {
+    "intro": {
+      "welcome": "Welcome to SiteNear (hereinafter referred to as 'the Service').",
+      "intro": "We value your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and protect your information."
+    },
+    "data_collection": {
+      "title": "1. Data We Collect",
+      "intro": "When you use SiteNear, we may collect:",
+      "account_info": "Account Information",
+      "email": "Email address",
+      "google_login": "Google Sign-In information",
+      "usage_data": "Usage Data",
+      "construction_data": "Construction-related data and usage records",
+      "uploaded_content": "User Uploaded Content",
+      "site_photos": "Site photos",
+      "construction_records": "Construction records",
+      "issue_tracking": "Issue tracking records",
+      "repair_records": "Repair records"
+    },
+    "data_usage": {
+      "title": "2. Data Usage",
+      "intro": "Collected data is primarily used for:",
+      "provide_service": "Providing SiteNear functionality",
+      "store_sync": "Storing and syncing construction records",
+      "create_reports": "Creating construction reports",
+      "maintain_security": "Maintaining account security",
+      "improve_experience": "Improving product experience and features"
+    },
+    "third_party": {
+      "title": "3. Third-Party Services",
+      "intro": "SiteNear may use the following third-party services:",
+      "supabase": "Supabase (data storage and sync)",
+      "google_signin": "Google Sign-In (login authentication)",
+      "note": "The above services may process related data according to their privacy policies."
+    },
+    "data_retention": {
+      "title": "4. Data Retention",
+      "intro": "We retain your data for as long as necessary to provide the service.",
+      "delete": "If you request account deletion, we will delete relevant data within a reasonable period, except as required by law."
+    },
+    "data_security": {
+      "title": "5. Data Security",
+      "intro": "We take reasonable technical and administrative measures to protect your data from unauthorized access, modification, or disclosure."
+    },
+    "user_rights": {
+      "title": "6. Your Rights",
+      "intro": "You have the right to:",
+      "query_data": "Query personal data",
+      "correct_data": "Correct personal data",
+      "delete_account_data": "Request deletion of account and data",
+      "withdraw_consent": "Withdraw usage consent"
+    },
+    "policy_changes": {
+      "title": "7. Policy Changes",
+      "intro": "This policy may be updated due to service adjustments.",
+      "note": "Updates will be published on this page."
+    },
+    "contact": {
+      "title": "8. Contact Us",
+      "intro": "For any privacy-related questions, please contact:",
+      "email_label": "Email:"
+    }
+  },
+  "project": {
+    "project": "Project",
+    "construction": "Trades",
+    "material": "Material",
+    "other_projects": "Other Projects",
+    "manage_projects": "Manage Projects",
+    "create_project": "Create New Project",
+    "selector": {
+      "loading": "Loading projects...",
+      "load_failed": "Load failed: {error}",
+      "no_projects": "No projects",
+      "all_projects": "All Projects"
+    },
+    "firstTimeSetup": {
+      "title": "Welcome to SiteNear",
+      "subtitle": "Create your first project to start shooting",
+      "projectNameLabel": "Project Name",
+      "projectNamePlaceholder": "e.g., Taipei Xinyi Residential Project",
+      "creating": "Creating...",
+      "create": "Create",
+      "createFailed": "Project creation failed, please try again later"
+    }
+  },
+  "pwaInstall": {
+    "title": "Add to Home Screen",
+    "description": "Use it like a native app with a desktop icon. No need to search for the URL!",
+    "ios": {
+      "step1": "Tap",
+      "step2": "the Share button",
+      "step3": "Then tap",
+      "step4": "Add to Home Screen"
+    },
+    "android": {
+      "installButton": "Install to Home Screen"
+    },
+    "buttons": {
+      "install": "Install",
+      "remindLater": "Later"
+    },
+    "installGuide": "View Installation Guide"
+  },
+  "report": {
+    "generationSheet": {
+      "title": "Generate Report",
+      "preview": "Report Preview",
+      "uncategorized": "Uncategorized",
+      "clickPhotoToAddNote": "Click photo to add notes",
+      "purpose": "Report purpose:",
+      "format": "Export format:",
+      "formatPdf": "PDF",
+      "formatWord": "Word",
+      "downloadPdf": "Download PDF",
+      "downloadWord": "Download Word",
+      "copySuccess": "✓ Copied!",
+      "copyBilling": "Copy payment claim details",
+      "totalAmount": "Total Amount",
+      "grandTotal": "Grand Total:"
+    },
+    "purposeSelector": {
+      "internal": "General Site Report",
+      "billing": "Payment Claim Report",
+      "followUp": "Issue Closeout Report"
+    },
+    "groupNoteEditor": {
+      "title": "Overall Description",
+      "edit": "Edit",
+      "addNote": "+ Add Note",
+      "placeholder": "What is this section about...",
+      "done": "Done"
+    },
+    "pdfTemplate": {
+      "billingReport": "Billing Report",
+      "engineeringReport": "Site Report",
+      "uncategorized": "Uncategorized",
+      "project": "Project:",
+      "date": "Date:",
+      "updateSummary": "Update Summary",
+      "photoCount": "Photo count:",
+      "spaceCount": "Space count:",
+      "spaces": "Spaces:",
+      "completedItems": "Completed Items:",
+      "representativePhoto": "(Representative Photo)",
+      "page": "Page {current} of {total}",
+      "constructionItems": "Work items:",
+      "photoCountShort": "Photo count:",
+      "overallDescription": "Overall Description:",
+      "pendingItems": "⚠ Open items:",
+      "billingDetails": "Billing Details",
+      "total": "Total",
+      "signatureArea": "Signature Area",
+      "notes": "Notes",
+      "unit": {
+        "photo": "photos",
+        "space": "spaces",
+        "problem": "problems"
+      }
+    },
+    "followUp": {
+      "title": "Issue Closeout Report",
+      "summary": "Summary",
+      "totalProblems": "Total issues:",
+      "totalResolved": "Issues closed:",
+      "locations": "Locations",
+      "noDescription": "No description",
+      "representativeProblem": "(Representative problem)",
+      "before": "Before",
+      "after": "After",
+      "resolvedAt": "Resolved at:",
+      "notePlaceholder": "Notes about this problem...",
+      "noFollowUpRecords": "No issue closeout records found",
+      "generateReport": "Report"
+    },
+    "photoGridItem": {
+      "editNote": "Edit note",
+      "addDescription": "Add Description",
+      "customized": "Customized",
+      "fromNote": "From note",
+      "noNote": "(No note)"
+    },
+    "photoNoteEditor": {
+      "title": "Photo Note",
+      "placeholder": "Details about this photo...",
+      "useNote": "Use note",
+      "clear": "Clear",
+      "done": "Done"
+    },
+    "billingSection": {
+      "uncategorized": "Uncategorized",
+      "amountPlaceholder": "Amount",
+      "fromMemory": "(Based on the previous price)",
+      "subtotal": "Subtotal:"
+    },
+    "wordExport": {
+      "date": "Date",
+      "reportType": "Report Type",
+      "billingReport": "Billing Report",
+      "engineeringReport": "Site Report",
+      "uncategorized": "Uncategorized",
+      "overallDescription": "Overall Description",
+      "completionTime": "Completion Time",
+      "constructionItems": "Work Items",
+      "photoTime": "Photo Time",
+      "description": "Description",
+      "note": "Note",
+      "billingDetails": "Billing Details",
+      "item": "Item",
+      "amount": "Amount",
+      "total": "Total",
+      "totalAmount": "Total Amount"
+    }
+  },
+  "setting": {
+    "construction": "Trades",
+    "unit": "Unit",
+    "projectType": "Project Type",
+    "user": "User",
+    "account": "Account",
+    "user_manual": "User Guide",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "deleteAccount": "Delete Account",
+    "support": "Support",
+    "website": "Website",
+    "inviteMember": "Invite Member",
+    "collaborator": "Collaborator",
+    "trash": "Trash",
+    "membersList": "Members List",
+    "role": "Role",
+    "send": "Send",
+    "invite": "Invite",
+    "remove": "Remove",
+    "status": {
+      "pending": "Pending",
+      "joined": "Joined"
+    },
+    "roles": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "info": {
+      "empty_overview_data": "No work items created yet",
+      "empty_task_description": "Go to Tasks to create open items",
+      "empty_common_data": "No shared trades created",
+      "empty_project_description": "Go to the Project Schedule page to import your work schedule",
+      "empty_common_description": "Go to the Project Schedule page to import your work schedule. The system will automatically import trades. You can also enter them manually below.",
+      "go_to_planning_projects": "Go to upload project schedule",
+      "go_to_upload_plan": "Go to upload floor plan",
+      "go_to_create_task": "Go create a task"
+    },
+    "messages": {
+      "inviteSent": "Invite sent successfully"
+    },
+    "errors": {
+      "emailExists": "Email already exists",
+      "inviteFailed": "Failed to invite member"
+    },
+    "backup": {
+      "hint": "Upload the .zip backup file directly",
+      "importing": "Importing Backup",
+      "import_success": "Backup imported successfully",
+      "processed_count": "Processed {current} of {total} photos",
+      "missingDataJson": "Backup file format error: missing data.json",
+      "invalidPhotoData": "Backup file format error: invalid photo data",
+      "missingPhotoFiles": "Import completed, but {count} photo file(s) missing",
+      "corruptData": "Backup file corrupted: cannot read data",
+      "invalidZip": "Backup file corrupted: not a valid ZIP file",
+      "unknownError": "Import failed: unknown error"
+    }
+  },
+  "share": {
+    "shared_status": "✅ Shared",
+    "ask_stage": {
+      "question": "Do you want to record this share?"
+    },
+    "select_stage": {
+      "title": "Who are you sharing with?",
+      "back": "Back",
+      "recent": "Recent",
+      "quick_select": "Quick Select"
+    },
+    "add_stage": {
+      "add_worker_target": "Add worker contact",
+      "add_owner_target": "Add owner contact",
+      "back": "Back",
+      "trade_label": "Trade (Optional)",
+      "trade_placeholder": "Please select trade",
+      "name_label": "Name",
+      "name_placeholder_worker": "e.g., Wang",
+      "name_placeholder_owner": "e.g., Zhang",
+      "confirm_record": "Confirm Record"
+    },
+    "role_buttons": {
+      "worker": "Worker",
+      "owner": "Owner",
+      "no_record": "Don't Record"
+    }
+  },
+  "sheet": {
+    "batchAttributePicker": {
+      "titleSpace": "Select Space",
+      "titleConstruction": "Select Trade",
+      "addButton": "+ Add",
+      "addSpacePlaceholder": "Add space name",
+      "addConstructionPlaceholder": "Add trade name",
+      "confirm": "Confirm",
+      "applyToPhotos": "Apply to {count} photos"
+    },
+    "backupConfirm": {
+      "title": "You are about to backup {count} photos",
+      "estimatedSize": "Estimated to occupy about",
+      "cloudSpace": "cloud space.",
+      "continue": "Continue?",
+      "confirmBackup": "Confirm Backup",
+      "cancel": "Cancel"
+    },
+    "batchActionBar": {
+      "selected": "{count} selected"
+    },
+    "reportGeneration": {
+      "projectFallback": "Project"
+    }
+  },
+  "subtitle": {
+    "todo": "Jobsite conditions change constantly. Use note cards to capture details and keep your schedule organized.",
+    "planning_implementation": "Import your construction schedule from Excel and automatically create a project Gantt chart.",
+    "setting_common": "Manage your general preferences in one place.",
+    "auth": {
+      "login": "Take photos in the mobile app, then sync and organize them on your computer"
+    }
+  },
+  "support": {
+    "need_help": "Need help?",
+    "faq_title": "FAQ",
+    "faq_description": "Find answers to common questions in our user manual.",
+    "contact_title": "Contact",
+    "email_label": "Email",
+    "privacy_title": "Privacy Policy"
+  },
+  "tab": {
+    "projects": "Projects List",
+    "project": "Project",
+    "projects-download": "Projects Download",
+    "floor-plan": "Floor Plan",
+    "profile": "Profile",
+    "pricing-menu": "Plans",
+    "subscription": "Subscription",
+    "change-password": "Change Password",
+    "all": "All",
+    "schedule": {
+      "reminderDateTime": "Reminder Schedule",
+      "endDateTime": "End Schedule",
+      "all": "All"
+    },
+    "tasks": {
+      "with_pin": "With Pin",
+      "without_pin": "Without Pin",
+      "all": "All"
+    },
+    "pendingPhotos": {
+      "uncategorized": "Uncategorized",
+      "issue": "Issue",
+      "fix": "To Fix",
+      "check": "To Check"
+    }
+  },
+  "teaching": {
+    "videos": {
+      "title_1": "How to start a project",
+      "description_1": "Upload your Excel schedule and SiteNear will build an editable Gantt chart. Adjust progress anytime while viewing the baseline plan and current schedule side by side.",
+      "title_2": "How to create a task",
+      "description_2": "Open a project to create work items, organize the workflow by trade, and add due-date reminders and material notes.",
+      "title_3": "How to pin tasks on a floor plan",
+      "description_3": "While supervising work on site, place each task at its actual location on the floor plan. Add multiple pins when one task spans several areas."
+    }
+  },
+  "timeline": {
+    "search_placeholder": "(Space / Trade / Note)",
+    "status_filter": {
+      "all": "All",
+      "pending": "Pending",
+      "resolved": "Resolved"
+    },
+    "pending_filter": "⚠ Pending ({count})",
+    "or": "or",
+    "import_from_gallery": "Import from Photo Gallery",
+    "empty_state": {
+      "no_photos_title": "No Photos",
+      "no_photos_description": "Start taking your first photo!",
+      "take_photo_button": "Take Photo",
+      "no_matching_photos": "No photos matching the criteria",
+      "clear_filters": "Clear Filters",
+      "no_pending_photos": "No pending photos",
+      "no_resolved_photos": "No resolved photos"
+    },
+    "toast": {
+      "shared_success": "Shared to {target} ✔",
+      "download_success": "Downloaded, check in Files / Gallery",
+      "download_failed": "Download failed, please try again"
+    },
+    "messages": {
+      "project_report": "Project Report",
+      "select_project_first": "Please select a project first",
+      "report_preparing": "Preparing report...",
+      "loading_images": "Loading images...",
+      "generating_pdf": "Generating PDF...",
+      "project": "Project",
+      "report_generated_downloading": "Report generated and downloading",
+      "report_generation_failed": "Report generation failed, please try again later",
+      "preparing_share_content": "Preparing share content...",
+      "summary_copied": "Summary text copied, can paste in share input",
+      "text_copy_failed": "Text copy failed, please copy manually",
+      "evidence_set_cloud_upload": "Saved as record photo. Full-res backup to cloud",
+      "evidence_set_local_upgrade": "Saved as record photo (local only). Upgrade to back up to cloud",
+      "evidence_cancelled_local": "Record cancelled; photo kept on this device",
+      "upgrade_prompt_title": "Upgrade to generate reports",
+      "upgrade_prompt_description": "You have used your free report quota ({count} times)\nUpgrade subscription to generate unlimited professional PDF reports",
+      "import_success": "Imported {count} photos",
+      "import_success_no_space": "Imported {count} photos. Set a space to make them easier to find later"
+    },
+    "state": {
+      "empty_state": {
+        "no_photos_title": "No Photos",
+        "no_photos_description": "Start taking your first photo!",
+        "take_photo_button": "Take Photo"
+      },
+      "sync_status": {
+        "not_backed_up": "{count} of {total} photos need backup",
+        "not_backed_up_waiting_wifi": "{count} of {total} photos need backup (waiting for WiFi)",
+        "syncing": "Syncing {synced}/{total}",
+        "pending": "{count} change(s) will sync shortly",
+        "waiting_wifi": "Waiting for WiFi to sync...",
+        "synced": "✅ Photos synced",
+        "storage_note": "Originals saved on phone, thumbnails on cloud"
+      },
+      "toast": {
+        "shared_success": "Shared to {target} ✔",
+        "download_success": "Downloaded, check in Files / Gallery",
+        "download_failed": "Download failed, please try again"
+      }
+    }
+  },
+  "title": {
+    "welcome": "Welcome",
+    "register": "Register",
+    "register_success": "Register Success",
+    "resend_activation": "Resend Activation",
+    "account_activation": "Account Activation",
+    "forgot_password": "Forgot Password",
+    "reset_password": "Reset Password",
+    "change_password": "Change Password",
+    "schedule": "Schedule",
+    "unscheduled_task": "Unscheduled Task",
+    "reminder_upcoming_task_in_10_days": "Upcoming Tasks Within 10 Days",
+    "user": "User",
+    "setting": "Settings",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "deleteAccount": "Delete Account",
+    "share": "Share",
+    "material_construction": "Construction Material Usage",
+    "owned_projects": "My Projects",
+    "collaborating_projects": "Shared Projects",
+    "manage_collaborators": "Manage Collaborators",
+    "collaboration_invitation": "Collaboration Invitation",
+    "invitation_error": "Invitation Error",
+    "delete_confirm": "Delete Confirm",
+    "create_project": "Create Project",
+    "create_construction": "Create Trade",
+    "move_note": "Move Note",
+    "batch_download": "Batch Download",
+    "edit_task": "Edit Task",
+    "add_task": "Add Task",
+    "edit_planning": "Edit Planning",
+    "create_planning": "Create Planning",
+    "sso_processing": "Processing SSO Login",
+    "sso_success": "SSO Login Successful",
+    "sso_error": "SSO Login Failed",
+    "page_not_found": "Page Not Found",
+    "edit_note": "Edit Note",
+    "billing_subscription": "Subscription & Billing",
+    "storage_space": "Storage Space",
+    "backup_restore": "Backup & Restore",
+    "pending_photos": "Pending",
+    "edit_project_name": "Edit Project Name",
+    "delete_project": "Delete Project",
+    "edit_photo": "Edit Photo",
+    "support": "Support",
+    "other": "Other",
+    "trash": "Trash"
+  },
+  "trash": {
+    "header": {
+      "title": "Trash",
+      "photoCountPrefix": "",
+      "photoCount": "{count} photos",
+      "retentionInfo": "Trash items are permanently deleted after 30 days"
+    },
+    "buttons": {
+      "selectAll": "Select All",
+      "exitBatch": "Exit Batch",
+      "batchEdit": "Batch Edit Photos",
+      "emptyTrash": "Empty Trash",
+      "retry": "Retry"
+    },
+    "status": {
+      "emptyTrash": "Trash is empty",
+      "unknownProject": "Unknown Project",
+      "noProject": "No Project"
+    },
+    "timeline": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "dialog": {
+      "emptyTrashConfirm": "Are you sure you want to empty the trash? This action will permanently delete all photos and cannot be undone."
+    },
+    "selection": {
+      "selectedSummary": "{count} photos selected"
+    },
+    "card": {
+      "remainingDays": "{days} days until permanent deletion"
+    },
+    "actions": {
+      "restore": "Restore",
+      "permanentDelete": "Delete Permanently"
+    },
+    "filter": {
+      "selectedCount": "{count} photos selected",
+      "pending": "⚠ Pending ({count})"
+    },
+    "bin": {
+      "imageCount": "{count} images",
+      "retentionInfo": "Photos that can be restored (retained for 30 days)",
+      "restoreFailed": "Restore failed",
+      "deleteFailed": "Delete failed",
+      "photos": "photos",
+      "delete": "Delete",
+      "delete_with_follow_up": "This will also delete {count} related after-photos."
+    }
+  },
+  "upload": {
+    "parsing_excel": "Parsing Excel file",
+    "upload_failed": "Upload failed",
+    "process_excel_file": "Import your construction schedule",
+    "invalid_excel_type": "Please select an Excel file (.xlsx or .xls)",
+    "parse_failed": "Unable to read the file. Please check its format",
+    "supported_formats": "Supported formats",
+    "description": "Drag a file here or click to select one",
+    "description_cover": "(Uploading to the same project again will overwrite the existing schedule.)",
+    "progress_template_hint": "Download this template and keep the same column structure so the system can import your schedule and create the project Gantt chart.",
+    "edit_planning_gantt_bar": "Click a progress bar or the + button to add or edit a schedule item.",
+    "importingPhotos": "Importing photos",
+    "importingProgress": "Importing {current} / {total} photos"
+  },
+  "validation": {
+    "name_required": "Name is required",
+    "phone_required": "Phone is required",
+    "company_required": "Company is required",
+    "description_required": "Description is required",
+    "construction_required": "Trade is required",
+    "unit_required": "Unit is required",
+    "project_type_required": "Project type is required",
+    "input_required": "This is required",
+    "email": {
+      "required": "Email is required",
+      "invalid": "Invalid email address"
+    },
+    "title": {
+      "required": "Title is required",
+      "max_length": "Title cannot exceed 10 characters"
+    },
+    "material": {
+      "required": "Material is required"
+    },
+    "input": {
+      "required": "This field is required"
+    },
+    "password": {
+      "min": "At least {min} characters",
+      "uppercase": "Must contain at least 1 uppercase letter",
+      "special": "Must contain at least 1 special character (e.g. !#$%&)",
+      "alphanumeric": "Must contain alphanumeric characters",
+      "mismatch": "Passwords do not match"
+    },
+    "quantity": {
+      "required": "Quantity is required",
+      "positive": "Quantity must be greater than 0"
+    },
+    "unit_price": {
+      "required": "Unit price is required",
+      "negative": "Unit price cannot be negative"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "en": {
+    "landingPage": {
+      "header": {
+        "tutorial_link": "Tutorial",
+        "pricing_link": "Pricing",
+        "more_apps_link": "More Interior Apps",
+        "cta_button": "Get Started",
+        "login_button": "Login"
+      },
+      "hero": {
+        "welcome_back": "Welcome back 👋",
+        "title_line1": "Jobsite photos",
+        "title_line2": "without the search",
+        "title_line3": "Remember what happened",
+        "subtitle_line1": "Stop scrolling through camera-roll albums",
+        "subtitle_line2": "Every jobsite photo, with its context",
+        "cta_button": "Explore your jobsite photo log →",
+        "manual_link": "User Guide",
+        "lang_support": "繁體中文 / English supported",
+        "comparison_before": "Before",
+        "comparison_after": "After"
+      },
+      "features": {
+        "section_title": "What SiteNear does for you",
+        "manual_link": "User Guide",
+        "photo": {
+          "title": "Capture",
+          "description": "Document work on site"
+        },
+        "tag": {
+          "title": "Tag",
+          "description": "Jobsite, room, trade"
+        },
+        "track": {
+          "title": "Track",
+          "description": "See what's still outstanding"
+        },
+        "report": {
+          "title": "Report",
+          "description": "Organize photos in one click"
+        }
+      },
+      "pain": {
+        "section_title": "Is this you right now",
+        "cards": [
+          {
+            "left": "Thousands of photos in your camera roll",
+            "right": "Finding the right photo takes forever"
+          },
+          {
+            "left": "Photos of the same room spread across different days",
+            "right": "You can't see the full progress"
+          },
+          {
+            "left": "The client asks: \"Is this complete?\"",
+            "right": "You can't find the proof when you need it"
+          },
+          {
+            "left": "The trade contractor says: \"We fixed it last week\"",
+            "right": "You have no record to verify it"
+          }
+        ],
+        "verdict_line1": "Want a place",
+        "verdict_line2": "know what's behind the photos"
+      },
+      "demo": {
+        "section_title": "What SiteNear does for you",
+        "features": [
+          "Photos organized by jobsite, room, and trade",
+          "Issues documented from discovery through closeout",
+          "Before-and-after corrective work documented",
+          "Export a report in one click"
+        ],
+        "screenshot_alt": "SiteNear screen",
+        "pain": {
+          "title": "Photos remain, but context disappears",
+          "subtitle_line1": "Looking back six months later",
+          "subtitle_line2": "You might remember you took photos",
+          "subtitle_line3": "But you won't remember:",
+          "question_1": "Why did you take them?",
+          "question_2": "Was the issue resolved?",
+          "question_3": "When was it closed out?",
+          "cta_prefix": "SiteNear helps you preserve:",
+          "cta_content": "Issue discovery → Issue resolution → Closeout record"
+        }
+      },
+      "vs": {
+        "section_eyebrow": "Comparison",
+        "section_title": "Before vs After",
+        "section_subtitle": "Jobsite photo documentation, before and after",
+        "before": {
+          "title": "Before",
+          "subtitle": "Camera Roll",
+          "question": "Client: Is the living room millwork complete?",
+          "album_title": "Camera Roll",
+          "problems": [
+            "Too many photos to identify the millwork",
+            "No clear way to find the living room",
+            "No way to tell which photos show the completed work"
+          ],
+          "issues": [
+            "Living room photos scattered across different dates",
+            "Scrolling through the camera roll and messaging apps",
+            "The client waits while you search"
+          ]
+        },
+        "after": {
+          "title": "After",
+          "subtitle": "SiteNear",
+          "space": "Living Room",
+          "task": "Woodwork",
+          "result": "Find it instantly",
+          "benefits": [
+            "Photos organized by jobsite, room, and trade",
+            "Issues documented through resolution",
+            "Answer client questions with the record in hand"
+          ]
+        },
+        "philosophy": {
+          "title": "SiteNear is not a construction management platform",
+          "description": "It turns jobsite photos into organized, context-rich work records"
+        }
+      },
+      "cta": {
+        "section_subtitle": "Your next step",
+        "title": "Open the app. Capture the work. Find it later.",
+        "description": "Photos are automatically organized by jobsite and trade, so you can find the record when clients ask",
+        "button": "Find your photos without endless scrolling",
+        "perks": [
+          "Try it without registering",
+          "Open the app and start capturing",
+          "繁體中文 / English interface support"
+        ]
+      },
+      "moreApps": {
+        "hero": {
+          "title": "Explore Our Interior Productivity Tools",
+          "subtitle": "Discover our suite of apps designed to streamline your interior renovation workflow and boost productivity."
+        },
+        "explore": "Explore App",
+        "back_to_home": "Back to Home"
+      }
+    }
+  },
+  "zh-TW": {
+    "landingPage": {
+      "header": {
+        "tutorial_link": "操作教學",
+        "pricing_link": "價格方案",
+        "more_apps_link": "更多室內應用",
+        "cta_button": "開始使用",
+        "login_button": "登入"
+      },
+      "hero": {
+        "welcome_back": "歡迎回來 👋",
+        "title_line1": "工地照片",
+        "title_line2": "不只找得到",
+        "title_line3": "還記得發生過什麼",
+        "subtitle_line1": "不再翻相簿",
+        "subtitle_line2": "工地照片自己有脈絡",
+        "cta_button": "立即體驗工地履歷相簿 →",
+        "manual_link": "使用說明書指南",
+        "lang_support": "繁體中文 / English 支援",
+        "comparison_before": "目前",
+        "comparison_after": "進化"
+      },
+      "features": {
+        "section_title": "SiteNear 會幫你做什麼",
+        "manual_link": "使用說明書指南",
+        "photo": {
+          "title": "拍照",
+          "description": "現場直接記錄"
+        },
+        "tag": {
+          "title": "標記",
+          "description": "工地、空間、工項"
+        },
+        "track": {
+          "title": "追蹤",
+          "description": "哪些還沒處理"
+        },
+        "report": {
+          "title": "回報",
+          "description": "一鍵整理照片"
+        }
+      },
+      "pain": {
+        "section_title": "你現在是不是這樣",
+        "cards": [
+          {
+            "left": "手機相簿幾千張",
+            "right": "找照片要翻很久"
+          },
+          {
+            "left": "同一空間照片散落各天",
+            "right": "看不到完整進度"
+          },
+          {
+            "left": "客戶問：「這有做嗎？」",
+            "right": "一時找不到證據"
+          },
+          {
+            "left": "工班說：「上禮拜修好了」",
+            "right": "不知道真的假的"
+          }
+        ],
+        "verdict_line1": "想要一個地方",
+        "verdict_line2": "知道照片背後發生什麼事"
+      },
+      "demo": {
+        "section_title": "SiteNear 幫你做到",
+        "features": [
+          "客戶問問題時\n找得到答案",
+          "半年後回頭看\n還知道發生過什麼",
+          "修復前後\n都有紀錄",
+          "不用再翻通訊軟體"
+        ],
+        "screenshot_alt": "SiteNear 畫面",
+        "pain": {
+          "title": "照片會留下\n但脈絡會消失",
+          "subtitle_line1": "半年後回頭看",
+          "subtitle_line2": "你可能記得有拍",
+          "subtitle_line3": "但不記得：",
+          "question_1": "為什麼拍？",
+          "question_2": "有沒有修？",
+          "question_3": "什麼時候修？",
+          "cta_prefix": "SiteNear 幫你保留：",
+          "cta_content": "問題發現 → 問題解決 → 修復紀錄"
+        }
+      },
+      "vs": {
+        "section_eyebrow": "比較",
+        "section_title": "使用前 vs 使用後",
+        "section_subtitle": "工地照片管理，一體兩面",
+        "before": {
+          "title": "使用前",
+          "subtitle": "手機相簿",
+          "question": "客戶：客廳木作修好了嗎？",
+          "album_title": "相簿",
+          "problems": ["照片很多，但不知道哪張是木作", "不知道哪張是客廳", "不知道哪張是修完"],
+          "issues": ["客廳照片散落在不同日期", "開始翻相簿、翻通訊軟體", "客戶等你找半天"]
+        },
+        "after": {
+          "title": "使用後",
+          "subtitle": "SiteNear",
+          "space": "客廳",
+          "task": "木作",
+          "result": "直接找到",
+          "benefits": ["照片依工地、空間、工項分類", "問題處理有紀錄", "客戶詢問直接查看"]
+        },
+        "philosophy": {
+          "title": "SiteNear 不是工地管理系統",
+          "description": "它只是幫你把工地照片整理成有脈絡的工作紀錄"
+        }
+      },
+      "cta": {
+        "section_subtitle": "現在的選擇",
+        "title": "打開就可以拍不用再找半天",
+        "description": "照片自動按工地 / 工項分好，客戶問直接找得到",
+        "button": "試試看找照片不用翻半天",
+        "perks": ["不先註冊，就可以體驗", "打開就可以拍", "繁體中文 / English 介面支持"]
+      },
+      "moreApps": {
+        "hero": {
+          "title": "探索我們的室內生產力工具",
+          "subtitle": "發現我們為室內裝修從業流程量身打造的應用套件，提升您的工作效率。"
+        },
+        "explore": "探索應用",
+        "back_to_home": "回到首頁"
+      }
+    }
+  }
+}

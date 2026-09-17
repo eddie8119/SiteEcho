@@ -1,0 +1,80 @@
+{
+  "en": {
+    "meta": {
+      "defaults": {
+        "title": "SiteNear | Interior Construction Site Photo Log",
+        "description": "SiteNear combines jobsite photo documentation, task tracking, and schedule planning so interior construction teams can coordinate smoothly and reduce rework.",
+        "ogTitle": "SiteNear | Keep Every Jobsite Photo in Context",
+        "ogDescription": "Stop hunting for interior construction photos. Organize them by room and trade, track issues through closeout, and generate site reports in minutes.",
+        "ogImageAlt": "SiteNear interior construction photo log showing jobsite photos, issue tracking, and closeout records",
+        "twitterTitle": "SiteNear | Keep Every Jobsite Photo in Context",
+        "twitterDescription": "Interior construction photos you can actually find. Organize jobsite documentation, track issues, document closeout, and generate reports in one click."
+      },
+      "routes": {
+        "landing": {
+          "title": "SiteNear | Interior Construction Photo Log",
+          "description": "Turn scattered interior construction photos into traceable project documentation. Capture, annotate, track, and report so every jobsite photo tells the full story."
+        },
+        "overview": {
+          "title": "SiteNear | Jobsite Overview | Interior Construction",
+          "description": "Track outstanding work on every jobsite and coordinate trade contractors with confidence."
+        },
+        "schedule": {
+          "title": "SiteNear | Construction Schedule View",
+          "description": "Place work items on a timeline so everyone knows what is scheduled and when."
+        },
+        "englishLanding": {
+          "title": "SiteNear | Interior Construction Photo Log",
+          "description": "SiteNear helps interior construction teams capture jobsite updates, plan schedules, and keep every renovation on track in one collaborative workspace."
+        },
+        "moreApps": {
+          "title": "SiteNear | More Interior Apps",
+          "description": "Explore our other productivity tools for interior construction and renovation projects."
+        },
+        "pricingMenu": {
+          "title": "SiteNear | Pricing Plans",
+          "description": "Choose the perfect pricing plan for your interior construction needs. Flexible options for individuals and teams."
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "meta": {
+      "defaults": {
+        "title": "SiteNear｜工地現場管理與室內工地履歷相簿工具",
+        "description": "SiteNear 整合室內工地記錄、任務追蹤與排程規劃，專為工地現場管理打造，讓室內團隊協作順暢、減少重工。",
+        "ogTitle": "SiteNear｜讓室內工地照片記得工作",
+        "ogDescription": "工地現場管理更輕鬆。依空間與工項整理施工照片、追蹤問題與修復，快速產出施工報告。",
+        "ogImageAlt": "SiteNear 室內工地相簿介面，展示施工照片、問題追蹤與修復紀錄",
+        "twitterTitle": "SiteNear｜讓室內工地照片記得工作",
+        "twitterDescription": "工地現場管理更輕鬆。整理施工照片、追蹤問題與修復，快速產出施工報告。"
+      },
+      "routes": {
+        "landing": {
+          "title": "SiteNear｜工地現場管理與室內工地照片管理工具",
+          "description": "將散落的室內工地照片變成可追溯的工程文件，提升工地現場管理效率。拍照、標記、追蹤、修復與報告，讓每張室內工地照片留下完整工作脈絡與修復紀錄。"
+        },
+        "overview": {
+          "title": "SiteNear｜室內工地概覽 Overview｜Interior Notebook",
+          "description": "掌握每個案場那些剩餘的進度、讓你更好的規劃協作廠商的調度。"
+        },
+        "schedule": {
+          "title": "SiteNear｜排程視圖 Schedule｜Interior Notebook",
+          "description": "以時間軸規劃，排程工項，什麼時間做什麼，讓你掌握時間感。"
+        },
+        "englishLanding": {
+          "title": "SiteNear | Interior Construction Photo Log",
+          "description": "SiteNear helps interior construction teams capture jobsite updates, plan schedules, and keep every renovation on track in one collaborative workspace."
+        },
+        "moreApps": {
+          "title": "SiteNear｜更多室內應用",
+          "description": "探索我們其他針對室內裝修與施工的生產力工具。"
+        },
+        "pricingMenu": {
+          "title": "SiteNear｜價格方案",
+          "description": "選擇適合您室內工程需求的價格方案。為個人和團隊提供靈活的選擇。"
+        }
+      }
+    }
+  }
+}

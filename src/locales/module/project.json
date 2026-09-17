@@ -1,0 +1,52 @@
+{
+  "en": {
+    "project": {
+      "project": "Project",
+      "construction": "Trades",
+      "material": "Material",
+      "other_projects": "Other Projects",
+      "manage_projects": "Manage Projects",
+      "create_project": "Create New Project",
+      "selector": {
+        "loading": "Loading projects...",
+        "load_failed": "Load failed: {error}",
+        "no_projects": "No projects",
+        "all_projects": "All Projects"
+      },
+      "firstTimeSetup": {
+        "title": "Welcome to SiteNear",
+        "subtitle": "Create your first project to start shooting",
+        "projectNameLabel": "Project Name",
+        "projectNamePlaceholder": "e.g., Taipei Xinyi Residential Project",
+        "creating": "Creating...",
+        "create": "Create",
+        "createFailed": "Project creation failed, please try again later"
+      }
+    }
+  },
+  "zh-TW": {
+    "project": {
+      "project": "專案",
+      "construction": "工程",
+      "material": "材料",
+      "other_projects": "其他專案",
+      "manage_projects": "管理專案",
+      "create_project": "新增專案",
+      "selector": {
+        "loading": "載入專案中...",
+        "load_failed": "載入失敗: {error}",
+        "no_projects": "目前沒專案",
+        "all_projects": "所有專案"
+      },
+      "firstTimeSetup": {
+        "title": "歡迎使用 SiteNear",
+        "subtitle": "建立您的第一個專案來開始拍攝",
+        "projectNameLabel": "專案名稱",
+        "projectNamePlaceholder": "例如：台北信義住宅案",
+        "creating": "建立中...",
+        "create": "建立",
+        "createFailed": "專案建立失敗，請稍後再試"
+      }
+    }
+  }
+}

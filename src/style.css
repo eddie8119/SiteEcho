@@ -1,0 +1,152 @@
+@import '../src/assets/styles/style.scss';
+@import '../src/assets/styles/landing.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-overflow-scrolling: auto;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  .zh {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn,
+button,
+button:focus,
+input:focus,
+textarea:focus,
+select,
+select:focus,
+a:focus {
+  outline: 0px !important;
+  touch-action: manipulation;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+button[disabled] {
+  pointer-events: none;
+}
+
+input {
+  padding: 0;
+  font-size: 16px;
+}
+
+input:required {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:invalid {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  /* make scrollbar transparent */
+  width: 0px;
+  background: transparent;
+}
+
+/* Safe area utilities for iOS notch handling */
+.safe-area-top-sm {
+  padding-top: calc(0.5rem + env(safe-area-inset-top));
+}
+
+.safe-area-top-md {
+  padding-top: calc(0.75rem + env(safe-area-inset-top));
+}
+
+.safe-area-top-lg {
+  padding-top: calc(1rem + env(safe-area-inset-top));
+}

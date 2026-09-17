@@ -1,0 +1,37 @@
+/* ElDescriptions and ElDescriptionsItem background colors */
+.el-descriptions {
+  background-color: var(--color-primary-card);
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid var(--color-primary-chart);
+}
+
+.el-descriptions__title {
+  background-color: var(--color-primary-chart);
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.el-descriptions-item__label {
+  background-color: var(--color-primary-chart);
+  padding: 8px 12px;
+  font-weight: 500;
+  color: var(--color-primary-text);
+  border-right: 1px solid red;
+}
+
+.el-descriptions-item__content {
+  background-color: var(--color-white-100);
+  padding: 8px 12px;
+  color: var(--color-primary-text-200);
+}
+
+.el-descriptions--border .el-descriptions-item__cell {
+  border-bottom: 1px solid var(--color-primary-chart);
+}
+
+.el-descriptions--border .el-descriptions-item__cell:last-child {
+  border-bottom: none;
+}

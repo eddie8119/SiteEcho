@@ -1,0 +1,305 @@
+{
+  "en": {
+    "billing": {
+      "general": {
+        "pricing": "Pricing",
+        "pricingDescription": "Choose the perfect plan for your needs. All plans include access to our core features.",
+        "featured": "Most Popular",
+        "noPlans": "No pricing plans available at this time.",
+        "disabled": "Billing is currently disabled. Please contact support."
+      },
+      "subscription": {
+        "mySubscription": "My Subscription",
+        "subscriptionDescription": "Manage your subscription and billing information.",
+        "subscriptionEndingSoon": "Your subscription will end soon",
+        "currentPlan": "Current Plan",
+        "currentPlanLabel": "Current plan: {plan}",
+        "currentPlanNote": "Changing your plan takes effect at the next billing cycle unless noted otherwise.",
+        "selectPlan": "Select Plan",
+        "contactSales": "Contact Us",
+        "processing": "Processing...",
+        "autoCheckoutGuidance": "Preparing checkout for your selected plan...",
+        "alreadySubscribedSamePlan": "You already have an active subscription for this plan.",
+        "productsNotLoaded": "StoreKit products are not loaded. Please wait a moment and try again.",
+        "purchaseInitiated": "Purchase initiated. Verifying...",
+        "purchasePending": "Purchase is pending approval.",
+        "purchased": "Subscription successful!",
+        "restored": "Purchases restored successfully!",
+        "restorePurchases": "Restore Purchases",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfUse": "Terms of Use",
+        "autoRenewalNotice": "Subscription auto-renews unless cancelled at least 24 hours before the end of the current period.",
+        "noActiveSubscription": "No Active Subscription",
+        "noActiveSubscriptionDesc": "You don't have an active subscription yet. Browse our plans to get started.",
+        "browsePlans": "Browse Plans",
+        "viewAllPlans": "View All Plans",
+        "confirmCancel": "Are you sure you want to cancel your subscription? You will lose access to premium features at the end of your billing period.",
+        "priceUnavailable": "Price not available"
+      },
+      "googlePlay": {
+        "notYetAvailable": "Google Play Billing is not yet available",
+        "comingSoon": "Coming soon for Android devices"
+      },
+      "billing": {
+        "currency": {
+          "usd": "USD"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "cancelled": "Cancelled",
+          "pastDue": "Past Due"
+        },
+        "currentPeriodStart": "Current Period Start",
+        "currentPeriodEnd": "Current Period End",
+        "cancelledAtPeriodEnd": "Your subscription will be cancelled on {date}",
+        "managePayment": "Manage Payment Method",
+        "cancelSubscription": "Cancel Subscription",
+        "resumeSubscription": "Resume Subscription",
+        "billingHistory": "Billing History",
+        "billingHistoryDesc": "View and download your invoices.",
+        "viewInvoices": "View Invoices"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "faq1Question": "Can I change my plan anytime?",
+        "faq1Answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will take effect at the next billing cycle.",
+        "faq2Question": "What payment methods do you accept?",
+        "faq2Answer": "We accept all major credit cards and debit cards through Paddle.",
+        "faq3Question": "Is there a free trial?",
+        "faq3Answer": "Contact our sales team to discuss trial options for your organization."
+      },
+      "beta": {},
+      "featureComparison": {
+        "title": "Feature Comparison",
+        "feature": "Feature",
+        "photo": "Unlimited local photos",
+        "fastCapture": "Fast capture (no confirmation step)",
+        "basicOrganize": "Organize by room, trade, and task",
+        "timeSpace": "Browse by time and room",
+        "share": "Share with other apps",
+        "teamMembers": "Team collaboration",
+        "teamMembersProValue": "Add up to {count} members per project",
+        "cloudBackup": "Cloud backup",
+        "webView": "Web access and editing",
+        "evidenceChain": "Issue tracking with before-and-after photos",
+        "reportExport": "Export site reports (PDF/Word)",
+        "projects": "Projects",
+        "collaborators": "Collaborators added (count)",
+        "gantt": "Gantt Charts",
+        "todoTask": "To-do tasks",
+        "uploadPlan": "Annotated plan uploads per project (count)",
+        "excelExport": "Excel Export",
+        "permissionControl": "Permission Control",
+        "unlimited": "Unlimited",
+        "webViewProValue": "Full editing with two-way sync",
+        "evidenceChainFreeValue": "{count} times/month",
+        "reportExportFreeValue": "{count} times/month"
+      },
+      "upgrade": {
+        "title": "Upgrade Your Plan",
+        "description": "Upgrade from {fromPlan} to {toPlan}",
+        "renewalDateInfo": "Your current billing period ends on {date}",
+        "immediate": "Upgrade Immediately",
+        "immediateDesc": "Upgrade now and pay the difference today. Your renewal date stays the same.",
+        "nextRenewal": "Upgrade at Next Renewal",
+        "nextRenewalDesc": "Wait until {date} to upgrade. No additional charge today.",
+        "failed": "Upgrade failed. Please try again.",
+        "modeLabelImmediate": "Immediate upgrade",
+        "modeLabelNextRenewal": "Next renewal upgrade",
+        "success": "Plan upgraded successfully! {modeLabel} applied.",
+        "error": "Upgrade failed. Please try again later."
+      },
+      "storageUsage": {
+        "cloudUsage": "Cloud Usage",
+        "photoCount": "About {count} photos",
+        "notLoggedIn": " (Not logged in)"
+      },
+      "valueProposition": {
+        "title": "Every construction photo keeps its story.",
+        "subtitle": "Turn construction photos into work records."
+      },
+      "pricingCard": {
+        "averageMonthly": "Average {currency} {price} / month",
+        "trialPeriod": "First 14 days free, then {currency} {price} / {interval}"
+      },
+      "plans": {
+        "free": {
+          "buttonText": "Start Free",
+          "features": {
+            "unlimitedPhotos": "Unlimited local photos",
+            "organization": "Organize rooms, tasks, and issues",
+            "cloudBackup": "500 MB cloud backup (about 50–100 photos)"
+          }
+        },
+        "pro": {
+          "buttonText": "Upgrade to Pro",
+          "features": {
+            "reports": "PDF / Word site reports",
+            "webEdit": "Full web editing with two-way sync",
+            "cloudBackup": "20 GB cloud backup (about 2,000–4,000 photos)"
+          },
+          "badgeText": {
+            "appIap": "Apple IAP Exclusive",
+            "web": "8% Web Discount"
+          }
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "billing": {
+      "general": {
+        "pricing": "定價",
+        "pricingDescription": "選擇適合您需求的完美方案。所有方案都包含我們的核心功能。",
+        "featured": "最受歡迎",
+        "noPlans": "目前沒有可用的定價方案。",
+        "disabled": "帳單功能目前已停用。請聯絡支援團隊。"
+      },
+      "subscription": {
+        "mySubscription": "我的訂閱",
+        "subscriptionDescription": "管理您的訂閱和帳單資訊。",
+        "subscriptionEndingSoon": "您的訂閱即將結束",
+        "currentPlan": "目前方案",
+        "currentPlanLabel": "目前方案：{plan}",
+        "currentPlanNote": "方案變更會在下一個計費週期生效，除非另有註明。",
+        "selectPlan": "選擇方案",
+        "contactSales": "聯繫我們",
+        "processing": "處理中...",
+        "autoCheckoutGuidance": "正在為您開通所選方案的訂閱結帳...",
+        "alreadySubscribedSamePlan": "您已擁有此方案的有效訂閱",
+        "productsNotLoaded": "StoreKit 商品尚未載入，請稍後再試。",
+        "purchaseInitiated": "購買已啟動，正在驗證...",
+        "purchasePending": "購買正在等待審批。",
+        "purchased": "訂閱成功！",
+        "restored": "購買記錄恢復成功！",
+        "restorePurchases": "恢復購買",
+        "privacyPolicy": "隱私權政策",
+        "termsOfUse": "使用條款",
+        "autoRenewalNotice": "訂閱會自動續訂，除非在當期結束前至少 24 小時取消。",
+        "noActiveSubscription": "沒有有效的訂閱",
+        "noActiveSubscriptionDesc": "您還沒有有效的訂閱。瀏覽我們的方案以開始使用。",
+        "browsePlans": "瀏覽方案",
+        "viewAllPlans": "瀏覽所有方案",
+        "confirmCancel": "您確定要取消訂閱嗎？您將在計費週期結束時失去高級功能的存取權限。"
+      },
+      "googlePlay": {
+        "notYetAvailable": "Google Play Billing 尚未推出",
+        "comingSoon": "Android 裝置即將推出"
+      },
+      "billing": {
+        "currency": {
+          "usd": "美元"
+        },
+        "interval": {
+          "month": "月",
+          "year": "年"
+        },
+        "status": {
+          "active": "有效",
+          "inactive": "無效",
+          "cancelled": "已取消",
+          "pastDue": "逾期"
+        },
+        "currentPeriodStart": "目前期間開始",
+        "currentPeriodEnd": "目前期間結束",
+        "cancelledAtPeriodEnd": "您的訂閱將在 {date} 取消",
+        "managePayment": "管理付款方式",
+        "cancelSubscription": "取消訂閱",
+        "resumeSubscription": "恢復訂閱",
+        "billingHistory": "帳單歷史",
+        "billingHistoryDesc": "查看和下載您的發票。",
+        "viewInvoices": "查看發票"
+      },
+      "faq": {
+        "title": "常見問題",
+        "faq1Question": "我可以隨時更改方案嗎？",
+        "faq1Answer": "可以，您可以隨時升級或降級您的方案。變更將在下一個計費週期生效。",
+        "faq2Question": "您接受哪些付款方式？",
+        "faq2Answer": "我們通過 Paddle 接受所有主要信用卡和借記卡。",
+        "faq3Question": "有免費試用嗎？",
+        "faq3Answer": "請聯絡我們的銷售團隊以討論您的組織的試用選項。"
+      },
+      "beta": {},
+      "featureComparison": {
+        "title": "功能比較表",
+        "feature": "功能",
+        "photo": "本地無限照片",
+        "fastCapture": "超快拍照（無確認中斷）",
+        "basicOrganize": "基本整理（空間/工項/待辦）",
+        "timeSpace": "時間/空間瀏覽",
+        "share": "分享至其他 App",
+        "teamMembers": "團隊成員協作",
+        "teamMembersProValue": "每專案可增添 {count} 人",
+        "cloudBackup": "雲端備份",
+        "webView": "Web 端檢視與編輯",
+        "evidenceChain": "解決問題跟蹤功能（問題解決前後對比）",
+        "reportExport": "報告匯出（PDF / Word）",
+        "projects": "專案",
+        "collaborators": "協作成員數",
+        "gantt": "甘特圖",
+        "todoTask": "待辦事項",
+        "uploadPlan": "標註圖面上傳數（每案）",
+        "excelExport": "Excel 匯出",
+        "permissionControl": "權限控制",
+        "unlimited": "無限",
+        "webViewProValue": "完整編輯（雙向同步）",
+        "evidenceChainFreeValue": "{count} 次/月",
+        "reportExportFreeValue": "{count} 次/月"
+      },
+      "upgrade": {
+        "title": "升級您的方案",
+        "description": "從 {fromPlan} 升級到 {toPlan}",
+        "renewalDateInfo": "您目前的計費週期將在 {date} 結束",
+        "immediate": "立即升級",
+        "immediateDesc": "現在升級並支付差額。您的續約日期保持不變。",
+        "nextRenewal": "下次續約時升級",
+        "nextRenewalDesc": "等到 {date} 升級。今天不收取額外費用。",
+        "failed": "升級失敗。請稍後重試。",
+        "modeLabelImmediate": "立即升級",
+        "modeLabelNextRenewal": "下次續約升級",
+        "success": "方案升級成功！{modeLabel}已應用。",
+        "error": "升級失敗，請稍後重試。"
+      },
+      "storageUsage": {
+        "cloudUsage": "雲端使用量",
+        "photoCount": "（約 {count} 張照片）",
+        "notLoggedIn": " (未登入)"
+      },
+      "valueProposition": {
+        "title": "每張工地照片都記錄著它的故事",
+        "subtitle": "將工地照片轉化為工作紀錄。"
+      },
+      "pricingCard": {
+        "averageMonthly": "平均 {currency} {price} / 月",
+        "trialPeriod": "前 14 天免費，之後 {currency} {price} / {interval}"
+      },
+      "plans": {
+        "free": {
+          "buttonText": "免費開始使用",
+          "features": {
+            "unlimitedPhotos": "本地無限照片",
+            "organization": "空間、工項與問題整理",
+            "cloudBackup": "500MB 雲端備份（約 50–100 張照片）"
+          }
+        },
+        "pro": {
+          "buttonText": "升級至 Pro",
+          "features": {
+            "reports": "PDF / Word 工程報告",
+            "webEdit": "Web 完整編輯・雙向同步",
+            "cloudBackup": "20GB 雲端備份（約 2,000–4,000 張照片）"
+          },
+          "badgeText": {
+            "appIap": "Apple IAP 專屬",
+            "web": "官網 8% 優惠"
+          }
+        }
+      }
+    }
+  }
+}

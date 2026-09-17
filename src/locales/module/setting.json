@@ -1,0 +1,128 @@
+{
+  "en": {
+    "setting": {
+      "construction": "Trades",
+      "unit": "Unit",
+      "projectType": "Project Type",
+      "user": "User",
+      "account": "Account",
+      "user_manual": "User Guide",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "deleteAccount": "Delete Account",
+      "support": "Support",
+      "website": "Website",
+      "inviteMember": "Invite Member",
+      "collaborator": "Collaborator",
+      "trash": "Trash",
+      "membersList": "Members List",
+      "role": "Role",
+      "send": "Send",
+      "invite": "Invite",
+      "remove": "Remove",
+      "status": {
+        "pending": "Pending",
+        "joined": "Joined"
+      },
+      "roles": {
+        "owner": "Owner",
+        "admin": "Admin",
+        "editor": "Editor",
+        "viewer": "Viewer"
+      },
+      "info": {
+        "empty_overview_data": "No work items created yet",
+        "empty_task_description": "Go to Tasks to create open items",
+        "empty_common_data": "No shared trades created",
+        "empty_project_description": "Go to the Project Schedule page to import your work schedule",
+        "empty_common_description": "Go to the Project Schedule page to import your work schedule. The system will automatically import trades. You can also enter them manually below.",
+        "go_to_planning_projects": "Go to upload project schedule",
+        "go_to_upload_plan": "Go to upload floor plan",
+        "go_to_create_task": "Go create a task"
+      },
+      "messages": {
+        "inviteSent": "Invite sent successfully"
+      },
+      "errors": {
+        "emailExists": "Email already exists",
+        "inviteFailed": "Failed to invite member"
+      },
+      "backup": {
+        "hint": "Upload the .zip backup file directly",
+        "importing": "Importing Backup",
+        "import_success": "Backup imported successfully",
+        "processed_count": "Processed {current} of {total} photos",
+        "missingDataJson": "Backup file format error: missing data.json",
+        "invalidPhotoData": "Backup file format error: invalid photo data",
+        "missingPhotoFiles": "Import completed, but {count} photo file(s) missing",
+        "corruptData": "Backup file corrupted: cannot read data",
+        "invalidZip": "Backup file corrupted: not a valid ZIP file",
+        "unknownError": "Import failed: unknown error"
+      }
+    }
+  },
+  "zh-TW": {
+    "setting": {
+      "construction": "工程",
+      "unit": "單位",
+      "projectType": "專案類型",
+      "user": "用戶",
+      "account": "帳號",
+      "user_manual": "使用說明書指南",
+      "privacy": "隱私權政策",
+      "terms": "服務條款",
+      "deleteAccount": "刪除帳戶",
+      "support": "支援",
+      "website": "官網",
+      "roles": {
+        "owner": "擁有者",
+        "admin": "管理員",
+        "editor": "編輯者",
+        "viewer": "檢視者"
+      },
+      "inviteMember": "邀請成員",
+      "collaborator": "協作者",
+      "trash": "垃圾桶",
+      "membersList": "成員列表",
+      "role": "角色",
+      "send": "發送",
+      "invite": "邀請",
+      "remove": "移除",
+      "status": {
+        "pending": "待處理",
+        "joined": "已加入"
+      },
+      "info": {
+        "empty_overview_data": "尚未建立工程任務",
+        "empty_common_data": "尚未建立共用工程種類",
+        "empty_task_description": "建議先前往「工程施作任務」頁面建立待辦任務",
+        "empty_project_description": "建議先前往「專案規劃甘特圖」頁面匯入你的工進計畫",
+        "empty_common_description": "建議先前往「專案規劃」頁面匯入你的工進表，系統會自動將工程種類匯入。也可以直接在下方手動輸入。",
+        "go_to_planning_projects": "前往上傳專案規劃",
+        "go_to_upload_plan": "前往上傳平面圖",
+        "go_to_create_task": "前往建立待辦任務"
+      },
+      "messages": {
+        "inviteSent": "邀請已發送"
+      },
+      "errors": {
+        "emailExists": "電子郵件已存在",
+        "inviteFailed": "邀請失敗"
+      },
+      "backup": {
+        "hint": "直接上傳 .zip 備份檔案",
+        "importing": "匯入備份",
+        "import_success": "備份匯入成功",
+        "export_success": "備份匯出成功",
+        "import_progress_message": "匯入可能需要幾秒鐘完成...",
+        "processed_count": "已處理 {current} / {total} 張照片",
+        "missingDataJson": "備份檔案格式錯誤：缺少 data.json",
+        "invalidPhotoData": "備份檔案格式錯誤：照片資料無效",
+        "missingPhotoFiles": "匯入完成，但 {count} 張照片檔案缺失",
+        "corruptData": "備份檔案損壞：無法讀取資料",
+        "invalidZip": "備份檔案損壞：不是有效的 ZIP 檔案",
+        "unknownError": "匯入失敗：未知錯誤"
+      }
+    }
+  }
+}

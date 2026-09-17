@@ -1,0 +1,34 @@
+{
+  "en": {
+    "upload": {
+      "parsing_excel": "Parsing Excel file",
+      "upload_failed": "Upload failed",
+      "process_excel_file": "Import your construction schedule",
+      "invalid_excel_type": "Please select an Excel file (.xlsx or .xls)",
+      "parse_failed": "Unable to read the file. Please check its format",
+      "supported_formats": "Supported formats",
+      "description": "Drag a file here or click to select one",
+      "description_cover": "(Uploading to the same project again will overwrite the existing schedule.)",
+      "progress_template_hint": "Download this template and keep the same column structure so the system can import your schedule and create the project Gantt chart.",
+      "edit_planning_gantt_bar": "Click a progress bar or the + button to add or edit a schedule item.",
+      "importingPhotos": "Importing photos",
+      "importingProgress": "Importing {current} / {total} photos"
+    }
+  },
+  "zh-TW": {
+    "upload": {
+      "parsing_excel": "正在解析 Excel 檔案",
+      "upload_failed": "上傳失敗",
+      "process_excel_file": "把你的工進帶進來",
+      "invalid_excel_type": "請帶入 Excel 檔案 (.xlsx 或 .xls)",
+      "parse_failed": "檔案解析失敗，請檢查檔案格式",
+      "supported_formats": "支援格式",
+      "description": "拖拽檔案到此處或點擊選擇檔案",
+      "description_cover": "(同個專案再次上傳會覆蓋更新)",
+      "progress_template_hint": "請直接下載本模板，工進表的欄位關係一定要參照這份 Excel 模板，系統才能讀取欄位成功、建立專案甘特圖",
+      "edit_planning_gantt_bar": "點擊進度條 / +按鈕，可以編輯與建立資訊",
+      "importingPhotos": "正在匯入照片",
+      "importingProgress": "正在匯入 {current} / {total} 張"
+    }
+  }
+}

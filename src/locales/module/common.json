@@ -1,0 +1,84 @@
+{
+  "en": {
+    "common": {
+      "no": "No",
+      "keyword": "Keyword",
+      "cancel": "Cancel",
+      "save": "Save",
+      "add": "Add",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "theme": "Theme",
+      "language": "Language",
+      "light_set": "Brightness Theme",
+      "notification": "Notification",
+      "authentication": "Authentication",
+      "logout": "Logout",
+      "success": "Success",
+      "last_update_time": "Last Update",
+      "loading": "Loading",
+      "retry": "Retry",
+      "download": "Download",
+      "unclassified": "Unclassified",
+      "optional": "Optional",
+      "dismiss": "Got it",
+      "role": {
+        "admin": "Admin",
+        "user": "User"
+      },
+      "completionStatus": {
+        "completed": "Completed",
+        "pending": "Pending"
+      },
+      "relative": {
+        "second": "{count}s ago",
+        "minute": "{count}m ago",
+        "hour": "{count}h ago",
+        "day": "{count}d ago"
+      },
+      "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+    }
+  },
+  "zh-TW": {
+    "common": {
+      "no": "無",
+      "keyword": "關鍵字",
+      "cancel": "取消",
+      "save": "儲存",
+      "add": "新增",
+      "delete": "刪除",
+      "edit": "編輯",
+      "back": "返回",
+      "theme": "主題",
+      "language": "語言",
+      "light_set": "亮度主題",
+      "notification": "通知",
+      "authentication": "驗證",
+      "logout": "登出",
+      "success": "成功",
+      "last_update_time": "最後更新",
+      "loading": "載入中",
+      "retry": "重試",
+      "download": "下載",
+      "unclassified": "未分類",
+      "optional": "選填",
+      "dismiss": "我知道了",
+      "role": {
+        "admin": "管理者",
+        "user": "一般用戶"
+      },
+      "completionStatus": {
+        "completed": "已完成",
+        "pending": "待處理"
+      },
+      "relative": {
+        "second": "{count} 秒前",
+        "minute": "{count} 分鐘前",
+        "hour": "{count} 小時前",
+        "day": "{count} 天前"
+      },
+      "unsavedChanges": "您有未保存的更改，確定要離開嗎？"
+    }
+  }
+}

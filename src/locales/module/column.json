@@ -1,0 +1,44 @@
+{
+  "en": {
+    "column": {
+      "edit": "Edit",
+      "title": "Name",
+      "type": "Type",
+      "task_done_progress": "Task Completion Progress",
+      "task_todo_left": "Remaining Tasks",
+      "task_in_progress": "Tasks In Progress",
+      "created_at": "Created At",
+      "floor_plan_urls": "Floor Plan",
+      "owner": "Creator",
+      "collaborators": "Collaborators",
+      "construction_planning_period": "Construction Planning Period",
+      "total_planning_amount": "Total Material Budget",
+      "total_usage_amount": "Material Usage Amount",
+      "email": "Email",
+      "role": "Role",
+      "action": "Action",
+      "download_excel": "Report"
+    }
+  },
+  "zh-TW": {
+    "column": {
+      "edit": "編輯",
+      "title": "名稱",
+      "type": "類型",
+      "task_done_progress": "任務完成進度",
+      "task_todo_left": "剩餘任務",
+      "task_in_progress": "進行中任務",
+      "created_at": "建立時間",
+      "floor_plan_urls": "平面圖",
+      "owner": "建立者",
+      "collaborators": "協作者",
+      "construction_planning_period": "工程規劃期間",
+      "total_planning_amount": "材料預算金額",
+      "total_usage_amount": "材料使用金額",
+      "email": "電子郵件",
+      "role": "角色",
+      "action": "動作",
+      "download_excel": "報表"
+    }
+  }
+}

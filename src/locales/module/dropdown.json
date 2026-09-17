@@ -1,0 +1,30 @@
+{
+  "en": {
+    "dropdown": {
+      "zh-TW": "繁體中文",
+      "en": "English",
+      "user": "User",
+      "logout": "Logout",
+      "edit": "Edit",
+      "detail": "Detail",
+      "self_growing_multi_select": {
+        "add_placeholder": "+ Add...",
+        "manage_option": "Manage →"
+      }
+    }
+  },
+  "zh-TW": {
+    "dropdown": {
+      "zh-TW": "繁體中文",
+      "en": "English",
+      "user": "使用者",
+      "logout": "登出",
+      "edit": "編輯",
+      "detail": "詳細",
+      "self_growing_multi_select": {
+        "add_placeholder": "+ 新增...",
+        "manage_option": "管理 →"
+      }
+    }
+  }
+}

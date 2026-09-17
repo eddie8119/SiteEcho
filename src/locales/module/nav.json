@@ -1,0 +1,50 @@
+{
+  "en": {
+    "nav": {
+      "group": {},
+      "menu": {
+        "timeline": "Photos",
+        "camera": "Camera",
+        "pending": "Pending",
+        "overview": "Overview",
+        "reports": "Generate Report",
+        "photos": "Photos",
+        "trash": "Trash"
+      },
+      "batchActionBar": {
+        "selected": "{count} selected",
+        "more": "More",
+        "setSpace": "Space",
+        "setConstruction": "Trade",
+        "shareCrew": "Share",
+        "saveToAlbum": "Save",
+        "exportReport": "Export",
+        "trash": "Trash"
+      }
+    }
+  },
+  "zh-TW": {
+    "nav": {
+      "group": {},
+      "menu": {
+        "timeline": "照片集",
+        "camera": "拍照",
+        "pending": "待處理",
+        "overview": "總覽",
+        "reports": "產生報告",
+        "photos": "照片集",
+        "trash": "垃圾桶"
+      },
+      "batchActionBar": {
+        "selected": "已選擇 {count} 張照片",
+        "more": "更多",
+        "setSpace": "設定空間",
+        "setConstruction": "設定工項",
+        "shareCrew": "分享",
+        "saveToAlbum": "存到相簿",
+        "exportReport": "匯出報告",
+        "trash": "垃圾桶"
+      }
+    }
+  }
+}

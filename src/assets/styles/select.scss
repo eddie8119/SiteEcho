@@ -1,0 +1,115 @@
+/* === 外框樣式 === */
+.el-select {
+  @apply background-color-difference w-full rounded-lg border border-black-300 text-primary-text shadow-none transition-colors duration-300 dark:text-primaryDark-text;
+
+  /* 移除 EP 預設內層邊框顏色 */
+  --el-input-border-color: transparent;
+  --el-input-hover-border-color: transparent;
+  --el-input-focus-border-color: transparent;
+  --el-select-input-focus-border-color: var(--color-brand-primary);
+}
+
+/* === 內層結構（移除重複框線） === */
+.el-select__wrapper,
+.el-select .el-input,
+.el-select .el-input__wrapper {
+  @apply box-border overflow-hidden rounded-lg border border-transparent bg-transparent px-2 py-1 text-base leading-6 shadow-none;
+  background-clip: padding-box;
+  box-shadow: none !important;
+  min-height: 38px;
+  height: auto;
+}
+
+/* === Hover / Focus 狀態 === */
+.el-select:not(.is-disabled):hover,
+.el-select:not(.is-disabled):hover .el-input__wrapper,
+.el-select.is-focus,
+.el-select.is-focus .el-input__wrapper,
+.el-select__wrapper.is-focus,
+.el-select .el-input__wrapper.is-focus {
+  @apply bg-primary-background dark:bg-primaryDark-background;
+}
+
+.el-select.is-focus .el-input__wrapper,
+.el-select .el-input__wrapper.is-focus,
+.el-select .el-input.is-focus .el-input__wrapper,
+.el-select .el-input__wrapper:focus,
+.el-select .el-input__wrapper:focus-within,
+.el-select .el-input__wrapper:focus-visible {
+  @apply border border-brand-primary;
+  border-color: var(--color-brand-primary) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* === Disabled 狀態 === */
+.el-select.is-disabled {
+  @apply cursor-not-allowed opacity-60;
+}
+
+/* === 內部輸入框 (文字) === */
+.el-select .el-input__inner {
+  @apply text-color-difference border-0 bg-transparent text-base leading-6;
+  min-height: 30px;
+
+  &::placeholder {
+    @apply text200-color-difference;
+  }
+}
+
+.el-select .el-input__wrap,
+.el-select .el-input .el-input__inner,
+.el-select .el-input .el-input__wrapper {
+  color: inherit;
+  @apply text-color-difference;
+}
+
+.el-select .el-select__selection,
+.el-select .el-select__selected-item,
+.el-select .el-select__selected-item span {
+  @apply text-color-difference;
+}
+
+.el-select .el-select__placeholder {
+  @apply text200-color-difference;
+  color: var(--color-primary-text-200) !important;
+}
+
+.dark .el-select .el-select__placeholder {
+  color: var(--color-dark-primary-text-200) !important;
+}
+
+/* ===============================
+   下拉選單樣式 (.el-select-dropdown)
+   =============================== */
+.el-select-dropdown {
+  @apply background-color-difference border border-transparent text-primary-text shadow-lg dark:text-primaryDark-text;
+
+  .el-select-dropdown__item {
+    @apply text-primary-text transition duration-200 dark:text-primaryDark-text;
+
+    background: transparent !important;
+
+    &:hover,
+    &.selected {
+      @apply chart-text-color-difference;
+      background-color: var(--color-primary-hover, rgb(255 255 255 / 5%)) !important;
+    }
+
+    &.selected {
+      @apply font-semibold;
+    }
+
+    &.is-disabled {
+      @apply cursor-not-allowed opacity-60;
+    }
+  }
+
+  .el-scrollbar__bar.is-vertical {
+    width: 6px;
+  }
+
+  .el-scrollbar__thumb {
+    @apply bg-primary-chart opacity-50;
+  }
+}

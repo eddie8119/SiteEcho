@@ -1,0 +1,26 @@
+{
+  "en": {
+    "notification": {
+      "email": "Email",
+      "phone": "Phone",
+      "name": "Name",
+      "section_title": {
+        "subscriber_info": "Subscriber Info",
+        "device_selection": "Device Selection",
+        "time_range_settings": "Time Range Settings"
+      }
+    }
+  },
+  "zh-TW": {
+    "notification": {
+      "email": "電子郵件",
+      "phone": "電話",
+      "name": "名稱",
+      "section_title": {
+        "subscriber_info": "訂閱者資訊",
+        "device_selection": "裝置選擇",
+        "time_range_settings": "時間範圍設定"
+      }
+    }
+  }
+}

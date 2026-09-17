@@ -1,0 +1,358 @@
+{
+  "en": {
+    "label": {
+      "search": "Search",
+      "time": "Time",
+      "construction": "Trade",
+      "name": "Name",
+      "type": "Type",
+      "end": "End",
+      "reminder": "Reminder",
+      "end_date_time": "End Date",
+      "reminder_date_time": "Reminder Date and Time",
+      "role": "Role",
+      "detail": "Detail",
+      "total": "Total",
+      "action": "Action",
+      "note": "Note",
+      "content": "Content",
+      "average": "Average",
+      "day": "Day",
+      "unit": "Unit",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "reminder_time": "Reminder Time",
+      "date_range": "Date Range",
+      "filter": "Filter",
+      "quick_select": "Type or click to select",
+      "or": "Or",
+      "timeline_view": "Timeline View",
+      "switch_view": "Switch Schedule View",
+      "title": "Title",
+      "description": "Description",
+      "status": {
+        "status": "Status",
+        "overdue": "Overdue",
+        "reminding": "Reminder"
+      },
+      "legend": {
+        "design_phase": "Design planning phase",
+        "onsite_phase": "On-site construction phase"
+      },
+      "time_status": {
+        "all": "All",
+        "unscheduled": "Unscheduled",
+        "overdue": "Overdue",
+        "today": "Due Today",
+        "this_week": "Due This Week",
+        "this_month": "Due This Month"
+      },
+      "owner": "Owner",
+      "collaborator_role": "Collaborator",
+      "collaborator_count": "{count} collaborators",
+      "projects": "projects",
+      "collaborator": {
+        "global": "Global",
+        "global_default": "Global Default",
+        "global_managed": "Managed globally"
+      },
+      "invitation": {
+        "project": "Project",
+        "global": "Global",
+        "expires_at": "Expires at",
+        "project_invitation": "Project Invitation",
+        "global_invitation": "Global Collaboration Invitation"
+      },
+      "user": {
+        "name": "Username",
+        "email": "Email",
+        "member_since": "Member Since",
+        "phone": "Phone",
+        "company": "Company"
+      },
+      "project": {
+        "project": "Project",
+        "project_name": "Project Name",
+        "project_type": "Project Type",
+        "construction": "Trade",
+        "floor_plan": "Floor Plan",
+        "uploaded_images_count": "{count} photos uploaded"
+      },
+      "task": {
+        "task": "Task",
+        "task_display": "Task View",
+        "due_date_range": "Filter by days until due",
+        "status": "Task Status"
+      },
+      "material": {
+        "name": "Material Name",
+        "quantity": "Quantity",
+        "unit_price": "Unit Price",
+        "default_unit_price": "Default Unit Price",
+        "price_amount": "Total Amount",
+        "price": "Amount",
+        "unit": "Unit",
+        "note": "Note",
+        "received_date": "Received Date",
+        "cumulative_completion_rate": "Cumulative Completion %",
+        "total_quantity": "Total Quantity",
+        "total_usage_price": "Material Cost to Date",
+        "total_planning_amount": "Total Planned Cost",
+        "total_price": "Total Material Cost",
+        "planning_total_quantity": "Total Planned Quantity",
+        "planning_total_price": "Total Planned Cost",
+        "total_cost": "Total Cost",
+        "usage": "Material Usage",
+        "usage_accumulation": "Cumulative Usage",
+        "add_usage": "Record Usage",
+        "add_new_library": "Create Material Library",
+        "add_new_planning_library": "Add to Material Budget",
+        "add_new": "Add Material"
+      },
+      "welcome_planning": {
+        "title": "Try SiteNear with a sample project",
+        "button": "Try the 30-second progress demo",
+        "dialog_title": "Sample Project",
+        "dialog_message": "You are viewing a sample construction schedule",
+        "dialog_hint": "Try it out👇：",
+        "dialog_cta": "Start Experience",
+        "dialog_items": {
+          "adjust_timeline": "Drag either end of the timeline bar",
+          "double_click_holiday": "Double-click a holiday cell",
+          "open_task_card": "Click a yellow task bar to view its schedule",
+          "edit_info": "After uploading project data, use the Gantt chart to add, delete, and edit schedule items"
+        }
+      },
+      "planning": {
+        "item": "Schedule Item",
+        "upload_preview": "Upload Preview",
+        "projects_display": "Project Schedule Overview",
+        "demo": "No file uploaded yet. You can preview the sample Gantt chart first.",
+        "demo_project_name": "Sample Construction Schedule",
+        "demo_planning_note": "Schedule Note",
+        "demo_task_note": "Task Note",
+        "planning_material": "Material Budget"
+      },
+      "pin": {
+        "pinning": "Pinning",
+        "pinned": "Pinned",
+        "not_pinned": "Not pinned",
+        "pin_task": "Pin Task",
+        "remove_all": "Clear all pins",
+        "cancel_pinning": "Cancel Pinning"
+      },
+      "setting": {
+        "existing_list": "Existing List"
+      },
+      "actions": {
+        "enable": "Enable",
+        "disable": "Disable"
+      },
+      "upload_area": {
+        "hint": "Click or drag to upload a floor plan",
+        "supported_formats": "Supports JPG, PNG, PDF (first page only)"
+      },
+      "upload": {
+        "start_create_project": "If it were your own project site, you'd feel more engaged 👉 Start creating a project that's truly yours"
+      },
+      "construction_type": {
+        "3D_Drawing": "3D/Drawing",
+        "protection_demolition": "Protection/Demolition",
+        "electromechanical": "Electrical & Mechanical",
+        "hydropower": "Electrical & Plumbing",
+        "flooring": "Flooring",
+        "masonry": "Masonry",
+        "door_frame": "Doors & Frames",
+        "light_partition": "Lightweight Partitions",
+        "woodwork": "Woodwork",
+        "metal": "Metal",
+        "glass": "Glass",
+        "painting": "Painting",
+        "flooring_material": "Floor Finishes",
+        "waterproofing": "Waterproofing",
+        "bathroom_fixtures": "Bathroom Fixtures",
+        "kitchen_cabinet": "Kitchen Cabinets",
+        "air_conditioning": "Air Conditioning",
+        "structural_reinforcement": "Structural Reinforcement"
+      }
+    }
+  },
+  "zh-TW": {
+    "label": {
+      "search": "搜尋",
+      "time": "時間",
+      "construction": "工程",
+      "name": "名稱",
+      "end": "截止",
+      "type": "類型",
+      "reminder": "提醒",
+      "end_date_time": "截止時間",
+      "reminder_date_time": "提醒時間",
+      "role": "角色",
+      "detail": "詳情",
+      "total": "總計",
+      "action": "操作",
+      "note": "備註",
+      "content": "內容",
+      "average": "平均",
+      "day": "天",
+      "unit": "單位",
+      "start_time": "開始時間",
+      "end_time": "結束時間",
+      "reminder_time": "提醒時間",
+      "date_range": "日期範圍",
+      "filter": "篩選",
+      "quick_select": "直接輸入或是快速複選",
+      "or": "或",
+      "timeline_view": "時間軸視圖",
+      "switch_view": "切換排程視圖",
+      "title": "標題",
+      "description": "描述",
+      "status": {
+        "status": "狀態",
+        "overdue": "過期",
+        "reminding": "提醒"
+      },
+      "legend": {
+        "design_phase": "設計規劃階段",
+        "onsite_phase": "現場施作階段"
+      },
+      "time_status": {
+        "all": "全部",
+        "unscheduled": "尚未排程",
+        "overdue": "過期未完成",
+        "today": "今天剩餘",
+        "this_week": "本周剩餘",
+        "this_month": "本月剩餘"
+      },
+      "owner": "擁有者",
+      "collaborator_role": "協作者",
+      "collaborator_count": "{count} 位協作者",
+      "projects": "個專案",
+      "collaborator": {
+        "global": "全域",
+        "global_default": "全域預設",
+        "global_managed": "由全域管理"
+      },
+      "invitation": {
+        "project": "專案",
+        "global": "全域",
+        "expires_at": "過期時間",
+        "project_invitation": "專案邀請",
+        "global_invitation": "全域協作邀請"
+      },
+      "user": {
+        "name": "使用者名稱",
+        "email": "電子郵件",
+        "member_since": "加入日期",
+        "phone": "電話",
+        "company": "公司"
+      },
+      "project": {
+        "project": "專案",
+        "project_name": "專案名稱",
+        "project_type": "專案類型",
+        "construction": "工程",
+        "floor_plan": "平面圖",
+        "uploaded_images_count": "已上傳 {count} 張圖片"
+      },
+      "task": {
+        "task": "任務",
+        "task_display": "任務顯示內容",
+        "due_date_range": "篩選到期天數區間",
+        "status": "全案狀態篩選"
+      },
+      "material": {
+        "name": "材料名稱",
+        "quantity": "數量",
+        "unit_price": "單價",
+        "default_unit_price": "預設單價",
+        "price_amount": "總金額",
+        "price": "金額",
+        "unit": "單位",
+        "note": "備註",
+        "received_date": "進貨日期",
+        "cumulative_completion_rate": "累積完成率",
+        "total_quantity": "總數量",
+        "total_usage_price": "材料使用金額總計",
+        "total_planning_amount": "材料預算金額總計",
+        "total_price": "材料費用總計",
+        "planning_total_quantity": "預算總數量",
+        "planning_total_price": "預算總費用",
+        "total_cost": "材料成本總計",
+        "usage": "材料使用",
+        "usage_accumulation": "使用累積",
+        "add_usage": "新增材料使用",
+        "add_new_library": "建立材料庫",
+        "add_new_planning_library": "建立預算材料",
+        "add_new": "新增材料"
+      },
+      "welcome_planning": {
+        "title": "先用一個範例快速體驗 SiteNear",
+        "button": "30 秒體驗操作工進",
+        "dialog_title": "範例操作教學",
+        "dialog_message": "你現在正在操作一個示範工進",
+        "dialog_hint": "試試看👇：",
+        "dialog_cta": "開始體驗",
+        "dialog_items": {
+          "adjust_timeline": "拖動時間條的頭尾",
+          "double_click_holiday": "在特殊節慶的格子雙擊",
+          "open_task_card": "點擊黃色的待辦任務方塊，看時間表",
+          "edit_info": "甘特圖上所有資訊，在真實上傳資料後都可以更細緻的操作新增、刪除、編輯"
+        }
+      },
+      "planning": {
+        "item": "規劃項目",
+        "upload_preview": "上傳內容展示",
+        "projects_display": "專案工程規劃一覽",
+        "demo": "這是一個專案工進示範 👇 你可以直接操作體驗 SiteNear",
+        "demo_project_name": "此為工進表示範",
+        "demo_planning_note": "規劃文字註記",
+        "demo_task_note": "任務文字註記",
+        "planning_material": "材料預算規劃"
+      },
+      "pin": {
+        "pinning": "標記中",
+        "pinned": "已標記",
+        "not_pinned": "未標記",
+        "pin_task": "新增標記",
+        "remove_all": "清除所有標記",
+        "cancel_pinning": "取消標記"
+      },
+      "setting": {
+        "existing_list": "現有列表"
+      },
+      "actions": {
+        "enable": "啟用",
+        "disable": "停用"
+      },
+      "upload_area": {
+        "hint": "點擊或拖拽上傳平面圖",
+        "supported_formats": "支援 JPG、PNG、PDF（僅取第一頁）"
+      },
+      "upload": {
+        "start_create_project": "如果換成你自己的案場，會更有感 👉 開始真正建立一份專屬你的專案"
+      },
+      "construction_type": {
+        "3D_Drawing": "3D/繪圖",
+        "protection_demolition": "保護/拆除",
+        "electromechanical": "機電",
+        "hydropower": "水電",
+        "flooring": "地坪",
+        "masonry": "泥作",
+        "door_frame": "門窗",
+        "light_partition": "輕隔間",
+        "woodwork": "木作",
+        "metal": "金屬",
+        "glass": "玻璃",
+        "painting": "油漆",
+        "flooring_material": "地板",
+        "waterproofing": "防水",
+        "bathroom_fixtures": "衛浴設備",
+        "kitchen_cabinet": "廚具",
+        "air_conditioning": "空調",
+        "structural_reinforcement": "結構補強"
+      }
+    }
+  }
+}

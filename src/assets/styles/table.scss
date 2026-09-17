@@ -1,0 +1,130 @@
+/* ===== 單純文字樣式覆用 ===== */
+.table-text {
+  @apply text-color-difference;
+}
+
+.schedule-table__header--plain {
+  &::after {
+    display: none;
+  }
+}
+
+// 工進圖表
+.gantt-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.basic-gantt-row {
+  @apply flex items-center px-4 text-sm;
+}
+
+.gantt-task-row {
+  @apply basic-gantt-row h-14 border-b border-slate-100 transition-colors dark:border-gray-700;
+}
+
+.gantt-label-row {
+  @apply basic-gantt-row -mx-4 h-6 border-t border-slate-200 text-slate-700 dark:border-gray-700 dark:text-gray-300;
+}
+
+$gantt-timeline-hover-bg: rgba(226, 232, 240, 0.5);
+
+// Gantt timeline date columns
+.gantt-timeline-container {
+  .date-column {
+    min-width: 45px;
+
+    &.is-weekend {
+      background-color: rgba(15, 23, 42, 0.02);
+    }
+
+    &.is-hovered {
+      /* 中性灰色高亮，對齊垂直與水平 hover 風格 */
+      background-color: $gantt-timeline-hover-bg;
+    }
+
+    /* 今日標記 */
+    &.today {
+      background-color: rgba(59, 130, 246, 0.1);
+    }
+  }
+
+  .date-cell {
+    &.is-hovered {
+      /* 與 header 日期列相同的中性灰色高亮 */
+      background-color: $gantt-timeline-hover-bg;
+    }
+
+    &.today {
+      background-color: rgba(59, 130, 246, 0.05);
+    }
+  }
+
+  /* 甘特列 hover：使用與日期高亮相同的中性灰色 */
+  .gantt-row:hover {
+    background-color: $gantt-timeline-hover-bg;
+  }
+}
+
+/* ===== Day timeline view table ===== */
+.schedule-table,
+.schedule-table__header {
+  @apply bg-white dark:bg-gray-900;
+}
+
+.schedule-table {
+  @apply border border-slate-300 dark:border-gray-700;
+}
+
+.schedule-table__header {
+  @apply relative overflow-hidden border-b border-l border-r border-slate-200 dark:border-gray-700;
+
+  &::after {
+    content: '';
+    @apply pointer-events-none absolute inset-0;
+    background-image: var(--timeline-column-guide);
+    background-size: 280px 100%;
+    background-position: 0 0;
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.schedule-table__header-cell {
+  @apply text-slate-900 dark:text-white;
+}
+
+.schedule-table__left-column {
+  @apply border-r border-slate-200 bg-slate-50 dark:border-gray-700 dark:bg-gray-800;
+}
+
+.schedule-table__corner {
+  @apply border-b border-slate-200 bg-slate-50 dark:border-gray-700 dark:bg-gray-800;
+}
+
+.schedule-table__right-header {
+  @apply border-b border-slate-200 text-slate-500 dark:border-gray-700 dark:text-gray-300;
+}
+
+.schedule-table__time-row,
+.schedule-table__grid-row {
+  @apply border-b border-slate-200 dark:border-gray-700;
+}
+
+.schedule-table__time-row:first-child,
+.schedule-table__grid-row:first-child {
+  @apply border-t border-slate-200 dark:border-gray-700;
+}
+
+.schedule-table__time-row {
+  @apply text-slate-400 dark:text-gray-400;
+}
+
+.schedule-table__body {
+  @apply border-l border-slate-300;
+}

@@ -1,0 +1,144 @@
+.input-common {
+  @apply background-color-difference text-color-difference block w-full;
+}
+
+/* Global rule to prevent Apple auto-zoom on input focus */
+.el-input__inner,
+input {
+  font-size: 16px !important;
+}
+
+.input-border {
+  @apply rounded-lg border border-black-300 px-2 text-lg leading-7 focus:border-blue-500 focus:ring-blue-500;
+}
+
+.input-base {
+  .el-input__wrapper {
+    @apply box-border rounded-md transition-all duration-300;
+
+    box-shadow: none;
+    padding: 4px 8px;
+    transition: border-color 0.3s ease;
+
+    &:hover,
+    &.is-focus {
+      @apply border-brand-color-difference;
+
+      box-shadow: none;
+    }
+  }
+
+  .el-input__inner {
+    @apply text-color-difference;
+    font-size: 16px;
+    height: 30px;
+
+    &::placeholder {
+      @apply text200-color-difference;
+    }
+  }
+}
+
+// 材料表單輸入框
+.material-field {
+  @apply w-full rounded-md p-2 text-base;
+}
+
+/* ===============================
+   🔢 Input Number（繼承 input-base）
+   =============================== */
+.el-input-number.el-input-number--large {
+  @apply h-10 w-28;
+  @extend .input-base;
+
+  .el-input__wrapper {
+    @apply rounded-lg;
+  }
+
+  /* 控制按鈕右側 */
+  &.is-controls-right {
+    .el-input-number__decrease,
+    .el-input-number__increase {
+      @apply border-brand-primary bg-transparent text-brand-primary;
+
+      border-left: 2px solid var(--el-border-color);
+
+      &:hover {
+        @apply bg-brand-primary text-white;
+      }
+    }
+  }
+
+  .el-input__inner {
+    @apply text-center;
+  }
+}
+
+/* ===============================
+   ✏️ 一般表單輸入框
+   =============================== */
+.el-input {
+  @extend .input-base;
+
+  .el-input__wrapper {
+    @apply background-color-difference rounded-lg;
+  }
+}
+
+/* ===============================
+   🔍 表格/搜尋輸入框
+   =============================== */
+.input_table {
+  @extend .input-base;
+
+  .el-input__wrapper {
+    @apply background-color-difference h-9 rounded-xl border border-solid;
+
+    border-color: var(--color-black-300);
+
+    &.is-error {
+      border-color: var(--color-secondary-red);
+    }
+  }
+
+  .el-input__inner,
+  .el-input__inner:focus {
+    @apply text-color-difference;
+  }
+}
+
+/* ===============================
+   📅 日期選擇器
+   =============================== */
+.el-date-editor {
+  @extend .input-base;
+
+  .el-input__wrapper {
+    @apply background-color-difference h-8 rounded-md border border-solid;
+
+    border-color: var(--color-primary-border);
+
+    &.is-focus {
+      border-color: var(--color-primary-text);
+    }
+
+    &.is-disabled {
+      @apply opacity-60;
+    }
+  }
+}
+
+/* ===============================
+   🗔 Dialog 內的 ElFormItem 樣式
+   =============================== */
+.el-dialog {
+  .el-form {
+    .el-form-item__label {
+      @apply text-primary-text dark:text-primaryDark-text;
+    }
+
+    .el-form-item__error {
+      @apply text-secondary-red;
+    }
+  }
+}

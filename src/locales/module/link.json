@@ -1,0 +1,23 @@
+{
+  "en": {
+    "link": {
+      "back_to_home": "Back to Home",
+      "back_to_forgot_password": "Back to Forgot Password",
+      "forgot_password": "Forgot Password",
+      "back_to_login": "Back to Login",
+      "register": "Register",
+      "website": "Website",
+      "download_app": "Download App"
+    }
+  },
+  "zh-TW": {
+    "link": {
+      "back_to_home": "返回首頁",
+      "back_to_forgot_password": "返回忘記密碼",
+      "forgot_password": "忘記密碼",
+      "back_to_login": "返回登入",
+      "register": "註冊",
+      "website": "網站"
+    }
+  }
+}

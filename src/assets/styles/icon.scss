@@ -1,0 +1,23 @@
+.icon-basic {
+  @apply w-5 cursor-pointer md:w-6;
+}
+
+.icon-logo {
+  @apply dark:brightness-0 dark:invert dark:saturate-0;
+}
+
+.icon-mask {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+
+@media (width >= 768px) {
+  .icon-mask {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "en": {
+    "pending": {
+      "item": {
+        "altPhoto": "Photo",
+        "editPhoto": "Edit photo",
+        "selectStatus": "Select status",
+        "resolve": "Resolve",
+        "resolve_and_add_after_photo": "Resolve + photo"
+      },
+      "tab": {
+        "pendingPhotos": {
+          "issue": "Issue",
+          "fix": "Fix",
+          "check": "Check"
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "pending": {
+      "item": {
+        "altPhoto": "照片",
+        "editPhoto": "編輯照片",
+        "selectStatus": "選擇狀態",
+        "resolve": "解決",
+        "resolve_and_add_after_photo": "解決+處理後照片"
+      },
+      "tab": {
+        "pendingPhotos": {
+          "issue": "問題",
+          "fix": "修復",
+          "check": "檢查"
+        }
+      }
+    }
+  }
+}

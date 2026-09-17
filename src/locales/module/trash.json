@@ -1,0 +1,107 @@
+{
+  "en": {
+    "trash": {
+      "header": {
+        "title": "Trash",
+        "photoCountPrefix": "",
+        "photoCount": "{count} photos",
+        "retentionInfo": "Trash items are permanently deleted after 30 days"
+      },
+      "buttons": {
+        "selectAll": "Select All",
+        "exitBatch": "Exit Batch",
+        "batchEdit": "Batch Edit Photos",
+        "emptyTrash": "Empty Trash",
+        "retry": "Retry"
+      },
+      "status": {
+        "emptyTrash": "Trash is empty",
+        "unknownProject": "Unknown Project",
+        "noProject": "No Project"
+      },
+      "timeline": {
+        "today": "Today",
+        "yesterday": "Yesterday"
+      },
+      "dialog": {
+        "emptyTrashConfirm": "Are you sure you want to empty the trash? This action will permanently delete all photos and cannot be undone."
+      },
+      "selection": {
+        "selectedSummary": "{count} photos selected"
+      },
+      "card": {
+        "remainingDays": "{days} days until permanent deletion"
+      },
+      "actions": {
+        "restore": "Restore",
+        "permanentDelete": "Delete Permanently"
+      },
+      "filter": {
+        "selectedCount": "{count} photos selected",
+        "pending": "⚠ Pending ({count})"
+      },
+      "bin": {
+        "imageCount": "{count} images",
+        "retentionInfo": "Photos that can be restored (retained for 30 days)",
+        "restoreFailed": "Restore failed",
+        "deleteFailed": "Delete failed",
+        "photos": "photos",
+        "delete": "Delete",
+        "delete_with_follow_up": "This will also delete {count} related after-photos."
+      }
+    }
+  },
+  "zh-TW": {
+    "trash": {
+      "header": {
+        "title": "垃圾桶",
+        "photoCountPrefix": "共",
+        "photoCount": "{count} 張照片",
+        "retentionInfo": "已刪除的照片將在 30 天後永久刪除"
+      },
+      "buttons": {
+        "selectAll": "全選",
+        "exitBatch": "退出批次",
+        "batchEdit": "批次編輯圖片",
+        "emptyTrash": "清空垃圾桶",
+        "retry": "重試"
+      },
+      "status": {
+        "emptyTrash": "垃圾桶是空的",
+        "unknownProject": "未知專案",
+        "noProject": "無專案"
+      },
+      "timeline": {
+        "today": "今天",
+        "yesterday": "昨天"
+      },
+      "dialog": {
+        "emptyTrashConfirm": "確定要清空垃圾桶嗎？此操作將永久刪除所有照片，無法復原。"
+      },
+      "selection": {
+        "selectedSummary": "{count} 張照片已選擇"
+      },
+      "card": {
+        "remainingDays": "{days} 天後永久刪除"
+      },
+      "actions": {
+        "restore": "復原",
+        "permanentDelete": "永久刪除"
+      },
+      "filter": {
+        "selectedCount": "已選擇 {count} 張照片",
+        "cancel": "取消",
+        "delete": "刪除"
+      },
+      "bin": {
+        "imageCount": "{count} 張圖像",
+        "retentionInfo": "可復原的照片（保留 30 天）",
+        "restoreFailed": "復原失敗",
+        "deleteFailed": "刪除失敗",
+        "photos": "照片",
+        "delete": "刪除",
+        "delete_with_follow_up": "這將一併刪除 {count} 張相關的處理後照片"
+      }
+    }
+  }
+}

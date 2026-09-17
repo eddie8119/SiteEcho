@@ -1,0 +1,339 @@
+{
+  "en": {
+    "message": {
+      "no_owned_projects": "You haven't created any projects yet",
+      "no_collaborating_projects": "You are not a collaborator on any projects yet",
+      "collaborator_updated": "Collaborator role updated successfully",
+      "collaborator_removed": "Collaborator removed successfully",
+      "collaborator_cannot_delete_photos": "You can only delete photos you uploaded ({count})",
+      "update_collaborator_failed": "Failed to update collaborator role",
+      "remove_collaborator_failed": "Failed to remove collaborator",
+      "invalid_email": "Please enter a valid email address",
+      "no_done": "No completed items",
+      "no_undone": "No outstanding items",
+      "no_tasks": "No tasks yet",
+      "no_plan": "No floor plans yet",
+      "no_tasks_for_day": "No tasks scheduled for this day",
+      "no_unscheduled_task": "No unscheduled tasks",
+      "no_pending_photos": "No pending",
+      "projectManagement": {
+        "noProjects": "No projects",
+        "startFirstProject": "Start creating your first project",
+        "photos": "photos",
+        "created": "Created:",
+        "lastUsed": "Last used:",
+        "deleteProjectTitle": "Delete Project",
+        "confirmDeleteProject": "Are you sure you want to delete project \"{name}\"?",
+        "deleteProjectWarning": "Deleting the project will also delete all related photos. This action cannot be undone.",
+        "willDeletePhotos": "Will delete {count} photos",
+        "deleting": "Deleting...",
+        "confirmDelete": "Confirm Delete",
+        "clearPhotosWarning": "You must clear all photo data in this project before you can delete the project",
+        "projectHasPhotos": "Project \"{name}\" currently has {count} photos",
+        "projectHasTrashPhotos": "Project \"{name}\" currently has {count} photos in trash"
+      },
+      "sso_processing": "Processing your SSO login, please wait...",
+      "sso_success": "SSO login successful! Redirecting...",
+      "login_failed": "Login failed",
+      "dialog": {
+        "activation_success": "Activation successful!",
+        "activation_error": "Activation failed",
+        "activating": "Activating...",
+        "check_email_for_activation": "Check your email for activation",
+        "no_email_received": "No email received",
+        "check_the_email": "Check the email",
+        "change_password_success": "Password changed successfully!",
+        "change_password_failed": "Failed to change password, please try again later",
+        "restore_input_query": "Clear the search to show all tasks again."
+      },
+      "auth": {
+        "invalid_credentials": "Incorrect email or password",
+        "too_many_attempts": "Too many attempts, please try again later",
+        "email_unverified": "Email address not verified",
+        "account_locked": "Account has been locked"
+      },
+      "subscription": {
+        "earlybirdToTrialNotice": "You are one of the first 45 VIP experience users. The product is expected to officially launch on {date}. Before that, we will make final calibrations based on user needs.",
+        "trialExpiryNotice": "You are now on the Trial plan. Your trial will end on {date}."
+      },
+      "sign": {
+        "no_todo": "No to-do items",
+        "no_done": "No completed items",
+        "no_undone": "No outstanding items",
+        "no_change": "No changes",
+        "no_alarm": "No alerts",
+        "no_collaborators": "No project collaborators yet",
+        "no_global_collaborators": "No company-wide collaborators yet",
+        "no_invitations": "No pending invitations",
+        "link_copied": "Link copied",
+        "copy_failed": "Copy failed, please copy manually",
+        "share_disabled_hint": "Share disabled",
+        "delete_construction_content": "This will also delete all its related tasks.",
+        "confirm_delete_input": "To confirm deletion, please type:"
+      },
+      "invitation": {
+        "sent": "Invitation sent successfully",
+        "accepted": "Invitation accepted",
+        "rejected": "Invitation rejected",
+        "cancelled": "Invitation cancelled",
+        "send_failed": "Failed to send invitation",
+        "accept_failed": "Failed to accept invitation",
+        "reject_failed": "Failed to reject invitation",
+        "cancel_failed": "Failed to cancel invitation",
+        "already_exists": "An invitation already exists for this user",
+        "invited_by": "Invited by {name}",
+        "invited_you": "invited you to collaborate",
+        "login_required": "Please login or register to accept this invitation",
+        "ready_to_accept": "You are about to accept this collaboration invitation",
+        "invalid_token": "Invalid invitation link",
+        "not_found": "Invitation not found or already processed",
+        "expired": "This invitation has expired",
+        "load_failed": "Failed to load invitation details",
+        "created": "Invitation link created successfully",
+        "pro_required": "Upgrade to Pro to invite collaborators",
+        "max_collaborators": "Project has reached the maximum of 5 members",
+        "create_failed": "Failed to create invitation link",
+        "already_member": "You are already a member of this project",
+        "already_used": "This invitation link has already been used",
+        "fetch_failed": "Failed to fetch invitation details"
+      },
+      "upload": {
+        "unsupported_format": "File {fileName} is not a supported format",
+        "process_failed": "Failed to process file {fileName}",
+        "success": "Successfully uploaded {count} floor plans",
+        "failed": "Failed to upload floor plans"
+      },
+      "material": {
+        "group": {
+          "unclassified": "Uncategorized"
+        },
+        "empty": "No materials added yet",
+        "batch_update": {
+          "success": "Batch update successful",
+          "failed": "Batch update failed"
+        },
+        "add": {
+          "missing_task": "Cannot find a related task to add the material",
+          "missing_name": "Please enter a material name",
+          "success": "Material added successfully",
+          "failed": "Failed to add material"
+        },
+        "update": {
+          "success": "Material updated successfully",
+          "failed": "Failed to update material"
+        },
+        "delete": {
+          "success": "Material deleted successfully",
+          "failed": "Failed to delete material"
+        }
+      },
+      "success": {
+        "create": "Created successfully",
+        "update": "Updated successfully",
+        "deleted": "Deleted successfully",
+        "change": "Changed successfully"
+      },
+      "error": {
+        "failed_to_fetch_weather_data": "Failed to fetch weather data",
+        "page_not_found_description": "Sorry, the page you are looking for does not exist.",
+        "created": "Failed to create",
+        "update": "Failed to update",
+        "deleted": "Failed to delete",
+        "change": "Failed to change",
+        "login": "Login failed",
+        "register": "Register failed",
+        "activate_account": "Activate account failed",
+        "resend_activation": "Resend activation failed",
+        "change_password": "Change password failed",
+        "reset_password": "Reset password failed"
+      },
+      "sso": {
+        "missing_params": "Missing required authorization parameters",
+        "invalid_format": "Invalid authorization parameter format",
+        "unsupported_provider": "Unsupported SSO provider",
+        "login_failed": "SSO login failed",
+        "generic_error": "An error occurred during the SSO login process",
+        "oauth_error": "Google returned an error: {error}"
+      },
+      "syncing": "Syncing...",
+      "syncing_cloud_data": "Syncing your cloud data, please wait...",
+      "sync_progress": "Synced {synced} of {total} items",
+      "login_required": "Please log in first",
+      "deleteAccount": {
+        "loginRequired": "Please log in to delete your account",
+        "confirmBody": "This action cannot be undone and will permanently delete your account and all related data.",
+        "deleteFailed": "Failed to delete account. Please try again later or contact support.",
+        "deleteSuccess": "Account deleted successfully"
+      }
+    }
+  },
+  "zh-TW": {
+    "message": {
+      "no_owned_projects": "您尚未建立任何專案",
+      "no_collaborating_projects": "您尚未成為任何專案的協作者",
+      "collaborator_updated": "協作者角色更新成功",
+      "collaborator_removed": "協作者已成功移除",
+      "collaborator_cannot_delete_photos": "您只能刪除自己上傳的照片（{count} 張）",
+      "update_collaborator_failed": "協作者角色更新失敗",
+      "remove_collaborator_failed": "移除協作者失敗",
+      "invalid_email": "請輸入有效的電子郵件地址",
+      "no_done": "無已施作完成事項",
+      "no_undone": "無未完成事項",
+      "no_tasks": "暫無任務",
+      "no_plan": "暫無平面圖",
+      "no_tasks_for_day": "當天無任務安排",
+      "no_unscheduled_task": "所有任務都已排程",
+      "no_pending_photos": "沒有待處理的照片",
+      "projectManagement": {
+        "noProjects": "沒有專案",
+        "startFirstProject": "開始建立你的第一個專案",
+        "photos": "張照片",
+        "created": "建立:",
+        "lastUsed": "最後使用:",
+        "deleteProjectTitle": "刪除專案",
+        "confirmDeleteProject": "確定要刪除專案「{name}」嗎？",
+        "deleteProjectWarning": "刪除專案會同時刪除所有相關照片，此操作無法還原。",
+        "willDeletePhotos": "將會刪除 {count} 張照片",
+        "deleting": "刪除中...",
+        "confirmDelete": "確認刪除",
+        "clearPhotosWarning": "要清除本專案下所有的圖片資料 才可以刪除專案",
+        "projectHasPhotos": "專案「{name}」目前有 {count} 張照片",
+        "projectHasTrashPhotos": "專案「{name}」目前有 {count} 張照片在垃圾桶"
+      },
+      "sso_processing": "正在處理您的 SSO 登入，請稍候...",
+      "sso_success": "SSO 登入成功！正在跳轉...",
+      "login_failed": "登入失敗",
+      "dialog": {
+        "activation_success": "啟用成功！",
+        "activation_error": "啟用失敗",
+        "activating": "啟用中...",
+        "check_email_for_activation": "請查看您的電子郵件以完成啟用",
+        "no_email_received": "尚未收到電子郵件",
+        "check_the_email": "請檢查您的電子郵件",
+        "change_password_success": "密碼變更成功！",
+        "change_password_failed": "密碼變更失敗，請稍後再試",
+        "restore_input_query": "清除搜尋關鍵字框，即可恢復展示所有任務"
+      },
+      "auth": {
+        "invalid_credentials": "帳號或密碼錯誤",
+        "too_many_attempts": "嘗試次數過多，請稍後再試",
+        "email_unverified": "電子郵件尚未驗證",
+        "account_locked": "帳號已被鎖定"
+      },
+      "subscription": {
+        "earlybirdToTrialNotice": "您是首批 45 位貴賓體驗用戶，產品預計在 {date} 正式營運，在此前將依據用戶的需求做最終校準。",
+        "trialExpiryNotice": "您現在為 Trial 方案，試用將於 {date} 到期。"
+      },
+      "sign": {
+        "no_todo": "無待辦事項",
+        "no_done": "無已施作完成事項",
+        "no_undone": "無未完成事項",
+        "no_change": "無變更",
+        "no_alarm": "無警報",
+        "no_collaborators": "無專案協作者",
+        "no_global_collaborators": "無全公司專案協作者",
+        "no_invitations": "無待處理邀請",
+        "link_copied": "已複製連結",
+        "copy_failed": "複製失敗，請手動複製",
+        "share_disabled_hint": "分享功能已關閉",
+        "delete_construction_content": "以及其內的任務資料將被刪除",
+        "confirm_delete_input": "若確認刪除，請在下方輸入:"
+      },
+      "invitation": {
+        "sent": "邀請已成功發送",
+        "accepted": "已接受邀請",
+        "rejected": "已拒絕邀請",
+        "cancelled": "已取消邀請",
+        "send_failed": "發送邀請失敗",
+        "accept_failed": "接受邀請失敗",
+        "reject_failed": "拒絕邀請失敗",
+        "cancel_failed": "取消邀請失敗",
+        "already_exists": "該用戶已有待處理的邀請",
+        "invited_by": "由 {name} 邀請",
+        "invited_you": "邀請您加入協作",
+        "login_required": "請登入或註冊以接受此邀請",
+        "ready_to_accept": "您即將接受此協作邀請",
+        "invalid_token": "無效的邀請連結",
+        "not_found": "找不到邀請或已處理",
+        "expired": "此邀請已過期",
+        "load_failed": "無法載入邀請詳情",
+        "created": "邀請連結已成功建立",
+        "pro_required": "升級至 Pro 方可邀請協作者",
+        "max_collaborators": "專案已達到 5 人上限",
+        "create_failed": "建立邀請連結失敗",
+        "already_member": "您已是此專案的成員",
+        "already_used": "此邀請連結已被使用",
+        "fetch_failed": "無法取得邀請詳情"
+      },
+      "upload": {
+        "unsupported_format": "檔案 {fileName} 不是支援的格式",
+        "process_failed": "處理檔案 {fileName} 失敗",
+        "success": "成功上傳 {count} 張平面圖",
+        "failed": "上傳平面圖失敗"
+      },
+      "material": {
+        "group": {
+          "unclassified": "未分類"
+        },
+        "empty": "尚未新增材料",
+        "batch_update": {
+          "success": "批次更新成功",
+          "failed": "批次更新失敗"
+        },
+        "add": {
+          "missing_task": "無法找到對應的任務來新增材料",
+          "missing_name": "請輸入材料名稱",
+          "success": "材料新增成功",
+          "failed": "材料新增失敗"
+        },
+        "update": {
+          "success": "材料更新成功",
+          "failed": "材料更新失敗"
+        },
+        "delete": {
+          "success": "材料刪除成功",
+          "failed": "材料刪除失敗"
+        }
+      },
+      "success": {
+        "create": "建立成功",
+        "update": "更新成功",
+        "deleted": "刪除成功",
+        "change": "變更成功"
+      },
+      "error": {
+        "created": "建立失敗",
+        "update": "更新失敗",
+        "deleted": "刪除失敗",
+        "change": "變更失敗",
+        "login": "登入失敗",
+        "register": "註冊失敗",
+        "activate_account": "啟用失敗",
+        "resend_activation": "重新發送啟用郵件失敗",
+        "forgot_password": "忘記密碼失敗",
+        "reset_password": "重置密碼失敗",
+        "change_password": "變更密碼失敗",
+        "page_not_found_description": "抱歉，您要造訪的頁面不存在。",
+        "project_limit_reached": "已達方案可建立的專案上限 ({limit})，請先刪除一些專案再建立新專案。"
+      },
+      "sso": {
+        "missing_params": "缺少必要的授權參數",
+        "invalid_format": "授權參數格式錯誤",
+        "unsupported_provider": "不支援的 SSO 提供商",
+        "login_failed": "SSO 登入失敗",
+        "generic_error": "SSO 登入過程中發生錯誤",
+        "oauth_error": "Google 回傳錯誤：{error}"
+      },
+      "syncing": "同步中...",
+      "syncing_cloud_data": "正在同步您的雲端資料，請稍候...",
+      "sync_progress": "已同步 {synced} / {total} 項",
+      "login_required": "請先登入",
+      "deleteAccount": {
+        "loginRequired": "請先登入以刪除您的帳戶",
+        "confirmBody": "此操作無法復原，將永久刪除您的帳戶及所有相關資料。",
+        "deleteFailed": "刪除帳戶失敗，請稍後再試或聯絡客服。",
+        "deleteSuccess": "帳戶刪除成功"
+      }
+    }
+  }
+}

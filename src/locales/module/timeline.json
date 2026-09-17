@@ -1,0 +1,138 @@
+{
+  "en": {
+    "timeline": {
+      "search_placeholder": "(Space / Trade / Note)",
+      "status_filter": {
+        "all": "All",
+        "pending": "Pending",
+        "resolved": "Resolved"
+      },
+      "pending_filter": "⚠ Pending ({count})",
+      "or": "or",
+      "import_from_gallery": "Import from Photo Gallery",
+      "empty_state": {
+        "no_photos_title": "No Photos",
+        "no_photos_description": "Start taking your first photo!",
+        "take_photo_button": "Take Photo",
+        "no_matching_photos": "No photos matching the criteria",
+        "clear_filters": "Clear Filters",
+        "no_pending_photos": "No pending photos",
+        "no_resolved_photos": "No resolved photos"
+      },
+      "toast": {
+        "shared_success": "Shared to {target} ✔",
+        "download_success": "Downloaded, check in Files / Gallery",
+        "download_failed": "Download failed, please try again"
+      },
+      "messages": {
+        "project_report": "Project Report",
+        "select_project_first": "Please select a project first",
+        "report_preparing": "Preparing report...",
+        "loading_images": "Loading images...",
+        "generating_pdf": "Generating PDF...",
+        "project": "Project",
+        "report_generated_downloading": "Report generated and downloading",
+        "report_generation_failed": "Report generation failed, please try again later",
+        "preparing_share_content": "Preparing share content...",
+        "summary_copied": "Summary text copied, can paste in share input",
+        "text_copy_failed": "Text copy failed, please copy manually",
+        "evidence_set_cloud_upload": "Saved as record photo. Full-res backup to cloud",
+        "evidence_set_local_upgrade": "Saved as record photo (local only). Upgrade to back up to cloud",
+        "evidence_cancelled_local": "Record cancelled; photo kept on this device",
+        "upgrade_prompt_title": "Upgrade to generate reports",
+        "upgrade_prompt_description": "You have used your free report quota ({count} times)\nUpgrade subscription to generate unlimited professional PDF reports",
+        "import_success": "Imported {count} photos",
+        "import_success_no_space": "Imported {count} photos. Set a space to make them easier to find later"
+      },
+      "state": {
+        "empty_state": {
+          "no_photos_title": "No Photos",
+          "no_photos_description": "Start taking your first photo!",
+          "take_photo_button": "Take Photo"
+        },
+        "sync_status": {
+          "not_backed_up": "{count} of {total} photos need backup",
+          "not_backed_up_waiting_wifi": "{count} of {total} photos need backup (waiting for WiFi)",
+          "syncing": "Syncing {synced}/{total}",
+          "pending": "{count} change(s) will sync shortly",
+          "waiting_wifi": "Waiting for WiFi to sync...",
+          "synced": "✅ Photos synced",
+          "storage_note": "Originals saved on phone, thumbnails on cloud"
+        },
+        "toast": {
+          "shared_success": "Shared to {target} ✔",
+          "download_success": "Downloaded, check in Files / Gallery",
+          "download_failed": "Download failed, please try again"
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "timeline": {
+      "search_placeholder": "（空間 / 工項 / 備註）",
+      "status_filter": {
+        "all": "全部",
+        "pending": "待處理",
+        "resolved": "已解決"
+      },
+      "pending_filter": "⚠ 待處理 ({count})",
+      "or": "或",
+      "import_from_gallery": "從手機相簿匯入照片",
+      "empty_state": {
+        "no_photos_title": "暫無照片",
+        "no_photos_description": "開始拍攝你的第一張照片吧！",
+        "take_photo_button": "拍照",
+        "no_matching_photos": "沒有符合條件的照片",
+        "clear_filters": "清除篩選",
+        "no_pending_photos": "目前沒有待處理的照片",
+        "no_resolved_photos": "目前沒有完成的照片"
+      },
+      "toast": {
+        "shared_success": "已分享給 {target} ✔",
+        "download_success": "已下載，可在「檔案 / 相簿」中查看",
+        "download_failed": "下載失敗，請重試"
+      },
+      "messages": {
+        "project_report": "專案報告",
+        "select_project_first": "請先選擇專案",
+        "report_preparing": "報告準備中...",
+        "loading_images": "載入圖片中...",
+        "generating_pdf": "正在產生 PDF...",
+        "project": "專案",
+        "report_generated_downloading": "報告已產生並開始下載",
+        "report_generation_failed": "報告產生失敗，請稍後再試",
+        "preparing_share_content": "正在準備分享內容...",
+        "summary_copied": "總結文字已複製，可在分享時貼上輸入框",
+        "text_copy_failed": "文字複製失敗，請手動複製後貼上",
+        "evidence_set_cloud_upload": "已設為保留照片，將上傳高畫質原圖至雲端",
+        "evidence_set_local_upgrade": "已設為保留照片（儲存於本地），升級後圖片可同步至雲端",
+        "evidence_cancelled_local": "已取消證據，圖片僅保留於本地",
+        "upgrade_prompt_title": "升級後可產生報告",
+        "upgrade_prompt_description": "您已使用免費報告額度（{count} 次）\n升級訂閱即可無限產生專業 PDF 報告",
+        "import_success": "已匯入 {count} 張照片",
+        "import_success_no_space": "已匯入 {count} 張照片。建議設定空間，之後會更好找"
+      },
+      "state": {
+        "empty_state": {
+          "no_photos_title": "暫無照片",
+          "no_photos_description": "開始拍攝你的第一張照片吧！",
+          "take_photo_button": "拍照"
+        },
+        "sync_status": {
+          "not_backed_up": "{total} 張中有 {count} 張照片需備份",
+          "not_backed_up_waiting_wifi": "{total} 張中有 {count} 張照片需備份（等待 WiFi）",
+          "syncing": "同步中 {synced}/{total}",
+          "pending": "{count} 項變更將在稍後同步",
+          "waiting_wifi": "等待 WiFi 以同步...",
+          "synced": "✅ 已同步照片",
+          "storage_note": "手機保存原圖，雲端保留縮圖"
+        },
+        "toast": {
+          "shared_success": "已分享給 {target} ✔",
+          "download_success": "已下載，可在「檔案 / 相簿」中查看",
+          "download_failed": "下載失敗，請重試"
+        }
+      }
+    }
+  }
+}

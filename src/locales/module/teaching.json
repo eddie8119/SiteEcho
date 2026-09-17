@@ -1,0 +1,26 @@
+{
+  "en": {
+    "teaching": {
+      "videos": {
+        "title_1": "How to start a project",
+        "description_1": "Upload your Excel schedule and SiteNear will build an editable Gantt chart. Adjust progress anytime while viewing the baseline plan and current schedule side by side.",
+        "title_2": "How to create a task",
+        "description_2": "Open a project to create work items, organize the workflow by trade, and add due-date reminders and material notes.",
+        "title_3": "How to pin tasks on a floor plan",
+        "description_3": "While supervising work on site, place each task at its actual location on the floor plan. Add multiple pins when one task spans several areas."
+      }
+    }
+  },
+  "zh-TW": {
+    "teaching": {
+      "videos": {
+        "title_1": "如何開始建立專案",
+        "description_1": "Excel 甘特圖上傳後，系統會自動建立可編輯的甘特圖，讓你隨時調整進度並同時查看規劃與施工兩條時間軸。",
+        "title_2": "如何建立待辦任務",
+        "description_2": "進入專案後即可建立施工代辦任務，依工程類型安排工序並設定時間提醒與材料備註。",
+        "title_3": "如何將待辦任務註記在圖面",
+        "description_3": "現場監工時更直覺地對應實際空間位置。並滿足同一任務建立多處標註。"
+      }
+    }
+  }
+}

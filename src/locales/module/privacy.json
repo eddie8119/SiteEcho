@@ -1,0 +1,132 @@
+{
+  "en": {
+    "privacy": {
+      "intro": {
+        "welcome": "Welcome to SiteNear (hereinafter referred to as 'the Service').",
+        "intro": "We value your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and protect your information."
+      },
+      "data_collection": {
+        "title": "1. Data We Collect",
+        "intro": "When you use SiteNear, we may collect:",
+        "account_info": "Account Information",
+        "email": "Email address",
+        "google_login": "Google Sign-In information",
+        "usage_data": "Usage Data",
+        "construction_data": "Construction-related data and usage records",
+        "uploaded_content": "User Uploaded Content",
+        "site_photos": "Site photos",
+        "construction_records": "Construction records",
+        "issue_tracking": "Issue tracking records",
+        "repair_records": "Repair records"
+      },
+      "data_usage": {
+        "title": "2. Data Usage",
+        "intro": "Collected data is primarily used for:",
+        "provide_service": "Providing SiteNear functionality",
+        "store_sync": "Storing and syncing construction records",
+        "create_reports": "Creating construction reports",
+        "maintain_security": "Maintaining account security",
+        "improve_experience": "Improving product experience and features"
+      },
+      "third_party": {
+        "title": "3. Third-Party Services",
+        "intro": "SiteNear may use the following third-party services:",
+        "supabase": "Supabase (data storage and sync)",
+        "google_signin": "Google Sign-In (login authentication)",
+        "note": "The above services may process related data according to their privacy policies."
+      },
+      "data_retention": {
+        "title": "4. Data Retention",
+        "intro": "We retain your data for as long as necessary to provide the service.",
+        "delete": "If you request account deletion, we will delete relevant data within a reasonable period, except as required by law."
+      },
+      "data_security": {
+        "title": "5. Data Security",
+        "intro": "We take reasonable technical and administrative measures to protect your data from unauthorized access, modification, or disclosure."
+      },
+      "user_rights": {
+        "title": "6. Your Rights",
+        "intro": "You have the right to:",
+        "query_data": "Query personal data",
+        "correct_data": "Correct personal data",
+        "delete_account_data": "Request deletion of account and data",
+        "withdraw_consent": "Withdraw usage consent"
+      },
+      "policy_changes": {
+        "title": "7. Policy Changes",
+        "intro": "This policy may be updated due to service adjustments.",
+        "note": "Updates will be published on this page."
+      },
+      "contact": {
+        "title": "8. Contact Us",
+        "intro": "For any privacy-related questions, please contact:",
+        "email_label": "Email:"
+      }
+    }
+  },
+  "zh-TW": {
+    "privacy": {
+      "intro": {
+        "welcome": "歡迎使用 SiteNear（以下簡稱「本服務」）。",
+        "intro": "本服務重視您的隱私權，並致力於保護您的個人資料。本政策說明我們如何蒐集、使用與保護您的資訊。"
+      },
+      "data_collection": {
+        "title": "1. 我們蒐集的資料",
+        "intro": "當您使用 SiteNear 時，我們可能蒐集：",
+        "account_info": "帳號資訊",
+        "email": "電子郵件地址",
+        "google_login": "Google 登入資訊",
+        "usage_data": "使用資料",
+        "construction_data": "工程相關資料與使用紀錄",
+        "uploaded_content": "使用者上傳內容",
+        "site_photos": "工地照片",
+        "construction_records": "工程紀錄",
+        "issue_tracking": "問題追蹤紀錄",
+        "repair_records": "修復紀錄"
+      },
+      "data_usage": {
+        "title": "2. 資料用途",
+        "intro": "蒐集資料主要用於：",
+        "provide_service": "提供 SiteNear 功能服務",
+        "store_sync": "儲存與同步工程紀錄",
+        "create_reports": "建立工程報告",
+        "maintain_security": "維護帳號安全",
+        "improve_experience": "改善產品體驗與功能"
+      },
+      "third_party": {
+        "title": "3. 第三方服務",
+        "intro": "SiteNear 可能使用下列第三方服務：",
+        "supabase": "Supabase（資料儲存與同步）",
+        "google_signin": "Google Sign-In（登入驗證）",
+        "note": "上述服務可能依其隱私權政策處理相關資料。"
+      },
+      "data_retention": {
+        "title": "4. 資料保存",
+        "intro": "我們會在提供服務所需期間內保存您的資料。",
+        "delete": "若您要求刪除帳號，我們將於合理期間內刪除相關資料，但法律要求保存者除外。"
+      },
+      "data_security": {
+        "title": "5. 資料安全",
+        "intro": "我們採取合理的技術與管理措施保護您的資料，避免未經授權的存取、修改或洩漏。"
+      },
+      "user_rights": {
+        "title": "6. 您的權利",
+        "intro": "您有權：",
+        "query_data": "查詢個人資料",
+        "correct_data": "更正個人資料",
+        "delete_account_data": "要求刪除帳號與資料",
+        "withdraw_consent": "撤回使用同意"
+      },
+      "policy_changes": {
+        "title": "7. 政策修改",
+        "intro": "本政策可能因服務調整而更新。",
+        "note": "更新後將公布於本頁面。"
+      },
+      "contact": {
+        "title": "8. 聯絡我們",
+        "intro": "若有任何隱私權相關問題，請聯絡：",
+        "email_label": "Email："
+      }
+    }
+  }
+}

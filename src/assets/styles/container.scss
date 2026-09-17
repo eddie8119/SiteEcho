@@ -1,0 +1,94 @@
+.header-container {
+  @apply flex h-[50px] items-center p-3 md:h-[60px] md:px-7 md:py-5;
+
+  position: relative;
+  z-index: 100;
+}
+
+.sidebar-container {
+  @apply flex h-screen flex-col p-4;
+
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-page-container {
+  @apply mx-auto max-w-4xl px-4 py-4 pb-20;
+}
+
+// 共用
+.basic-container {
+  @apply rounded-xl shadow-lg;
+}
+
+.dashed-box-container {
+  @apply basic-container border-2 border-dashed border-gray-300 bg-gray-50 text-center dark:bg-black-400;
+}
+
+// panel
+.panel-container {
+  @apply basic-container panel-color-difference p-3;
+}
+
+.chart-panel-container {
+  @apply basic-container bg-primary-panel p-3 dark:bg-white/5;
+}
+
+.auth-container {
+  @apply panel-color-difference h-full w-full rounded-none p-6 md:h-auto md:w-[400px] md:shadow-lg;
+  background: linear-gradient(180deg, var(--color-primary-panel) 0%, #eef1f5 45%, #fff7d6 100%);
+}
+
+.dark .auth-container {
+  background: linear-gradient(
+    180deg,
+    var(--color-dark-primary-panel) 0%,
+    #2a303a 45%,
+    #f5d45c 100%
+  );
+}
+
+.el-card {
+  border: none;
+  box-shadow: none;
+}
+
+.construction-container {
+  @apply panel-color-difference w-full rounded-lg p-3 shadow-sm sm:min-w-[300px] sm:max-w-[300px];
+}
+
+.material-construction-container {
+  @apply panel-color-difference w-full rounded-lg p-3 shadow-sm sm:min-w-[400px] sm:max-w-[400px];
+}
+
+.planning-material-container {
+  @apply card-color-difference w-full rounded-lg p-3 shadow-sm dark:bg-black-900 sm:min-w-[400px] sm:max-w-[400px];
+}
+
+//upload-container
+.upload-container {
+  @apply dashed-box-container cursor-pointer p-4 transition-all duration-200 hover:border-blue-400 hover:bg-blue-50;
+
+  &.drag-over {
+    @apply border-blue-500 bg-blue-100;
+  }
+
+  &.loading {
+    @apply cursor-not-allowed border-gray-200 bg-gray-50;
+  }
+
+  &.error {
+    @apply border-red-300 bg-secondary-red;
+  }
+}
+
+//hint-container
+.hint-container {
+  @apply dashed-box-container flex flex-col items-center justify-center gap-4 p-6;
+}
+
+//taskCard-container
+.taskCard-container {
+  @apply card-color-difference rounded-xl hover:shadow-md;
+}

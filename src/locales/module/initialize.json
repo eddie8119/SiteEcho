@@ -1,0 +1,16 @@
+{
+  "en": {
+    "initialize": {
+      "login_button": "Already have an account? Login",
+      "initializing": "Initializing...",
+      "redirecting": "Redirecting..."
+    }
+  },
+  "zh-TW": {
+    "initialize": {
+      "login_button": "已經有帳號登入",
+      "initializing": "初始化中...",
+      "redirecting": "正在重定向..."
+    }
+  }
+}

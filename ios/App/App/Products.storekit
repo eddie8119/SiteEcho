@@ -1,0 +1,120 @@
+{
+  "identifier" : "SiteNear01",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "SiteNear_PRO",
+      "localizations" : [
+        {
+          "description" : "SiteNear Pro subscriptions",
+          "displayName" : "SiteNear Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "SiteNear Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "7.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "SITEPROM01",
+          "introductoryOffer" : {
+            "billingPlanType" : "BILLED_UPFRONT",
+            "displayPrice" : "0.00",
+            "internalID" : "SITEINTRO1",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "freeTrial",
+            "subscriptionPeriod" : "P2W"
+          },
+          "introductoryOffers" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "displayPrice" : "0.00",
+              "internalID" : "SITEINTRO1",
+              "numberOfPeriods" : 1,
+              "paymentMode" : "freeTrial",
+              "subscriptionPeriod" : "P2W"
+            }
+          ],
+          "localizations" : [
+            {
+              "description" : "Monthly Pro subscription for SiteNear.",
+              "displayName" : "SiteNear Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.SiteNear.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "SiteNear Pro Monthly",
+          "subscriptionGroupID" : "SiteNear_PRO",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "75.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "SITEPROY01",
+          "introductoryOffer" : null,
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "Annual Pro subscription for SiteNear.",
+              "displayName" : "SiteNear Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.SiteNear.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "SiteNear Pro Yearly",
+          "subscriptionGroupID" : "SiteNear_PRO",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

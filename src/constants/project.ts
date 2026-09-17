@@ -1,0 +1,1 @@
+export const MAX_PROJECT_COLLABORATORS = 5;
